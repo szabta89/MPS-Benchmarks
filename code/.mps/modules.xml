@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/BerkeleyDB/BerkeleyDB.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GPL/GPL.msd" folder="" />
     </projectModules>
   </component>
 </project>
