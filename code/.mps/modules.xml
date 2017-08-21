@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/BerkeleyDB/BerkeleyDB.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/GPL/GPL.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/gson/gson.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/truth/truth.msd" folder="" />
     </projectModules>
   </component>
 </project>
