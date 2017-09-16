@@ -14,14 +14,14 @@
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="kh1l" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.annotations(MPS.Core/)" />
-    <import index="rjhg" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:org.junit(MPS.Workbench/)" />
     <import index="gyfg" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.base(MPS.Core/)" />
     <import index="wyx4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.util.concurrent(MPS.Core/)" />
     <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
-    <import index="7cms" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:org.junit.runners.model(MPS.Workbench/)" />
-    <import index="cvlm" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:org.junit.runner(MPS.Workbench/)" />
-    <import index="a19p" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:org.junit.rules(MPS.Workbench/)" />
     <import index="gxwn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.primitives(MPS.Core/)" />
+    <import index="rjhg" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit(JUnit/)" />
+    <import index="a19p" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.rules(JUnit/)" />
+    <import index="7cms" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.runners.model(JUnit/)" />
+    <import index="cvlm" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.runner(JUnit/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
