@@ -2,7 +2,7 @@
 <model ref="r:53762ad7-e24b-499b-bde7-64c96a3f9beb(com.google.gson.reflect)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -402,7 +402,7 @@
               </node>
               <node concept="2YIFZM" id="4TIIeA$GywG" role="10QFUP">
                 <ref role="37wK5l" to="j581:5pMxsXwwUmS" resolve="getRawType" />
-                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
                 <node concept="37vLTw" id="4TIIeA$Gy$Z" role="37wK5m">
                   <ref role="3cqZAo" node="5pMxsXwx0FK" resolve="type" />
                 </node>
@@ -494,10 +494,10 @@
             </node>
             <node concept="2YIFZM" id="4TIIeA$GALS" role="37vLTx">
               <ref role="37wK5l" to="j581:5pMxsXwwUlC" resolve="canonicalize" />
-              <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+              <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
               <node concept="2YIFZM" id="4TIIeA$GB1R" role="37wK5m">
                 <ref role="37wK5l" to="j581:5pMxsXwwX01" resolve="checkNotNull" />
-                <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="$Gson$Preconditions" />
+                <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="GsonPreconditions" />
                 <node concept="37vLTw" id="4TIIeA$GB3Y" role="37wK5m">
                   <ref role="3cqZAo" node="5pMxsXwx0Gr" resolve="type" />
                 </node>
@@ -524,7 +524,7 @@
               </node>
               <node concept="2YIFZM" id="4TIIeA$GDER" role="10QFUP">
                 <ref role="37wK5l" to="j581:5pMxsXwwUmS" resolve="getRawType" />
-                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
                 <node concept="2OqwBi" id="4TIIeA$GDOU" role="37wK5m">
                   <node concept="Xjq3P" id="4TIIeA$GDJf" role="2Oq$k0" />
                   <node concept="2OwXpG" id="4TIIeA$GDUL" role="2OqNvi">
@@ -637,7 +637,7 @@
         <node concept="3cpWs6" id="4TIIeA$GQyM" role="3cqZAp">
           <node concept="2YIFZM" id="4TIIeA$GReU" role="3cqZAk">
             <ref role="37wK5l" to="j581:5pMxsXwwUlC" resolve="canonicalize" />
-            <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+            <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
             <node concept="AH0OO" id="4TIIeA$GRom" role="37wK5m">
               <node concept="2OqwBi" id="4TIIeA$GRon" role="AHHXb">
                 <node concept="37vLTw" id="4TIIeA$GRoo" role="2Oq$k0">
@@ -886,7 +886,7 @@
                         <ref role="37wK5l" to="wyt6:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
                         <node concept="2YIFZM" id="4TIIeA$HvkS" role="37wK5m">
                           <ref role="37wK5l" to="j581:5pMxsXwwUmS" resolve="getRawType" />
-                          <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+                          <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
                           <node concept="37vLTw" id="4TIIeA$Hwcs" role="37wK5m">
                             <ref role="3cqZAo" node="5pMxsXwx0HX" resolve="from" />
                           </node>
@@ -951,7 +951,7 @@
                   <ref role="37wK5l" to="wyt6:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
                   <node concept="2YIFZM" id="4TIIeA$Hrn7" role="37wK5m">
                     <ref role="37wK5l" to="j581:5pMxsXwwUmS" resolve="getRawType" />
-                    <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+                    <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
                     <node concept="37vLTw" id="4TIIeA$Hs4T" role="37wK5m">
                       <ref role="3cqZAo" node="5pMxsXwx0HX" resolve="from" />
                     </node>
@@ -1328,7 +1328,7 @@
             </node>
             <node concept="2YIFZM" id="4TIIeA$HfmX" role="33vP2m">
               <ref role="37wK5l" to="j581:5pMxsXwwUmS" resolve="getRawType" />
-              <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+              <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
               <node concept="37vLTw" id="4TIIeA$HgBl" role="37wK5m">
                 <ref role="3cqZAo" node="5pMxsXwx0Kw" resolve="from" />
               </node>
@@ -2188,7 +2188,7 @@
             </node>
             <node concept="2YIFZM" id="4TIIeA$H5kj" role="3uHU7w">
               <ref role="37wK5l" to="j581:5pMxsXwwUoX" resolve="equals" />
-              <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+              <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
               <node concept="37vLTw" id="5pMxsXwx0Pu" role="37wK5m">
                 <ref role="3cqZAo" node="5pMxsXwx0FK" resolve="type" />
               </node>
@@ -2226,7 +2226,7 @@
         <node concept="3cpWs6" id="5pMxsXwx0PF" role="3cqZAp">
           <node concept="2YIFZM" id="4TIIeA$H1Kq" role="3cqZAk">
             <ref role="37wK5l" to="j581:5pMxsXwwUrX" resolve="typeToString" />
-            <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+            <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
             <node concept="37vLTw" id="4TIIeA$H2vh" role="37wK5m">
               <ref role="3cqZAo" node="5pMxsXwx0FK" resolve="type" />
             </node>
@@ -2351,7 +2351,7 @@
               <ref role="37wK5l" node="5pMxsXwx0Gm" resolve="TypeToken" />
               <node concept="2YIFZM" id="4TIIeA$GVPU" role="37wK5m">
                 <ref role="37wK5l" to="j581:5pMxsXwwUjV" resolve="newParameterizedTypeWithOwner" />
-                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
                 <node concept="10Nm6u" id="2Ssft2jsRFo" role="37wK5m" />
                 <node concept="37vLTw" id="2Ssft2jtfg7" role="37wK5m">
                   <ref role="3cqZAo" node="5pMxsXwx0Qb" resolve="rawType" />
@@ -2403,7 +2403,7 @@
               <ref role="37wK5l" node="5pMxsXwx0Gm" resolve="TypeToken" />
               <node concept="2YIFZM" id="4TIIeA$GVkb" role="37wK5m">
                 <ref role="37wK5l" to="j581:5pMxsXwwUkc" resolve="arrayOf" />
-                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="$Gson$Types" />
+                <ref role="1Pybhc" to="j581:5pMxsXwwUbB" resolve="GsonTypes" />
                 <node concept="37vLTw" id="4TIIeA$GVpP" role="37wK5m">
                   <ref role="3cqZAo" node="5pMxsXwx0Qt" resolve="componentType" />
                 </node>

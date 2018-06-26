@@ -2,7 +2,7 @@
 <model ref="r:c2f77eaf-87d2-4f12-9262-669c8b739f6d(jimple.com.sleepycat.je.config)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot" version="0" />
   </languages>
@@ -496,6 +496,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrRTjm" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWWm" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRMIt" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -995,7 +996,7 @@
               <node concept="liA8E" id="1OpGjkrRTrc" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTre" role="37wK5m">
-                  <property role="Xl_RC" value=" param " />
+                  <property role="Xl_RC" value=" param hs" />
                 </node>
               </node>
             </node>
@@ -1046,7 +1047,7 @@
               <node concept="liA8E" id="1OpGjkrRTry" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTr$" role="37wK5m">
-                  <property role="Xl_RC" value=" doesn't validate, " />
+                  <property role="Xl_RC" value=" doesn't validate, zj" />
                 </node>
               </node>
             </node>
@@ -1082,7 +1083,7 @@
               <node concept="liA8E" id="1OpGjkrRTrM" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTrO" role="37wK5m">
-                  <property role="Xl_RC" value=" is less than min of " />
+                  <property role="Xl_RC" value=" is less than min of wxc" />
                 </node>
               </node>
             </node>
@@ -1307,7 +1308,7 @@
               <node concept="liA8E" id="1OpGjkrRTta" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTtc" role="37wK5m">
-                  <property role="Xl_RC" value=":" />
+                  <property role="Xl_RC" value=":by" />
                 </node>
               </node>
             </node>
@@ -1325,7 +1326,7 @@
               <node concept="liA8E" id="1OpGjkrRTti" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTtk" role="37wK5m">
-                  <property role="Xl_RC" value=" param " />
+                  <property role="Xl_RC" value=" param x" />
                 </node>
               </node>
             </node>
@@ -1376,7 +1377,7 @@
               <node concept="liA8E" id="1OpGjkrRTtC" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTtE" role="37wK5m">
-                  <property role="Xl_RC" value=" doesn't validate, " />
+                  <property role="Xl_RC" value=" doesn't validate, x" />
                 </node>
               </node>
             </node>
@@ -1412,7 +1413,7 @@
               <node concept="liA8E" id="1OpGjkrRTtS" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTtU" role="37wK5m">
-                  <property role="Xl_RC" value=" is greater than max of " />
+                  <property role="Xl_RC" value=" is greater than max of s" />
                 </node>
               </node>
             </node>
@@ -1819,7 +1820,7 @@
               <node concept="liA8E" id="1OpGjkrRTwi" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRTwk" role="37wK5m">
-                  <property role="Xl_RC" value=" not valid value for " />
+                  <property role="Xl_RC" value=" not valid value for ss" />
                 </node>
               </node>
             </node>
@@ -2509,6 +2510,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrT9gM" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWYI" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRMP4" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -2921,7 +2923,7 @@
               <node concept="liA8E" id="1OpGjkrT9jf" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT9k0" role="37wK5m">
-                  <property role="Xl_RC" value=": " />
+                  <property role="Xl_RC" value=": wyaw" />
                 </node>
               </node>
             </node>
@@ -2957,7 +2959,7 @@
               <node concept="liA8E" id="1OpGjkrT9ke" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT9kg" role="37wK5m">
-                  <property role="Xl_RC" value=" not valid boolean " />
+                  <property role="Xl_RC" value=" not valid boolean t" />
                 </node>
               </node>
             </node>
@@ -3302,6 +3304,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSwch" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWVV" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRMHv" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -3921,7 +3924,7 @@
         <node concept="3clFbF" id="1OpGjkrSwfE" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrSwfF" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrSwfC" role="37vLTx">
-              <property role="Xl_RC" value=";" />
+              <property role="Xl_RC" value=";fu" />
             </node>
             <node concept="10M0yZ" id="1OpGjkrSwfD" role="37vLTJ">
               <ref role="1PxDUh" node="1OpGjkrRMGZ" resolve="ConfigParam" />
@@ -6344,7 +6347,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbio" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbip" role="37wK5m">
-                <property role="Xl_RC" value="je.maxMemory" />
+                <property role="Xl_RC" value="je.maxMemoryw" />
               </node>
               <node concept="10Nm6u" id="1OpGjkrTbiq" role="37wK5m" />
               <node concept="10Nm6u" id="1OpGjkrTbir" role="37wK5m" />
@@ -6355,7 +6358,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbiu" role="37wK5m">
-                <property role="Xl_RC" value="# Specify the cache size in bytes, as an absolute number. The system&#10;# attempts to stay within this budget and will evict database&#10;# objects when it comes within a prescribed margin of the limit.&#10;# By default, this parameter is 0 and JE instead sizes the cache&#10;# proportionally to the memory available to the JVM, based on&#10;# je.maxMemoryPercent." />
+                <property role="Xl_RC" value="# Specify the cache size in bytes, as an absolute number. The system&#10;# attempts to stay within this budget and will evict database&#10;# objects when it comes within a prescribed margin of the limit.&#10;# By default, this parameter is 0 and JE instead sizes the cache&#10;# proportionally to the memory available to the JVM, based on&#10;# je.maxMemoryPercent.e" />
               </node>
             </node>
           </node>
@@ -6481,7 +6484,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbji" role="37wK5m">
-                <property role="Xl_RC" value="# By default, JE sizes the cache as a percentage of the maximum&#10;# memory available to the JVM. For example, if the JVM is&#10;# started with -Xmx128M, the cache size will be&#10;#           (je.maxMemoryPercent * 128M) / 100&#10;# Setting je.maxMemory to an non-zero value will override&#10;# je.maxMemoryPercent" />
+                <property role="Xl_RC" value="# By default, JE sizes the cache as a percentage of the maximum&#10;# memory available to the JVM. For example, if the JVM is&#10;# started with -Xmx128M, the cache size will be&#10;#           (je.maxMemoryPercent * 128M) / 100&#10;# Setting je.maxMemory to an non-zero value will override&#10;# je.maxMemoryPercentc" />
               </node>
             </node>
           </node>
@@ -6517,7 +6520,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbjv" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbjw" role="37wK5m">
-                <property role="Xl_RC" value="je.env.recovery" />
+                <property role="Xl_RC" value="je.env.recoverye" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbjx" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -6526,7 +6529,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbjz" role="37wK5m">
-                <property role="Xl_RC" value="# If true, an environment is created with recovery and the related&#10;# daemons threads enabled." />
+                <property role="Xl_RC" value="# If true, an environment is created with recovery and the related&#10;# daemons threads enabled.ss" />
               </node>
             </node>
           </node>
@@ -6562,7 +6565,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbjK" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbjL" role="37wK5m">
-                <property role="Xl_RC" value="je.env.recoveryForceCheckpoint" />
+                <property role="Xl_RC" value="je.env.recoveryForceCheckpointxs" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbjM" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -6571,7 +6574,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbjO" role="37wK5m">
-                <property role="Xl_RC" value="# If true, a checkpoint is forced following recovery, even if the&#10;# log ends with a checkpoint." />
+                <property role="Xl_RC" value="# If true, a checkpoint is forced following recovery, even if the&#10;# log ends with a checkpoint.h" />
               </node>
             </node>
           </node>
@@ -6607,7 +6610,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbk1" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbk2" role="37wK5m">
-                <property role="Xl_RC" value="je.env.runINCompressor" />
+                <property role="Xl_RC" value="je.env.runINCompressorcfwg" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbk3" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -6616,7 +6619,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbk5" role="37wK5m">
-                <property role="Xl_RC" value="# If true, starts up the INCompressor.&#10;# This parameter is true by default" />
+                <property role="Xl_RC" value="# If true, starts up the INCompressor.&#10;# This parameter is true by defaultzn" />
               </node>
             </node>
           </node>
@@ -6661,7 +6664,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbkm" role="37wK5m">
-                <property role="Xl_RC" value="# If true, starts up the evictor.&#10;# This parameter is false by default&#10;# (deprecated, eviction is performed in-line" />
+                <property role="Xl_RC" value="# If true, starts up the evictor.&#10;# This parameter is false by default&#10;# (deprecated, eviction is performed in-linend" />
               </node>
             </node>
           </node>
@@ -6697,7 +6700,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbkz" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbk$" role="37wK5m">
-                <property role="Xl_RC" value="je.env.runCheckpointer" />
+                <property role="Xl_RC" value="je.env.runCheckpointerlnni" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbk_" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -6706,7 +6709,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbkB" role="37wK5m">
-                <property role="Xl_RC" value="# If true, starts up the checkpointer.&#10;# This parameter is true by default" />
+                <property role="Xl_RC" value="# If true, starts up the checkpointer.&#10;# This parameter is true by defaultr" />
               </node>
             </node>
           </node>
@@ -6742,7 +6745,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbkO" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbkP" role="37wK5m">
-                <property role="Xl_RC" value="je.env.runCleaner" />
+                <property role="Xl_RC" value="je.env.runCleanerck" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbkQ" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -6751,7 +6754,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbkS" role="37wK5m">
-                <property role="Xl_RC" value="# If true, starts up the cleaner.&#10;# This parameter is true by default" />
+                <property role="Xl_RC" value="# If true, starts up the cleaner.&#10;# This parameter is true by defaultkjn" />
               </node>
             </node>
           </node>
@@ -6787,7 +6790,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbl5" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbl6" role="37wK5m">
-                <property role="Xl_RC" value="je.env.checkLeaks" />
+                <property role="Xl_RC" value="je.env.checkLeaksz" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbl7" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -6796,7 +6799,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbl9" role="37wK5m">
-                <property role="Xl_RC" value="# Debugging support: check leaked locks and txns at env close." />
+                <property role="Xl_RC" value="# Debugging support: check leaked locks and txns at env close.sj" />
               </node>
             </node>
           </node>
@@ -6832,7 +6835,7 @@
             <node concept="2LgOp9" id="1OpGjkrTblm" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbln" role="37wK5m">
-                <property role="Xl_RC" value="je.env.forcedYield" />
+                <property role="Xl_RC" value="je.env.forcedYields" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTblo" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -6886,7 +6889,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTblF" role="37wK5m">
-                <property role="Xl_RC" value="# If true, create the environment w/ transactions." />
+                <property role="Xl_RC" value="# If true, create the environment w/ transactions.u" />
               </node>
             </node>
           </node>
@@ -6922,7 +6925,7 @@
             <node concept="2LgOp9" id="1OpGjkrTblS" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTblT" role="37wK5m">
-                <property role="Xl_RC" value="je.env.isLocking" />
+                <property role="Xl_RC" value="je.env.isLockingmx" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTblU" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -6967,7 +6970,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbm9" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbma" role="37wK5m">
-                <property role="Xl_RC" value="je.env.isReadOnly" />
+                <property role="Xl_RC" value="je.env.isReadOnlyy" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbmb" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -6976,7 +6979,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbmd" role="37wK5m">
-                <property role="Xl_RC" value="# If true, create the environment read only." />
+                <property role="Xl_RC" value="# If true, create the environment read only.h" />
               </node>
             </node>
           </node>
@@ -7012,7 +7015,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbmq" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbmr" role="37wK5m">
-                <property role="Xl_RC" value="je.env.fairLatches" />
+                <property role="Xl_RC" value="je.env.fairLatchesr" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbms" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -7021,7 +7024,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbmu" role="37wK5m">
-                <property role="Xl_RC" value="# If true, use latches instead of synchronized blocks to&#10;# implement the lock table and log write mutexes. Latches require&#10;# that threads queue to obtain the mutex in question and&#10;# therefore guarantee that there will be no mutex starvation, but &#10;# do incur a performance penalty. Latches should not be necessary in&#10;# most cases, so synchronized blocks are the default. An application&#10;# that puts heavy load on JE with threads with different thread&#10;# priorities might find it useful to use latches.  In a Java 5 JVM,&#10;# where java.util.concurrent.locks.ReentrantLock is used for the&#10;# latch implementation, this parameter will determine whether they&#10;# are 'fair' or not.  This parameter is 'static' across all&#10;# environments.&#10;" />
+                <property role="Xl_RC" value="# If true, use latches instead of synchronized blocks to&#10;# implement the lock table and log write mutexes. Latches require&#10;# that threads queue to obtain the mutex in question and&#10;# therefore guarantee that there will be no mutex starvation, but &#10;# do incur a performance penalty. Latches should not be necessary in&#10;# most cases, so synchronized blocks are the default. An application&#10;# that puts heavy load on JE with threads with different thread&#10;# priorities might find it useful to use latches.  In a Java 5 JVM,&#10;# where java.util.concurrent.locks.ReentrantLock is used for the&#10;# latch implementation, this parameter will determine whether they&#10;# are 'fair' or not.  This parameter is 'static' across all&#10;# environments.&#10;p" />
               </node>
             </node>
           </node>
@@ -7145,7 +7148,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbng" role="37wK5m">
-                <property role="Xl_RC" value="# The total memory taken by log buffers, in bytes. If 0, use&#10;# 7% of je.maxMemory" />
+                <property role="Xl_RC" value="# The total memory taken by log buffers, in bytes. If 0, use&#10;# 7% of je.maxMemoryn" />
               </node>
             </node>
           </node>
@@ -7231,7 +7234,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbnN" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbnO" role="37wK5m">
-                <property role="Xl_RC" value="je.log.numBuffers" />
+                <property role="Xl_RC" value="je.log.numBuffersu" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbnP" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb8W" resolve="$r24" />
@@ -7244,7 +7247,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbnT" role="37wK5m">
-                <property role="Xl_RC" value="# The number of JE log buffers" />
+                <property role="Xl_RC" value="# The number of JE log buffersg" />
               </node>
             </node>
           </node>
@@ -7330,7 +7333,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbos" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbot" role="37wK5m">
-                <property role="Xl_RC" value="je.log.bufferSize" />
+                <property role="Xl_RC" value="je.log.bufferSizem" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbou" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb95" resolve="$r27" />
@@ -7343,7 +7346,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTboy" role="37wK5m">
-                <property role="Xl_RC" value="# maximum starting size of a JE log buffer" />
+                <property role="Xl_RC" value="# maximum starting size of a JE log bufferojq" />
               </node>
             </node>
           </node>
@@ -7429,7 +7432,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbp5" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbp6" role="37wK5m">
-                <property role="Xl_RC" value="je.log.faultReadSize" />
+                <property role="Xl_RC" value="je.log.faultReadSizee" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbp7" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb9e" resolve="$r30" />
@@ -7442,7 +7445,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbpb" role="37wK5m">
-                <property role="Xl_RC" value="# The buffer size for faulting in objects from disk, in bytes." />
+                <property role="Xl_RC" value="# The buffer size for faulting in objects from disk, in bytes.b" />
               </node>
             </node>
           </node>
@@ -7528,7 +7531,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbpI" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbpJ" role="37wK5m">
-                <property role="Xl_RC" value="je.log.iteratorReadSize" />
+                <property role="Xl_RC" value="je.log.iteratorReadSizejd" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbpK" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb9n" resolve="$r33" />
@@ -7541,7 +7544,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbpO" role="37wK5m">
-                <property role="Xl_RC" value="# The read buffer size for log iterators, which are used when&#10;# scanning the log during activities like log cleaning and&#10;# environment open, in bytes. This may grow as the system encounters&#10;# larger log entries" />
+                <property role="Xl_RC" value="# The read buffer size for log iterators, which are used when&#10;# scanning the log during activities like log cleaning and&#10;# environment open, in bytes. This may grow as the system encounters&#10;# larger log entriesp" />
               </node>
             </node>
           </node>
@@ -7627,7 +7630,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbqn" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbqo" role="37wK5m">
-                <property role="Xl_RC" value="je.log.iteratorMaxSize" />
+                <property role="Xl_RC" value="je.log.iteratorMaxSizeyc" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbqp" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb9w" resolve="$r36" />
@@ -7751,7 +7754,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbrb" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbrc" role="37wK5m">
-                <property role="Xl_RC" value="je.log.fileMax" />
+                <property role="Xl_RC" value="je.log.fileMaxuf" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbrd" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb9D" resolve="$r39" />
@@ -7766,7 +7769,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbrh" role="37wK5m">
-                <property role="Xl_RC" value="# The maximum size of each individual JE log file, in bytes." />
+                <property role="Xl_RC" value="# The maximum size of each individual JE log file, in bytes.b" />
               </node>
             </node>
           </node>
@@ -7802,7 +7805,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbru" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbrv" role="37wK5m">
-                <property role="Xl_RC" value="je.log.checksumRead" />
+                <property role="Xl_RC" value="je.log.checksumReadow" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbrw" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -7942,7 +7945,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbsm" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbsn" role="37wK5m">
-                <property role="Xl_RC" value="je.log.fileCacheSize" />
+                <property role="Xl_RC" value="je.log.fileCacheSizen" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbso" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTb9V" resolve="$r45" />
@@ -7955,7 +7958,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbss" role="37wK5m">
-                <property role="Xl_RC" value="# The size of the file handle cache." />
+                <property role="Xl_RC" value="# The size of the file handle cache.fu" />
               </node>
             </node>
           </node>
@@ -8041,7 +8044,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbsZ" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbt0" role="37wK5m">
-                <property role="Xl_RC" value="je.log.fsyncTimeout" />
+                <property role="Xl_RC" value="je.log.fsyncTimeoutug" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbt1" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTba4" resolve="$r48" />
@@ -8054,7 +8057,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbt5" role="37wK5m">
-                <property role="Xl_RC" value="# Timeout limit for group file sync, in microseconds." />
+                <property role="Xl_RC" value="# Timeout limit for group file sync, in microseconds.ds" />
               </node>
             </node>
           </node>
@@ -8180,7 +8183,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbtT" role="37wK5m">
-                <property role="Xl_RC" value="# If non-0 (default is 0) break all IO into chunks of this size.&#10;# This setting is only used if je.log.useNIO=true." />
+                <property role="Xl_RC" value="# If non-0 (default is 0) break all IO into chunks of this size.&#10;# This setting is only used if je.log.useNIO=true.ng" />
               </node>
             </node>
           </node>
@@ -8291,7 +8294,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbuB" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbuC" role="37wK5m">
-                <property role="Xl_RC" value="je.nodeMaxEntries" />
+                <property role="Xl_RC" value="je.nodeMaxEntriesuy" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbuD" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbap" resolve="$r55" />
@@ -8306,7 +8309,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbuH" role="37wK5m">
-                <property role="Xl_RC" value="# The maximum number of entries in an internal btree node.&#10;# This can be set per-database using the DatabaseConfig object." />
+                <property role="Xl_RC" value="# The maximum number of entries in an internal btree node.&#10;# This can be set per-database using the DatabaseConfig object.y" />
               </node>
             </node>
           </node>
@@ -8417,7 +8420,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbvr" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbvs" role="37wK5m">
-                <property role="Xl_RC" value="je.nodeDupTreeMaxEntries" />
+                <property role="Xl_RC" value="je.nodeDupTreeMaxEntriese" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbvt" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTba_" resolve="$r59" />
@@ -8432,7 +8435,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbvx" role="37wK5m">
-                <property role="Xl_RC" value="# The maximum number of entries in an internal dup btree node.&#10;# This can be set per-database using the DatabaseConfig object." />
+                <property role="Xl_RC" value="# The maximum number of entries in an internal dup btree node.&#10;# This can be set per-database using the DatabaseConfig object.me" />
               </node>
             </node>
           </node>
@@ -8558,7 +8561,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbwl" role="37wK5m">
-                <property role="Xl_RC" value="# After this many deltas, logs a full version." />
+                <property role="Xl_RC" value="# After this many deltas, logs a full version.px" />
               </node>
             </node>
           </node>
@@ -8684,7 +8687,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbx9" role="37wK5m">
-                <property role="Xl_RC" value="# If less than this percentage of entries are changed on a BIN,&#10;# logs a delta instead of a full version." />
+                <property role="Xl_RC" value="# If less than this percentage of entries are changed on a BIN,&#10;# logs a delta instead of a full version.e" />
               </node>
             </node>
           </node>
@@ -8795,7 +8798,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbxR" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbxS" role="37wK5m">
-                <property role="Xl_RC" value="je.compressor.wakeupInterval" />
+                <property role="Xl_RC" value="je.compressor.wakeupIntervalp" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbxT" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbb9" resolve="$r71" />
@@ -8936,7 +8939,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbyL" role="37wK5m">
-                <property role="Xl_RC" value="# Number of times to retry a compression run if a deadlock occurs." />
+                <property role="Xl_RC" value="# Number of times to retry a compression run if a deadlock occurs.apu" />
               </node>
             </node>
           </node>
@@ -9047,7 +9050,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbzv" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbzw" role="37wK5m">
-                <property role="Xl_RC" value="je.compressor.lockTimeout" />
+                <property role="Xl_RC" value="je.compressor.lockTimeouthgov" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbzx" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbbx" resolve="$r79" />
@@ -9062,7 +9065,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbz_" role="37wK5m">
-                <property role="Xl_RC" value="# The lock timeout for compressor transactions in microseconds." />
+                <property role="Xl_RC" value="# The lock timeout for compressor transactions in microseconds.h" />
               </node>
             </node>
           </node>
@@ -9098,7 +9101,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbzM" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbzN" role="37wK5m">
-                <property role="Xl_RC" value="je.compressor.purgeRoot" />
+                <property role="Xl_RC" value="je.compressor.purgeRootw" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbzO" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -9107,7 +9110,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbzQ" role="37wK5m">
-                <property role="Xl_RC" value="# If true, when the compressor encounters an empty tree, the root&#10;# node of the tree is deleted." />
+                <property role="Xl_RC" value="# If true, when the compressor encounters an empty tree, the root&#10;# node of the tree is deleted.rre" />
               </node>
             </node>
           </node>
@@ -9317,7 +9320,7 @@
             <node concept="2LgOp9" id="1OpGjkrTb_d" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTb_e" role="37wK5m">
-                <property role="Xl_RC" value="je.evictor.useMemoryFloor" />
+                <property role="Xl_RC" value="je.evictor.useMemoryFloord" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTb_f" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbbT" resolve="$r87" />
@@ -9332,7 +9335,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTb_j" role="37wK5m">
-                <property role="Xl_RC" value="# When eviction happens, the evictor will push memory usage to this&#10;# percentage of je.maxMemory.# (deprecated in favor of je.evictor.evictBytes" />
+                <property role="Xl_RC" value="# When eviction happens, the evictor will push memory usage to this&#10;# percentage of je.maxMemory.# (deprecated in favor of je.evictor.evictBytesn" />
               </node>
             </node>
           </node>
@@ -9458,7 +9461,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbA7" role="37wK5m">
-                <property role="Xl_RC" value="# The evictor percentage of total nodes to scan per wakeup.&#10;# (deprecated in favor of je.evictor.nodesPerScan" />
+                <property role="Xl_RC" value="# The evictor percentage of total nodes to scan per wakeup.&#10;# (deprecated in favor of je.evictor.nodesPerScanh" />
               </node>
             </node>
           </node>
@@ -9695,7 +9698,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbBD" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbBE" role="37wK5m">
-                <property role="Xl_RC" value="je.evictor.nodesPerScan" />
+                <property role="Xl_RC" value="je.evictor.nodesPerScana" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbBF" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbct" resolve="$r99" />
@@ -9710,7 +9713,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbBJ" role="37wK5m">
-                <property role="Xl_RC" value="# The number of nodes in one evictor scan" />
+                <property role="Xl_RC" value="# The number of nodes in one evictor scanq" />
               </node>
             </node>
           </node>
@@ -9821,7 +9824,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbCt" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbCu" role="37wK5m">
-                <property role="Xl_RC" value="je.evictor.criticalPercentage" />
+                <property role="Xl_RC" value="je.evictor.criticalPercentagexm" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbCv" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbcD" resolve="$r103" />
@@ -9947,7 +9950,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbDh" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbDi" role="37wK5m">
-                <property role="Xl_RC" value="je.evictor.deadlockRetry" />
+                <property role="Xl_RC" value="je.evictor.deadlockRetryk" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbDj" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbcP" resolve="$r107" />
@@ -9962,7 +9965,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbDn" role="37wK5m">
-                <property role="Xl_RC" value="# The number of times to retry the evictor if it runs into a deadlock." />
+                <property role="Xl_RC" value="# The number of times to retry the evictor if it runs into a deadlock.wn" />
               </node>
             </node>
           </node>
@@ -9998,7 +10001,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbD$" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbD_" role="37wK5m">
-                <property role="Xl_RC" value="je.evictor.lruOnly" />
+                <property role="Xl_RC" value="je.evictor.lruOnlyd" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbDA" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -10118,7 +10121,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbEm" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbEn" role="37wK5m">
-                <property role="Xl_RC" value="je.checkpointer.bytesInterval" />
+                <property role="Xl_RC" value="je.checkpointer.bytesIntervalu" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbEo" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbd4" resolve="$r112" />
@@ -10133,7 +10136,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbEs" role="37wK5m">
-                <property role="Xl_RC" value="# Ask the checkpointer to run every time we write this many bytes&#10;# to the log. If set, supercedes je.checkpointer.wakeupInterval. To&#10;# use time based checkpointing, set this to 0." />
+                <property role="Xl_RC" value="# Ask the checkpointer to run every time we write this many bytes&#10;# to the log. If set, supercedes je.checkpointer.wakeupInterval. To&#10;# use time based checkpointing, set this to 0.j" />
               </node>
             </node>
           </node>
@@ -10370,7 +10373,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbFY" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbFZ" role="37wK5m">
-                <property role="Xl_RC" value="je.checkpointer.deadlockRetry" />
+                <property role="Xl_RC" value="je.checkpointer.deadlockRetryr" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbG0" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbds" resolve="$r120" />
@@ -10385,7 +10388,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbG4" role="37wK5m">
-                <property role="Xl_RC" value="# The number of times to retry a checkpoint if it runs into a deadlock." />
+                <property role="Xl_RC" value="# The number of times to retry a checkpoint if it runs into a deadlock.mne" />
               </node>
             </node>
           </node>
@@ -10511,7 +10514,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbGS" role="37wK5m">
-                <property role="Xl_RC" value="# The cleaner will keep the total disk space utilization percentage&#10;# above this value. The default is set to 50 percent." />
+                <property role="Xl_RC" value="# The cleaner will keep the total disk space utilization percentage&#10;# above this value. The default is set to 50 percent.ur" />
               </node>
             </node>
           </node>
@@ -10622,7 +10625,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbHA" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbHB" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.minFileUtilization" />
+                <property role="Xl_RC" value="je.cleaner.minFileUtilizationhz" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbHC" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbdO" resolve="$r128" />
@@ -10637,7 +10640,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbHG" role="37wK5m">
-                <property role="Xl_RC" value="# A log file will be cleaned if its utilization percentage is below&#10;# this value, irrespective of total utilization. The default is&#10;# set to 5 percent." />
+                <property role="Xl_RC" value="# A log file will be cleaned if its utilization percentage is below&#10;# this value, irrespective of total utilization. The default is&#10;# set to 5 percent.n" />
               </node>
             </node>
           </node>
@@ -10748,7 +10751,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbIq" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbIr" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.bytesInterval" />
+                <property role="Xl_RC" value="je.cleaner.bytesIntervaloqz" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbIs" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbe0" resolve="$r132" />
@@ -10763,7 +10766,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbIw" role="37wK5m">
-                <property role="Xl_RC" value="# The cleaner checks disk utilization every time we write this many&#10;# bytes to the log.  If zero (and by default) it is set to the&#10;# je.log.fileMax value divided by four." />
+                <property role="Xl_RC" value="# The cleaner checks disk utilization every time we write this many&#10;# bytes to the log.  If zero (and by default) it is set to the&#10;# je.log.fileMax value divided by four.gv" />
               </node>
             </node>
           </node>
@@ -10874,7 +10877,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbJe" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbJf" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.deadlockRetry" />
+                <property role="Xl_RC" value="je.cleaner.deadlockRetryzsh" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbJg" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbec" resolve="$r136" />
@@ -10889,7 +10892,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbJk" role="37wK5m">
-                <property role="Xl_RC" value="# The number of times to retry cleaning if a deadlock occurs.&#10;# The default is set to 3." />
+                <property role="Xl_RC" value="# The number of times to retry cleaning if a deadlock occurs.&#10;# The default is set to 3.gh" />
               </node>
             </node>
           </node>
@@ -11000,7 +11003,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbK2" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbK3" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.lockTimeout" />
+                <property role="Xl_RC" value="je.cleaner.lockTimeoutn" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbK4" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbeo" resolve="$r140" />
@@ -11060,7 +11063,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbKp" role="37wK5m">
-                <property role="Xl_RC" value="# If true, the cleaner deletes log files after successful cleaning.&#10;# If false, the cleaner changes log file extensions to .DEL&#10;# instead of deleting them. The default is set to true." />
+                <property role="Xl_RC" value="# If true, the cleaner deletes log files after successful cleaning.&#10;# If false, the cleaner changes log file extensions to .DEL&#10;# instead of deleting them. The default is set to true.ku" />
               </node>
             </node>
           </node>
@@ -11186,7 +11189,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbLd" role="37wK5m">
-                <property role="Xl_RC" value="# (deprecated, no longer used" />
+                <property role="Xl_RC" value="# (deprecated, no longer usedw" />
               </node>
             </node>
           </node>
@@ -11297,7 +11300,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbLV" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbLW" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.retries" />
+                <property role="Xl_RC" value="je.cleaner.retriesa" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbLX" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbeN" resolve="$r149" />
@@ -11312,7 +11315,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbM1" role="37wK5m">
-                <property role="Xl_RC" value="# (deprecated, no longer used" />
+                <property role="Xl_RC" value="# (deprecated, no longer usedadn" />
               </node>
             </node>
           </node>
@@ -11423,7 +11426,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbMJ" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbMK" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.restartRetries" />
+                <property role="Xl_RC" value="je.cleaner.restartRetriesh" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbML" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbeZ" resolve="$r153" />
@@ -11438,7 +11441,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbMP" role="37wK5m">
-                <property role="Xl_RC" value="# (deprecated, no longer used" />
+                <property role="Xl_RC" value="# (deprecated, no longer usedl" />
               </node>
             </node>
           </node>
@@ -11549,7 +11552,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbNz" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbN$" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.minAge" />
+                <property role="Xl_RC" value="je.cleaner.minAges" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbN_" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbfb" resolve="$r157" />
@@ -11600,7 +11603,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbNQ" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbNR" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.cluster" />
+                <property role="Xl_RC" value="je.cleaner.clusterjy" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbNS" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -11609,7 +11612,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbNU" role="37wK5m">
-                <property role="Xl_RC" value="# *** Experimental and may be removed in a future release. ***&#10;# If true, eviction and checkpointing will cluster records by key&#10;# value, migrating them from low utilization files if they are&#10;# resident.&#10;# The cluster and clusterAll properties may not both be set to true." />
+                <property role="Xl_RC" value="# *** Experimental and may be removed in a future release. ***&#10;# If true, eviction and checkpointing will cluster records by key&#10;# value, migrating them from low utilization files if they are&#10;# resident.&#10;# The cluster and clusterAll properties may not both be set to true.r" />
               </node>
             </node>
           </node>
@@ -11654,7 +11657,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbOb" role="37wK5m">
-                <property role="Xl_RC" value="# *** Experimental and may be removed in a future release. ***&#10;# If true, eviction and checkpointing will cluster records by key&#10;# value, migrating them from low utilization files whether or not&#10;# they are resident.&#10;# The cluster and clusterAll properties may not both be set to true." />
+                <property role="Xl_RC" value="# *** Experimental and may be removed in a future release. ***&#10;# If true, eviction and checkpointing will cluster records by key&#10;# value, migrating them from low utilization files whether or not&#10;# they are resident.&#10;# The cluster and clusterAll properties may not both be set to true.u" />
               </node>
             </node>
           </node>
@@ -11765,7 +11768,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbOT" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbOU" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.maxBatchFiles" />
+                <property role="Xl_RC" value="je.cleaner.maxBatchFilest" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbOV" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbft" resolve="$r163" />
@@ -11780,7 +11783,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbOZ" role="37wK5m">
-                <property role="Xl_RC" value="# The maximum number of log files in the cleaner's backlog, or&#10;# zero if there is no limit.  Changing this property can impact the&#10;# performance of some out-of-memory applications." />
+                <property role="Xl_RC" value="# The maximum number of log files in the cleaner's backlog, or&#10;# zero if there is no limit.  Changing this property can impact the&#10;# performance of some out-of-memory applications.ga" />
               </node>
             </node>
           </node>
@@ -11879,7 +11882,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbPC" role="37wK5m">
-                <property role="Xl_RC" value="# The read buffer size for cleaning.  If zero (the default), then&#10;# je.log.iteratorReadSize value is used." />
+                <property role="Xl_RC" value="# The read buffer size for cleaning.  If zero (the default), then&#10;# je.log.iteratorReadSize value is used.jqa" />
               </node>
             </node>
           </node>
@@ -11915,7 +11918,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbPP" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbPQ" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.trackDetail" />
+                <property role="Xl_RC" value="je.cleaner.trackDetailx" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbPR" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -11924,7 +11927,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbPT" role="37wK5m">
-                <property role="Xl_RC" value="# If true, the cleaner tracks and stores detailed information that&#10;# is used to decrease the cost of cleaning." />
+                <property role="Xl_RC" value="# If true, the cleaner tracks and stores detailed information that&#10;# is used to decrease the cost of cleaning.y" />
               </node>
             </node>
           </node>
@@ -12050,7 +12053,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbQH" role="37wK5m">
-                <property role="Xl_RC" value="# Tracking of detailed cleaning information will use no more than&#10;# this percentage of the cache.  The default value is two percent.&#10;# This setting is only used if je.cleaner.trackDetail=true." />
+                <property role="Xl_RC" value="# Tracking of detailed cleaning information will use no more than&#10;# this percentage of the cache.  The default value is two percent.&#10;# This setting is only used if je.cleaner.trackDetail=true.r" />
               </node>
             </node>
           </node>
@@ -12086,7 +12089,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbQU" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbQV" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.rmwFix" />
+                <property role="Xl_RC" value="je.cleaner.rmwFixv" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbQW" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -12095,7 +12098,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbQY" role="37wK5m">
-                <property role="Xl_RC" value="# If true, detail information is discarded that was added by earlier&#10;# versions of JE if it may be invalid.  This may be set to false&#10;# for increased performance, but only if LockMode.RMW was never used." />
+                <property role="Xl_RC" value="# If true, detail information is discarded that was added by earlier&#10;# versions of JE if it may be invalid.  This may be set to false&#10;# for increased performance, but only if LockMode.RMW was never used.w" />
               </node>
             </node>
           </node>
@@ -12131,7 +12134,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbRb" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMHl" resolve="ConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbRc" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.forceCleanFiles" />
+                <property role="Xl_RC" value="je.cleaner.forceCleanFilesl" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbRd" role="37wK5m">
                 <property role="Xl_RC" value="" />
@@ -12226,7 +12229,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbRM" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbRN" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.threads" />
+                <property role="Xl_RC" value="je.cleaner.threadsi" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbRO" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbg7" resolve="$r177" />
@@ -12239,7 +12242,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbRS" role="37wK5m">
-                <property role="Xl_RC" value="# The number of threads allocated by the cleaner for log file&#10;# processing.  If the cleaner backlog becomes large, increase this&#10;# value.  The default is set to 1." />
+                <property role="Xl_RC" value="# The number of threads allocated by the cleaner for log file&#10;# processing.  If the cleaner backlog becomes large, increase this&#10;# value.  The default is set to 1.a" />
               </node>
             </node>
           </node>
@@ -12325,7 +12328,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbSr" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbSs" role="37wK5m">
-                <property role="Xl_RC" value="je.cleaner.lookAheadCacheSize" />
+                <property role="Xl_RC" value="je.cleaner.lookAheadCacheSizek" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbSt" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbgg" resolve="$r180" />
@@ -12338,7 +12341,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbSx" role="37wK5m">
-                <property role="Xl_RC" value="# The look ahead cache size for cleaning in bytes.  Increasing this&#10;# value can reduce the number of Btree lookups." />
+                <property role="Xl_RC" value="# The look ahead cache size for cleaning in bytes.  Increasing this&#10;# value can reduce the number of Btree lookups.c" />
               </node>
             </node>
           </node>
@@ -12449,7 +12452,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbTf" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbTg" role="37wK5m">
-                <property role="Xl_RC" value="je.lock.nLockTables" />
+                <property role="Xl_RC" value="je.lock.nLockTablesk" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbTh" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbgp" resolve="$r183" />
@@ -12464,7 +12467,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbTl" role="37wK5m">
-                <property role="Xl_RC" value="# Number of Lock Tables.  Set this to a value other than 1 when&#10;# an application has multiple threads performing concurrent JE&#10;# operations.  It should be set to a prime number, and in general&#10;# not higher than the number of application threads performing JE&#10;# operations." />
+                <property role="Xl_RC" value="# Number of Lock Tables.  Set this to a value other than 1 when&#10;# an application has multiple threads performing concurrent JE&#10;# operations.  It should be set to a prime number, and in general&#10;# not higher than the number of application threads performing JE&#10;# operations.cy" />
               </node>
             </node>
           </node>
@@ -12575,7 +12578,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbU3" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbU4" role="37wK5m">
-                <property role="Xl_RC" value="je.lock.timeout" />
+                <property role="Xl_RC" value="je.lock.timeoutae" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbU5" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbg_" resolve="$r187" />
@@ -12701,7 +12704,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbUR" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMQo" resolve="LongConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbUS" role="37wK5m">
-                <property role="Xl_RC" value="je.txn.timeout" />
+                <property role="Xl_RC" value="je.txn.timeoutfu" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbUT" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbgL" resolve="$r191" />
@@ -12752,7 +12755,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbVa" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbVb" role="37wK5m">
-                <property role="Xl_RC" value="je.txn.serializableIsolation" />
+                <property role="Xl_RC" value="je.txn.serializableIsolationzn" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbVc" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -12761,7 +12764,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbVe" role="37wK5m">
-                <property role="Xl_RC" value="# Transactions have the Serializable (Degree 3) isolation level.  The&#10;# default is false, which implies the Repeatable Read isolation level." />
+                <property role="Xl_RC" value="# Transactions have the Serializable (Degree 3) isolation level.  The&#10;# default is false, which implies the Repeatable Read isolation level.vm" />
               </node>
             </node>
           </node>
@@ -12806,7 +12809,7 @@
                 <property role="3cmrfH" value="1" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbVv" role="37wK5m">
-                <property role="Xl_RC" value="# Set this parameter to true to add stacktrace information to deadlock&#10;# (lock timeout) exception messages.  The stack trace will show where&#10;# each lock was taken.  The default is false, and true should only be&#10;# used during debugging because of the added memory/processing cost.&#10;# This parameter is 'static' across all environments." />
+                <property role="Xl_RC" value="# Set this parameter to true to add stacktrace information to deadlock&#10;# (lock timeout) exception messages.  The stack trace will show where&#10;# each lock was taken.  The default is false, and true should only be&#10;# used during debugging because of the added memory/processing cost.&#10;# This parameter is 'static' across all environments.e" />
               </node>
             </node>
           </node>
@@ -12887,7 +12890,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbVX" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMOV" resolve="BooleanConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbVY" role="37wK5m">
-                <property role="Xl_RC" value="java.util.logging.FileHandler.on" />
+                <property role="Xl_RC" value="java.util.logging.FileHandler.onf" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbVZ" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -12896,7 +12899,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbW1" role="37wK5m">
-                <property role="Xl_RC" value="# Use FileHandler in logging system." />
+                <property role="Xl_RC" value="# Use FileHandler in logging system.sifs" />
               </node>
             </node>
           </node>
@@ -12941,7 +12944,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbWi" role="37wK5m">
-                <property role="Xl_RC" value="# Use ConsoleHandler in logging system." />
+                <property role="Xl_RC" value="# Use ConsoleHandler in logging system.dj" />
               </node>
             </node>
           </node>
@@ -13112,7 +13115,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbXn" role="37wK5m">
-                <property role="Xl_RC" value="# Log file limit for FileHandler." />
+                <property role="Xl_RC" value="# Log file limit for FileHandler.g" />
               </node>
             </node>
           </node>
@@ -13198,7 +13201,7 @@
             <node concept="2LgOp9" id="1OpGjkrTbXU" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMIg" resolve="IntConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbXV" role="37wK5m">
-                <property role="Xl_RC" value="java.util.logging.FileHandler.count" />
+                <property role="Xl_RC" value="java.util.logging.FileHandler.countnoy" />
               </node>
               <node concept="37vLTw" id="1OpGjkrTbXW" role="37wK5m">
                 <ref role="3cqZAo" node="1OpGjkrTbhr" resolve="$r205" />
@@ -13211,7 +13214,7 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbY0" role="37wK5m">
-                <property role="Xl_RC" value="# Log file count for FileHandler." />
+                <property role="Xl_RC" value="# Log file count for FileHandler.ux" />
               </node>
             </node>
           </node>
@@ -13247,10 +13250,10 @@
             <node concept="2LgOp9" id="1OpGjkrTbYd" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMHl" resolve="ConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbYe" role="37wK5m">
-                <property role="Xl_RC" value="java.util.logging.level" />
+                <property role="Xl_RC" value="java.util.logging.leveljk" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbYf" role="37wK5m">
-                <property role="Xl_RC" value="FINEST" />
+                <property role="Xl_RC" value="FINESTeo" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbYg" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -13292,16 +13295,16 @@
             <node concept="2LgOp9" id="1OpGjkrTbYu" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMHl" resolve="ConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbYv" role="37wK5m">
-                <property role="Xl_RC" value="java.util.logging.level.lockMgr" />
+                <property role="Xl_RC" value="java.util.logging.level.lockMgru" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbYw" role="37wK5m">
-                <property role="Xl_RC" value="FINE" />
+                <property role="Xl_RC" value="FINEvh" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbYx" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbYy" role="37wK5m">
-                <property role="Xl_RC" value="# Lock manager specific trace messages will be issued at this level.&#10;# Value should be one of the predefined java.util.logging.Level values" />
+                <property role="Xl_RC" value="# Lock manager specific trace messages will be issued at this level.&#10;# Value should be one of the predefined java.util.logging.Level valuesp" />
               </node>
             </node>
           </node>
@@ -13337,16 +13340,16 @@
             <node concept="2LgOp9" id="1OpGjkrTbYJ" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMHl" resolve="ConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbYK" role="37wK5m">
-                <property role="Xl_RC" value="java.util.logging.level.recovery" />
+                <property role="Xl_RC" value="java.util.logging.level.recoveryk" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbYL" role="37wK5m">
-                <property role="Xl_RC" value="FINE" />
+                <property role="Xl_RC" value="FINEnl" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbYM" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbYN" role="37wK5m">
-                <property role="Xl_RC" value="# Recovery specific trace messages will be issued at this level.&#10;# Value should be one of the predefined java.util.logging.Level values" />
+                <property role="Xl_RC" value="# Recovery specific trace messages will be issued at this level.&#10;# Value should be one of the predefined java.util.logging.Level valuesnb" />
               </node>
             </node>
           </node>
@@ -13382,16 +13385,16 @@
             <node concept="2LgOp9" id="1OpGjkrTbZ0" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRMHl" resolve="ConfigParam" />
               <node concept="Xl_RD" id="1OpGjkrTbZ1" role="37wK5m">
-                <property role="Xl_RC" value="java.util.logging.level.evictor" />
+                <property role="Xl_RC" value="java.util.logging.level.evictorn" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbZ2" role="37wK5m">
-                <property role="Xl_RC" value="FINE" />
+                <property role="Xl_RC" value="FINEz" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbZ3" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbZ4" role="37wK5m">
-                <property role="Xl_RC" value="# Evictor specific trace messages will be issued at this level.&#10;# Value should be one of the predefined java.util.logging.Level values" />
+                <property role="Xl_RC" value="# Evictor specific trace messages will be issued at this level.&#10;# Value should be one of the predefined java.util.logging.Level valuesqy" />
               </node>
             </node>
           </node>
@@ -13430,7 +13433,7 @@
                 <property role="Xl_RC" value="java.util.logging.level.cleaner" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrTbZj" role="37wK5m">
-                <property role="Xl_RC" value="FINE" />
+                <property role="Xl_RC" value="FINEr" />
               </node>
               <node concept="3cmrfG" id="1OpGjkrTbZk" role="37wK5m">
                 <property role="3cmrfH" value="1" />
@@ -13486,6 +13489,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrTbZE" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWUN" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="1OpGjkrRSO7" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -14130,7 +14134,7 @@
             <node concept="liA8E" id="1OpGjkrTc57" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~Writer.write(java.lang.String):void" resolve="write" />
               <node concept="Xl_RD" id="1OpGjkrTcbV" role="37wK5m">
-                <property role="Xl_RC" value="####################################################&#10;# Example Berkeley DB, Java Edition property file&#10;# Each parameter is set to its default value&#10;####################################################&#10;&#10;" />
+                <property role="Xl_RC" value="####################################################&#10;# Example Berkeley DB, Java Edition property file&#10;# Each parameter is set to its default value&#10;####################################################&#10;&#10;w" />
               </node>
             </node>
           </node>
@@ -14654,7 +14658,7 @@
               <node concept="liA8E" id="1OpGjkrTcfg" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrTcfi" role="37wK5m">
-                  <property role="Xl_RC" value="=" />
+                  <property role="Xl_RC" value="=t" />
                 </node>
               </node>
             </node>
@@ -14723,7 +14727,7 @@
               <node concept="liA8E" id="1OpGjkrTcfA" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrTcfC" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;# (mutable at run time: " />
+                  <property role="Xl_RC" value="&#10;# (mutable at run time: gvc" />
                 </node>
               </node>
             </node>
@@ -14792,7 +14796,7 @@
               <node concept="liA8E" id="1OpGjkrTcgG" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrTcgI" role="37wK5m">
-                  <property role="Xl_RC" value=")&#10;&#10;" />
+                  <property role="Xl_RC" value=")&#10;&#10;pf" />
                 </node>
               </node>
             </node>
@@ -15377,6 +15381,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSSs1" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWWc" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRMPH" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -15858,7 +15863,7 @@
               <node concept="liA8E" id="1OpGjkrSSv0" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSv2" role="37wK5m">
-                  <property role="Xl_RC" value=":" />
+                  <property role="Xl_RC" value=":s" />
                 </node>
               </node>
             </node>
@@ -15927,7 +15932,7 @@
               <node concept="liA8E" id="1OpGjkrSSvu" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSvw" role="37wK5m">
-                  <property role="Xl_RC" value=" doesn't validate, " />
+                  <property role="Xl_RC" value=" doesn't validate, hkb" />
                 </node>
               </node>
             </node>
@@ -15963,7 +15968,7 @@
               <node concept="liA8E" id="1OpGjkrSSvI" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSvK" role="37wK5m">
-                  <property role="Xl_RC" value=" is less than min of " />
+                  <property role="Xl_RC" value=" is less than min of ss" />
                 </node>
               </node>
             </node>
@@ -16188,7 +16193,7 @@
               <node concept="liA8E" id="1OpGjkrSSx6" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSx8" role="37wK5m">
-                  <property role="Xl_RC" value=":" />
+                  <property role="Xl_RC" value=":g" />
                 </node>
               </node>
             </node>
@@ -16257,7 +16262,7 @@
               <node concept="liA8E" id="1OpGjkrSSx$" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSxA" role="37wK5m">
-                  <property role="Xl_RC" value=" doesn't validate, " />
+                  <property role="Xl_RC" value=" doesn't validate, aaxw" />
                 </node>
               </node>
             </node>
@@ -16664,7 +16669,7 @@
               <node concept="liA8E" id="1OpGjkrSSBm" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSBo" role="37wK5m">
-                  <property role="Xl_RC" value=": " />
+                  <property role="Xl_RC" value=": z" />
                 </node>
               </node>
             </node>
@@ -16957,7 +16962,7 @@
               <node concept="liA8E" id="1OpGjkrSSDn" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSDp" role="37wK5m">
-                  <property role="Xl_RC" value="# minimum = " />
+                  <property role="Xl_RC" value="# minimum = ma" />
                 </node>
               </node>
             </node>
@@ -17075,7 +17080,7 @@
               <node concept="liA8E" id="1OpGjkrSSDY" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSSE0" role="37wK5m">
-                  <property role="Xl_RC" value="# maximum = " />
+                  <property role="Xl_RC" value="# maximum = q" />
                 </node>
               </node>
             </node>
@@ -17466,6 +17471,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrS9Hq" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWUJ" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRMQ_" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -17955,7 +17961,7 @@
               <node concept="liA8E" id="1OpGjkrS9Ks" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9Ku" role="37wK5m">
-                  <property role="Xl_RC" value=":" />
+                  <property role="Xl_RC" value=":ji" />
                 </node>
               </node>
             </node>
@@ -17973,7 +17979,7 @@
               <node concept="liA8E" id="1OpGjkrS9K$" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9KA" role="37wK5m">
-                  <property role="Xl_RC" value=" param " />
+                  <property role="Xl_RC" value=" param iyf" />
                 </node>
               </node>
             </node>
@@ -18060,7 +18066,7 @@
               <node concept="liA8E" id="1OpGjkrS9La" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9Lc" role="37wK5m">
-                  <property role="Xl_RC" value=" is less than min of " />
+                  <property role="Xl_RC" value=" is less than min of q" />
                 </node>
               </node>
             </node>
@@ -18390,7 +18396,7 @@
               <node concept="liA8E" id="1OpGjkrS9Ng" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9Ni" role="37wK5m">
-                  <property role="Xl_RC" value=" is greater than max " />
+                  <property role="Xl_RC" value=" is greater than max l" />
                 </node>
               </node>
             </node>
@@ -18408,7 +18414,7 @@
               <node concept="liA8E" id="1OpGjkrS9No" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9Nq" role="37wK5m">
-                  <property role="Xl_RC" value=" of " />
+                  <property role="Xl_RC" value=" of g" />
                 </node>
               </node>
             </node>
@@ -18779,7 +18785,7 @@
               <node concept="liA8E" id="1OpGjkrS9Py" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9P$" role="37wK5m">
-                  <property role="Xl_RC" value=": " />
+                  <property role="Xl_RC" value=": f" />
                 </node>
               </node>
             </node>
@@ -18815,7 +18821,7 @@
               <node concept="liA8E" id="1OpGjkrS9PM" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9PO" role="37wK5m">
-                  <property role="Xl_RC" value=" not valid value for " />
+                  <property role="Xl_RC" value=" not valid value for sj" />
                 </node>
               </node>
             </node>
@@ -19072,7 +19078,7 @@
               <node concept="liA8E" id="1OpGjkrS9Rz" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrS9R_" role="37wK5m">
-                  <property role="Xl_RC" value="# minimum = " />
+                  <property role="Xl_RC" value="# minimum = pmp" />
                 </node>
               </node>
             </node>
@@ -19176,7 +19182,7 @@
             <node concept="liA8E" id="1OpGjkrS9Sp" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
               <node concept="Xl_RD" id="1OpGjkrS9Sr" role="37wK5m">
-                <property role="Xl_RC" value="&#10;" />
+                <property role="Xl_RC" value="&#10;p" />
               </node>
             </node>
           </node>

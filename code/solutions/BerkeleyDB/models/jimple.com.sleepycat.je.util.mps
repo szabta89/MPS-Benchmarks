@@ -2,7 +2,7 @@
 <model ref="r:babdc37e-b16d-45ea-90db-1c2a9e30de7a(jimple.com.sleepycat.je.util)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot" version="0" />
   </languages>
@@ -445,7 +445,7 @@
             <node concept="2LgOp9" id="1OpGjkrSLZa" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSLZb" role="37wK5m">
-                <property role="Xl_RC" value="usage: " />
+                <property role="Xl_RC" value="usage: sd" />
               </node>
             </node>
           </node>
@@ -545,7 +545,7 @@
               <node concept="liA8E" id="1OpGjkrSLZP" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSLZR" role="37wK5m">
-                  <property role="Xl_RC" value="  [-l]                # list databases in the environment&#10;" />
+                  <property role="Xl_RC" value="  [-l]                # list databases in the environment&#10;xitl" />
                 </node>
               </node>
             </node>
@@ -563,7 +563,7 @@
               <node concept="liA8E" id="1OpGjkrSLZX" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSLZZ" role="37wK5m">
-                  <property role="Xl_RC" value="  [-p]                # output printable characters&#10;" />
+                  <property role="Xl_RC" value="  [-p]                # output printable characters&#10;jgm" />
                 </node>
               </node>
             </node>
@@ -581,7 +581,7 @@
               <node concept="liA8E" id="1OpGjkrSM05" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSM07" role="37wK5m">
-                  <property role="Xl_RC" value="  [-r]                # salvage mode&#10;" />
+                  <property role="Xl_RC" value="  [-r]                # salvage mode&#10;e" />
                 </node>
               </node>
             </node>
@@ -617,7 +617,7 @@
               <node concept="liA8E" id="1OpGjkrSM0l" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSM0n" role="37wK5m">
-                  <property role="Xl_RC" value="  [-d] &lt;directory&gt;    # directory for *.dump files (salvage mode)&#10;" />
+                  <property role="Xl_RC" value="  [-d] &lt;directory&gt;    # directory for *.dump files (salvage mode)&#10;r" />
                 </node>
               </node>
             </node>
@@ -635,7 +635,7 @@
               <node concept="liA8E" id="1OpGjkrSM0t" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSM0v" role="37wK5m">
-                  <property role="Xl_RC" value="  [-s &lt;databaseName&gt;] # database to dump&#10;" />
+                  <property role="Xl_RC" value="  [-s &lt;databaseName&gt;] # database to dump&#10;vw" />
                 </node>
               </node>
             </node>
@@ -653,7 +653,7 @@
               <node concept="liA8E" id="1OpGjkrSM0_" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSM1m" role="37wK5m">
-                  <property role="Xl_RC" value="  [-v]                # verbose in salvage mode&#10;" />
+                  <property role="Xl_RC" value="  [-v]                # verbose in salvage mode&#10;h" />
                 </node>
               </node>
             </node>
@@ -671,7 +671,7 @@
               <node concept="liA8E" id="1OpGjkrSM1s" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSM1u" role="37wK5m">
-                  <property role="Xl_RC" value="  [-V]                # print JE version number&#10;" />
+                  <property role="Xl_RC" value="  [-V]                # print JE version number&#10;pc" />
                 </node>
               </node>
             </node>
@@ -850,6 +850,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSM2F" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWUT" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRRlN" role="jymVt">
       <node concept="3Tm1VV" id="1OpGjkrRRlO" role="1B3o_S" />
@@ -1347,6 +1348,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSM5y" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWV7" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="1OpGjkrRRlZ" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -3196,7 +3198,7 @@
               <node concept="liA8E" id="1OpGjkrSMCP" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMCQ" role="37wK5m">
-                  <property role="Xl_RC" value="-p" />
+                  <property role="Xl_RC" value="-px" />
                 </node>
               </node>
             </node>
@@ -3247,7 +3249,7 @@
               <node concept="liA8E" id="1OpGjkrSMCW" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMCX" role="37wK5m">
-                  <property role="Xl_RC" value="-V" />
+                  <property role="Xl_RC" value="-Vly" />
                 </node>
               </node>
             </node>
@@ -3330,7 +3332,7 @@
               <node concept="liA8E" id="1OpGjkrSMDh" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMDi" role="37wK5m">
-                  <property role="Xl_RC" value="-l" />
+                  <property role="Xl_RC" value="-ld" />
                 </node>
               </node>
             </node>
@@ -3502,7 +3504,7 @@
               <node concept="liA8E" id="1OpGjkrSMEx" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMEy" role="37wK5m">
-                  <property role="Xl_RC" value="-f" />
+                  <property role="Xl_RC" value="-fk" />
                 </node>
               </node>
             </node>
@@ -3610,7 +3612,7 @@
             <node concept="liA8E" id="1OpGjkrSMFa" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRRmb" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSMFb" role="37wK5m">
-                <property role="Xl_RC" value="-f requires an argument" />
+                <property role="Xl_RC" value="-f requires an argumentp" />
               </node>
             </node>
           </node>
@@ -3630,7 +3632,7 @@
               <node concept="liA8E" id="1OpGjkrSMEW" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMEX" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-hh" />
                 </node>
               </node>
             </node>
@@ -3783,7 +3785,7 @@
               <node concept="liA8E" id="1OpGjkrSMFI" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMFJ" role="37wK5m">
-                  <property role="Xl_RC" value="-d" />
+                  <property role="Xl_RC" value="-dh" />
                 </node>
               </node>
             </node>
@@ -3891,7 +3893,7 @@
             <node concept="liA8E" id="1OpGjkrSMGT" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRRmb" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSMGU" role="37wK5m">
-                <property role="Xl_RC" value="-d requires an argument" />
+                <property role="Xl_RC" value="-d requires an argumentpt" />
               </node>
             </node>
           </node>
@@ -3911,7 +3913,7 @@
               <node concept="liA8E" id="1OpGjkrSMGF" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMGG" role="37wK5m">
-                  <property role="Xl_RC" value="-s" />
+                  <property role="Xl_RC" value="-sw" />
                 </node>
               </node>
             </node>
@@ -4019,7 +4021,7 @@
             <node concept="liA8E" id="1OpGjkrSMHF" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRRmb" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSMHG" role="37wK5m">
-                <property role="Xl_RC" value="-s requires an argument" />
+                <property role="Xl_RC" value="-s requires an argumentix" />
               </node>
             </node>
           </node>
@@ -4039,7 +4041,7 @@
               <node concept="liA8E" id="1OpGjkrSMHt" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSMHu" role="37wK5m">
-                  <property role="Xl_RC" value="-v" />
+                  <property role="Xl_RC" value="-vx" />
                 </node>
               </node>
             </node>
@@ -4135,7 +4137,7 @@
               <node concept="liA8E" id="1OpGjkrSMIJ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSMIL" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a valid option." />
+                  <property role="Xl_RC" value=" is not a valid option.id" />
                 </node>
               </node>
             </node>
@@ -4315,7 +4317,7 @@
             <node concept="liA8E" id="1OpGjkrSMJT" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRRmb" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSMJU" role="37wK5m">
-                <property role="Xl_RC" value="Must supply a database name if -l not supplied." />
+                <property role="Xl_RC" value="Must supply a database name if -l not supplied.x" />
               </node>
             </node>
           </node>
@@ -4715,7 +4717,7 @@
         <node concept="3clFbF" id="1OpGjkrSMM8" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrSMM9" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrSMM6" role="37vLTx">
-              <property role="Xl_RC" value="false" />
+              <property role="Xl_RC" value="falseh" />
             </node>
             <node concept="37vLTw" id="1OpGjkrSMM7" role="37vLTJ">
               <ref role="3cqZAo" node="1OpGjkrSMLi" resolve="$r9" />
@@ -5901,7 +5903,7 @@
             <node concept="2LgOp9" id="1OpGjkrSMTB" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSMTC" role="37wK5m">
-                <property role="Xl_RC" value="DbDump.dump of " />
+                <property role="Xl_RC" value="DbDump.dump of gyqd" />
               </node>
             </node>
           </node>
@@ -5948,7 +5950,7 @@
               <node concept="liA8E" id="1OpGjkrSMTU" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSMTW" role="37wK5m">
-                  <property role="Xl_RC" value=" ending" />
+                  <property role="Xl_RC" value=" endingix" />
                 </node>
               </node>
             </node>
@@ -6121,7 +6123,7 @@
             <node concept="liA8E" id="1OpGjkrSMUR" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSMV0" role="37wK5m">
-                <property role="Xl_RC" value="VERSION=3" />
+                <property role="Xl_RC" value="VERSION=3f" />
               </node>
             </node>
           </node>
@@ -6149,7 +6151,7 @@
             <node concept="liA8E" id="1OpGjkrSMVo" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSMVx" role="37wK5m">
-                <property role="Xl_RC" value="format=print" />
+                <property role="Xl_RC" value="format=printot" />
               </node>
             </node>
           </node>
@@ -6165,7 +6167,7 @@
             <node concept="liA8E" id="1OpGjkrSMV4" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSMVd" role="37wK5m">
-                <property role="Xl_RC" value="format=bytevalue" />
+                <property role="Xl_RC" value="format=bytevaluedau" />
               </node>
             </node>
           </node>
@@ -6181,7 +6183,7 @@
             <node concept="liA8E" id="1OpGjkrSMV_" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSMVI" role="37wK5m">
-                <property role="Xl_RC" value="type=btree" />
+                <property role="Xl_RC" value="type=btreed" />
               </node>
             </node>
           </node>
@@ -6232,7 +6234,7 @@
         <node concept="3clFbF" id="1OpGjkrSMWd" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrSMWe" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrSMWb" role="37vLTx">
-              <property role="Xl_RC" value="1" />
+              <property role="Xl_RC" value="1l" />
             </node>
             <node concept="37vLTw" id="1OpGjkrSMWc" role="37vLTJ">
               <ref role="3cqZAo" node="1OpGjkrSMU_" resolve="$r6" />
@@ -6245,7 +6247,7 @@
         <node concept="3clFbF" id="1OpGjkrSMW2" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrSMW3" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrSMW0" role="37vLTx">
-              <property role="Xl_RC" value="0" />
+              <property role="Xl_RC" value="0et" />
             </node>
             <node concept="37vLTw" id="1OpGjkrSMW1" role="37vLTJ">
               <ref role="3cqZAo" node="1OpGjkrSMU_" resolve="$r6" />
@@ -6312,7 +6314,7 @@
             <node concept="liA8E" id="1OpGjkrSMWG" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSMWP" role="37wK5m">
-                <property role="Xl_RC" value="HEADER=END" />
+                <property role="Xl_RC" value="HEADER=ENDho" />
               </node>
             </node>
           </node>
@@ -6786,7 +6788,7 @@
             <node concept="2LgOp9" id="1OpGjkrT$P9" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT$Pa" role="37wK5m">
-                <property role="Xl_RC" value="usage: " />
+                <property role="Xl_RC" value="usage: q" />
               </node>
             </node>
           </node>
@@ -6832,7 +6834,7 @@
               <node concept="liA8E" id="1OpGjkrT$Ps" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$Pu" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;" />
+                  <property role="Xl_RC" value="&#10;i" />
                 </node>
               </node>
             </node>
@@ -6850,7 +6852,7 @@
               <node concept="liA8E" id="1OpGjkrT$P$" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$PA" role="37wK5m">
-                  <property role="Xl_RC" value="       -h &lt;dir&gt;             # environment home directory&#10;" />
+                  <property role="Xl_RC" value="       -h &lt;dir&gt;             # environment home directory&#10;k" />
                 </node>
               </node>
             </node>
@@ -6868,7 +6870,7 @@
               <node concept="liA8E" id="1OpGjkrT$PG" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$PI" role="37wK5m">
-                  <property role="Xl_RC" value="       [-f &lt;fileName&gt;]      # input file&#10;" />
+                  <property role="Xl_RC" value="       [-f &lt;fileName&gt;]      # input file&#10;vpl" />
                 </node>
               </node>
             </node>
@@ -6886,7 +6888,7 @@
               <node concept="liA8E" id="1OpGjkrT$PO" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$PQ" role="37wK5m">
-                  <property role="Xl_RC" value="       [-n ]                # no overwrite mode&#10;" />
+                  <property role="Xl_RC" value="       [-n ]                # no overwrite mode&#10;x" />
                 </node>
               </node>
             </node>
@@ -6904,7 +6906,7 @@
               <node concept="liA8E" id="1OpGjkrT$PW" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$PY" role="37wK5m">
-                  <property role="Xl_RC" value="       [-T]                 # input file is in text mode&#10;" />
+                  <property role="Xl_RC" value="       [-T]                 # input file is in text mode&#10;n" />
                 </node>
               </node>
             </node>
@@ -6940,7 +6942,7 @@
               <node concept="liA8E" id="1OpGjkrT$Qc" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$Qe" role="37wK5m">
-                  <property role="Xl_RC" value="       [-c name=value]      # config values&#10;" />
+                  <property role="Xl_RC" value="       [-c name=value]      # config values&#10;op" />
                 </node>
               </node>
             </node>
@@ -6958,7 +6960,7 @@
               <node concept="liA8E" id="1OpGjkrT$Qk" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$Qm" role="37wK5m">
-                  <property role="Xl_RC" value="       [-s &lt;databaseName&gt; ] # database to load&#10;" />
+                  <property role="Xl_RC" value="       [-s &lt;databaseName&gt; ] # database to load&#10;ye" />
                 </node>
               </node>
             </node>
@@ -6976,7 +6978,7 @@
               <node concept="liA8E" id="1OpGjkrT$Qs" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$Qu" role="37wK5m">
-                  <property role="Xl_RC" value="       [-v]                 # show progress&#10;" />
+                  <property role="Xl_RC" value="       [-v]                 # show progress&#10;gi" />
                 </node>
               </node>
             </node>
@@ -6994,7 +6996,7 @@
               <node concept="liA8E" id="1OpGjkrT$Q$" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT$QA" role="37wK5m">
-                  <property role="Xl_RC" value="       [-V]                 # print JE version number" />
+                  <property role="Xl_RC" value="       [-V]                 # print JE version numberu" />
                 </node>
               </node>
             </node>
@@ -8030,7 +8032,7 @@
               <node concept="liA8E" id="1OpGjkrT$X9" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT$Xa" role="37wK5m">
-                  <property role="Xl_RC" value="-n" />
+                  <property role="Xl_RC" value="-nb" />
                 </node>
               </node>
             </node>
@@ -8174,7 +8176,7 @@
               <node concept="liA8E" id="1OpGjkrT$XQ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT$XR" role="37wK5m">
-                  <property role="Xl_RC" value="-V" />
+                  <property role="Xl_RC" value="-Vcb" />
                 </node>
               </node>
             </node>
@@ -8257,7 +8259,7 @@
               <node concept="liA8E" id="1OpGjkrT$Y9" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT$Ya" role="37wK5m">
-                  <property role="Xl_RC" value="-f" />
+                  <property role="Xl_RC" value="-fw" />
                 </node>
               </node>
             </node>
@@ -8347,7 +8349,7 @@
             <ref role="1Pybhc" node="1OpGjkrRTaJ" resolve="DbLoad" />
             <ref role="37wK5l" node="1OpGjkrRTbL" resolve="printUsage" />
             <node concept="Xl_RD" id="1OpGjkrT$Z0" role="37wK5m">
-              <property role="Xl_RC" value="-f requires an argument" />
+              <property role="Xl_RC" value="-f requires an argumentg" />
             </node>
           </node>
           <node concept="Lur9e" id="1OpGjkrT$Z2" role="lGtFl">
@@ -8366,7 +8368,7 @@
               <node concept="liA8E" id="1OpGjkrT$YL" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT$YM" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-hz" />
                 </node>
               </node>
             </node>
@@ -8510,7 +8512,7 @@
               <node concept="liA8E" id="1OpGjkrT$Zr" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT$Zs" role="37wK5m">
-                  <property role="Xl_RC" value="-s" />
+                  <property role="Xl_RC" value="-scf" />
                 </node>
               </node>
             </node>
@@ -8600,7 +8602,7 @@
             <ref role="1Pybhc" node="1OpGjkrRTaJ" resolve="DbLoad" />
             <ref role="37wK5l" node="1OpGjkrRTbL" resolve="printUsage" />
             <node concept="Xl_RD" id="1OpGjkrT_0z" role="37wK5m">
-              <property role="Xl_RC" value="-s requires an argument" />
+              <property role="Xl_RC" value="-s requires an argumentv" />
             </node>
           </node>
           <node concept="Lur9e" id="1OpGjkrT_0_" role="lGtFl">
@@ -8619,7 +8621,7 @@
               <node concept="liA8E" id="1OpGjkrT_0k" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_0l" role="37wK5m">
-                  <property role="Xl_RC" value="-c" />
+                  <property role="Xl_RC" value="-cp" />
                 </node>
               </node>
             </node>
@@ -8782,7 +8784,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_1V" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_1W" role="37wK5m">
-                <property role="Xl_RC" value="-c: " />
+                <property role="Xl_RC" value="-c: a" />
               </node>
             </node>
           </node>
@@ -8871,7 +8873,7 @@
               <node concept="liA8E" id="1OpGjkrT_0Y" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_0Z" role="37wK5m">
-                  <property role="Xl_RC" value="-v" />
+                  <property role="Xl_RC" value="-vat" />
                 </node>
               </node>
             </node>
@@ -8944,7 +8946,7 @@
             <ref role="1Pybhc" node="1OpGjkrRTaJ" resolve="DbLoad" />
             <ref role="37wK5l" node="1OpGjkrRTbL" resolve="printUsage" />
             <node concept="Xl_RD" id="1OpGjkrT_2J" role="37wK5m">
-              <property role="Xl_RC" value="-h is a required argument" />
+              <property role="Xl_RC" value="-h is a required argumentttz" />
             </node>
           </node>
         </node>
@@ -9005,7 +9007,7 @@
             <ref role="1Pybhc" node="1OpGjkrRTaJ" resolve="DbLoad" />
             <ref role="37wK5l" node="1OpGjkrRTbL" resolve="printUsage" />
             <node concept="Xl_RD" id="1OpGjkrT_3e" role="37wK5m">
-              <property role="Xl_RC" value="-v requires -f" />
+              <property role="Xl_RC" value="-v requires -fnb" />
             </node>
           </node>
         </node>
@@ -9413,6 +9415,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrT_5G" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWV6" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRTc0" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -10383,7 +10386,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_b6" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_b7" role="37wK5m">
-                <property role="Xl_RC" value="DbLoad.load of " />
+                <property role="Xl_RC" value="DbLoad.load of v" />
               </node>
             </node>
           </node>
@@ -10430,7 +10433,7 @@
               <node concept="liA8E" id="1OpGjkrT_bp" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_br" role="37wK5m">
-                  <property role="Xl_RC" value=" starting" />
+                  <property role="Xl_RC" value=" startingft" />
                 </node>
               </node>
             </node>
@@ -10545,7 +10548,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_cg" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_ch" role="37wK5m">
-                <property role="Xl_RC" value="Load start: " />
+                <property role="Xl_RC" value="Load start: s" />
               </node>
             </node>
           </node>
@@ -10954,7 +10957,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_eR" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_eS" role="37wK5m">
-                <property role="Xl_RC" value="DbLoad.load of " />
+                <property role="Xl_RC" value="DbLoad.load of te" />
               </node>
             </node>
           </node>
@@ -11001,7 +11004,7 @@
               <node concept="liA8E" id="1OpGjkrT_fa" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_fc" role="37wK5m">
-                  <property role="Xl_RC" value=" ending." />
+                  <property role="Xl_RC" value=" ending.dyc" />
                 </node>
               </node>
             </node>
@@ -11116,7 +11119,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_fX" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_fY" role="37wK5m">
-                <property role="Xl_RC" value="Load end: " />
+                <property role="Xl_RC" value="Load end: sw" />
               </node>
             </node>
           </node>
@@ -11716,7 +11719,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_jU" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_jV" role="37wK5m">
-                <property role="Xl_RC" value="Invalid header parameter: " />
+                <property role="Xl_RC" value="Invalid header parameter: j" />
               </node>
             </node>
           </node>
@@ -11883,7 +11886,7 @@
               <node concept="liA8E" id="1OpGjkrT_kO" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_kP" role="37wK5m">
-                  <property role="Xl_RC" value="version" />
+                  <property role="Xl_RC" value="versionb" />
                 </node>
               </node>
             </node>
@@ -12004,7 +12007,7 @@
               <node concept="liA8E" id="1OpGjkrT_lL" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_lN" role="37wK5m">
-                  <property role="Xl_RC" value=" is not supported." />
+                  <property role="Xl_RC" value=" is not supported.y" />
                 </node>
               </node>
             </node>
@@ -12055,7 +12058,7 @@
               <node concept="liA8E" id="1OpGjkrT_kV" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_kW" role="37wK5m">
-                  <property role="Xl_RC" value="format" />
+                  <property role="Xl_RC" value="formatm" />
                 </node>
               </node>
             </node>
@@ -12106,7 +12109,7 @@
               <node concept="liA8E" id="1OpGjkrT_mr" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_ms" role="37wK5m">
-                  <property role="Xl_RC" value="print" />
+                  <property role="Xl_RC" value="printb" />
                 </node>
               </node>
             </node>
@@ -12265,7 +12268,7 @@
               <node concept="liA8E" id="1OpGjkrT_ns" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_nu" role="37wK5m">
-                  <property role="Xl_RC" value=" is an unknown value for the format keyword" />
+                  <property role="Xl_RC" value=" is an unknown value for the format keywordhd" />
                 </node>
               </node>
             </node>
@@ -12316,7 +12319,7 @@
               <node concept="liA8E" id="1OpGjkrT_m7" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_m8" role="37wK5m">
-                  <property role="Xl_RC" value="dupsort" />
+                  <property role="Xl_RC" value="dupsortd" />
                 </node>
               </node>
             </node>
@@ -12367,7 +12370,7 @@
               <node concept="liA8E" id="1OpGjkrT_o6" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_o7" role="37wK5m">
-                  <property role="Xl_RC" value="true" />
+                  <property role="Xl_RC" value="truej" />
                 </node>
               </node>
             </node>
@@ -12454,7 +12457,7 @@
               <node concept="liA8E" id="1OpGjkrT_ox" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_oy" role="37wK5m">
-                  <property role="Xl_RC" value="false" />
+                  <property role="Xl_RC" value="falseh" />
                 </node>
               </node>
             </node>
@@ -12490,7 +12493,7 @@
               <node concept="liA8E" id="1OpGjkrT_oX" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_oY" role="37wK5m">
-                  <property role="Xl_RC" value="0" />
+                  <property role="Xl_RC" value="0n" />
                 </node>
               </node>
             </node>
@@ -12598,7 +12601,7 @@
               <node concept="liA8E" id="1OpGjkrT_pz" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_p_" role="37wK5m">
-                  <property role="Xl_RC" value=" is an unknown value for the dupsort keyword" />
+                  <property role="Xl_RC" value=" is an unknown value for the dupsort keywordva" />
                 </node>
               </node>
             </node>
@@ -12649,7 +12652,7 @@
               <node concept="liA8E" id="1OpGjkrT_nM" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_nN" role="37wK5m">
-                  <property role="Xl_RC" value="type" />
+                  <property role="Xl_RC" value="typem" />
                 </node>
               </node>
             </node>
@@ -12700,7 +12703,7 @@
               <node concept="liA8E" id="1OpGjkrT_qd" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_qe" role="37wK5m">
-                  <property role="Xl_RC" value="btree" />
+                  <property role="Xl_RC" value="btreeb" />
                 </node>
               </node>
             </node>
@@ -12784,7 +12787,7 @@
               <node concept="liA8E" id="1OpGjkrT_qL" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_qN" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a supported database type." />
+                  <property role="Xl_RC" value=" is not a supported database type.d" />
                 </node>
               </node>
             </node>
@@ -12973,7 +12976,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_rT" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_rU" role="37wK5m">
-                <property role="Xl_RC" value="'" />
+                <property role="Xl_RC" value="'r" />
               </node>
             </node>
           </node>
@@ -13005,7 +13008,7 @@
               <node concept="liA8E" id="1OpGjkrT_s6" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_s8" role="37wK5m">
-                  <property role="Xl_RC" value="' is not understood." />
+                  <property role="Xl_RC" value="' is not understood.f" />
                 </node>
               </node>
             </node>
@@ -13218,7 +13221,7 @@
               <node concept="liA8E" id="1OpGjkrT_tn" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT_to" role="37wK5m">
-                  <property role="Xl_RC" value="HEADER=END" />
+                  <property role="Xl_RC" value="HEADER=ENDeq" />
                 </node>
               </node>
             </node>
@@ -13745,7 +13748,7 @@
         <node concept="3clFbF" id="1OpGjkrT_wJ" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrT_wK" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrT_wH" role="37vLTx">
-              <property role="Xl_RC" value="" />
+              <property role="Xl_RC" value="h" />
             </node>
             <node concept="37vLTw" id="1OpGjkrT_wI" role="37vLTJ">
               <ref role="3cqZAo" node="1OpGjkrT_vW" resolve="r33" />
@@ -13874,7 +13877,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_xK" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_xL" role="37wK5m">
-                <property role="Xl_RC" value="No data to match key " />
+                <property role="Xl_RC" value="No data to match key c" />
               </node>
             </node>
           </node>
@@ -14266,7 +14269,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_$n" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_$o" role="37wK5m">
-                <property role="Xl_RC" value="Key exists: " />
+                <property role="Xl_RC" value="Key exists: a" />
               </node>
             </node>
           </node>
@@ -14535,7 +14538,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_A4" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT_A5" role="37wK5m">
-                <property role="Xl_RC" value="loaded " />
+                <property role="Xl_RC" value="loaded a" />
               </node>
             </node>
           </node>
@@ -14618,7 +14621,7 @@
               <node concept="liA8E" id="1OpGjkrT_AD" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT_AF" role="37wK5m">
-                  <property role="Xl_RC" value=" ms - % completed: " />
+                  <property role="Xl_RC" value=" ms - % completed: qx" />
                 </node>
               </node>
             </node>
@@ -15986,7 +15989,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_JH" role="2OqNvi">
               <ref role="37wK5l" to="nlce:1OpGjkrRMy4" resolve="DatabaseException" />
               <node concept="Xl_RD" id="1OpGjkrT_JI" role="37wK5m">
-                <property role="Xl_RC" value="Corrupted file" />
+                <property role="Xl_RC" value="Corrupted fileh" />
               </node>
             </node>
           </node>
@@ -16019,7 +16022,7 @@
             <node concept="2LgOp9" id="1OpGjkrT_JO" role="2OqNvi">
               <ref role="37wK5l" to="nlce:1OpGjkrRMy4" resolve="DatabaseException" />
               <node concept="Xl_RD" id="1OpGjkrT_JP" role="37wK5m">
-                <property role="Xl_RC" value="Corrupted file" />
+                <property role="Xl_RC" value="Corrupted filenyl" />
               </node>
             </node>
           </node>
@@ -16395,7 +16398,7 @@
               <node concept="liA8E" id="1OpGjkrSUgE" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUgG" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;" />
+                  <property role="Xl_RC" value="&#10;d" />
                 </node>
               </node>
             </node>
@@ -16413,7 +16416,7 @@
               <node concept="liA8E" id="1OpGjkrSUgM" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUgO" role="37wK5m">
-                  <property role="Xl_RC" value="       -h &lt;dir&gt; # environment home directory&#10;" />
+                  <property role="Xl_RC" value="       -h &lt;dir&gt; # environment home directory&#10;cep" />
                 </node>
               </node>
             </node>
@@ -16431,7 +16434,7 @@
               <node concept="liA8E" id="1OpGjkrSUgU" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUgW" role="37wK5m">
-                  <property role="Xl_RC" value="       [-q]     # quiet, print grand totals only&#10;" />
+                  <property role="Xl_RC" value="       [-q]     # quiet, print grand totals only&#10;u" />
                 </node>
               </node>
             </node>
@@ -16449,7 +16452,7 @@
               <node concept="liA8E" id="1OpGjkrSUh2" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUh4" role="37wK5m">
-                  <property role="Xl_RC" value="       [-u]     # sort by utilization&#10;" />
+                  <property role="Xl_RC" value="       [-u]     # sort by utilization&#10;i" />
                 </node>
               </node>
             </node>
@@ -16467,7 +16470,7 @@
               <node concept="liA8E" id="1OpGjkrSUha" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUhc" role="37wK5m">
-                  <property role="Xl_RC" value="       [-d]     # dump file summary details&#10;" />
+                  <property role="Xl_RC" value="       [-d]     # dump file summary details&#10;n" />
                 </node>
               </node>
             </node>
@@ -16485,7 +16488,7 @@
               <node concept="liA8E" id="1OpGjkrSUhi" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUhk" role="37wK5m">
-                  <property role="Xl_RC" value="       [-V]     # print JE version number" />
+                  <property role="Xl_RC" value="       [-V]     # print JE version numberrg" />
                 </node>
               </node>
             </node>
@@ -17425,6 +17428,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSUmU" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWY$" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRStx" role="jymVt">
       <node concept="3Tm1VV" id="1OpGjkrRSty" role="1B3o_S" />
@@ -17579,6 +17583,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSUnJ" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWVv" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRStF" role="jymVt">
       <node concept="3Tm1VV" id="1OpGjkrRStG" role="1B3o_S" />
@@ -17817,6 +17822,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSUp8" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWXw" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRStP" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -18297,7 +18303,7 @@
               <node concept="liA8E" id="1OpGjkrSUKn" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSUKo" role="37wK5m">
-                  <property role="Xl_RC" value="-u" />
+                  <property role="Xl_RC" value="-ua" />
                 </node>
               </node>
             </node>
@@ -18351,7 +18357,7 @@
               <node concept="liA8E" id="1OpGjkrSUKG" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSUKH" role="37wK5m">
-                  <property role="Xl_RC" value="-d" />
+                  <property role="Xl_RC" value="-dou" />
                 </node>
               </node>
             </node>
@@ -18405,7 +18411,7 @@
               <node concept="liA8E" id="1OpGjkrSUL1" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSUL2" role="37wK5m">
-                  <property role="Xl_RC" value="-V" />
+                  <property role="Xl_RC" value="-Vz" />
                 </node>
               </node>
             </node>
@@ -18488,7 +18494,7 @@
               <node concept="liA8E" id="1OpGjkrSULm" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSULn" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-hp" />
                 </node>
               </node>
             </node>
@@ -18621,7 +18627,7 @@
             <node concept="liA8E" id="1OpGjkrSUM4" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRStP" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSUM5" role="37wK5m">
-                <property role="Xl_RC" value="-h requires an argument" />
+                <property role="Xl_RC" value="-h requires an argumentn" />
               </node>
             </node>
           </node>
@@ -18683,7 +18689,7 @@
             <node concept="liA8E" id="1OpGjkrSUN0" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRStP" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSUN1" role="37wK5m">
-                <property role="Xl_RC" value="-h is a required argument" />
+                <property role="Xl_RC" value="-h is a required argumentf" />
               </node>
             </node>
           </node>
@@ -19464,7 +19470,7 @@
               <node concept="liA8E" id="1OpGjkrSUS0" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSUS2" role="37wK5m">
-                  <property role="Xl_RC" value=": " />
+                  <property role="Xl_RC" value=": et" />
                 </node>
               </node>
             </node>
@@ -19631,7 +19637,7 @@
             <node concept="liA8E" id="1OpGjkrSUSQ" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSUSZ" role="37wK5m">
-                <property role="Xl_RC" value="  File    Size (KB)  % Used&#10;--------  ---------  ------" />
+                <property role="Xl_RC" value="  File    Size (KB)  % Used&#10;--------  ---------  ------g" />
               </node>
             </node>
           </node>
@@ -19862,6 +19868,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrS8cp" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWUp" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRR_6" role="jymVt">
       <node concept="37vLTG" id="1OpGjkrRR_8" role="3clF46">
@@ -20071,6 +20078,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrS8dE" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWVN" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRR_c" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -20644,7 +20652,7 @@
             <node concept="liA8E" id="1OpGjkrS8g_" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String):void" resolve="print" />
               <node concept="Xl_RD" id="1OpGjkrS8$Y" role="37wK5m">
-                <property role="Xl_RC" value=" TOTALS " />
+                <property role="Xl_RC" value=" TOTALS e" />
               </node>
             </node>
           </node>
@@ -21166,7 +21174,7 @@
         <node concept="3clFbF" id="1OpGjkrS8M8" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrS8M9" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrS8M6" role="37vLTx">
-              <property role="Xl_RC" value="  File    Size (KB)  % Used&#10;--------  ---------  ------" />
+              <property role="Xl_RC" value="  File    Size (KB)  % Used&#10;--------  ---------  ------i" />
             </node>
             <node concept="10M0yZ" id="1OpGjkrS8M7" role="37vLTJ">
               <ref role="1PxDUh" node="1OpGjkrRR$Q" resolve="DbSpace$Summary" />
@@ -21215,6 +21223,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrT8$t" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWVU" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRSEF" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -21727,7 +21736,7 @@
             <node concept="liA8E" id="1OpGjkrT8Bf" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT8Bo" role="37wK5m">
-                <property role="Xl_RC" value="&lt;DbPrintLog&gt;" />
+                <property role="Xl_RC" value="&lt;DbPrintLog&gt;lqz" />
               </node>
             </node>
           </node>
@@ -21794,7 +21803,7 @@
             <node concept="liA8E" id="1OpGjkrT8BL" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT8BU" role="37wK5m">
-                <property role="Xl_RC" value="&lt;/DbPrintLog&gt;" />
+                <property role="Xl_RC" value="&lt;/DbPrintLog&gt;bb" />
               </node>
             </node>
           </node>
@@ -22253,7 +22262,7 @@
             <node concept="2LgOp9" id="1OpGjkrT8Ew" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
               <node concept="Xl_RD" id="1OpGjkrT8Ex" role="37wK5m">
-                <property role="Xl_RC" value="." />
+                <property role="Xl_RC" value=".k" />
               </node>
             </node>
           </node>
@@ -22339,7 +22348,7 @@
               <node concept="liA8E" id="1OpGjkrT8EV" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8EW" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-hlx" />
                 </node>
               </node>
             </node>
@@ -22490,7 +22499,7 @@
               <node concept="liA8E" id="1OpGjkrT8F2" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8F3" role="37wK5m">
-                  <property role="Xl_RC" value="-ty" />
+                  <property role="Xl_RC" value="-tyrs" />
                 </node>
               </node>
             </node>
@@ -22591,7 +22600,7 @@
               <node concept="liA8E" id="1OpGjkrT8FN" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8FO" role="37wK5m">
-                  <property role="Xl_RC" value="-tx" />
+                  <property role="Xl_RC" value="-txod" />
                 </node>
               </node>
             </node>
@@ -22980,7 +22989,7 @@
               <node concept="liA8E" id="1OpGjkrT8Hf" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8Hg" role="37wK5m">
-                  <property role="Xl_RC" value="-k" />
+                  <property role="Xl_RC" value="-kv" />
                 </node>
               </node>
             </node>
@@ -23072,7 +23081,7 @@
               <node concept="liA8E" id="1OpGjkrT8If" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                 <node concept="Xl_RD" id="1OpGjkrT8Ig" role="37wK5m">
-                  <property role="Xl_RC" value="text" />
+                  <property role="Xl_RC" value="textcbf" />
                 </node>
               </node>
             </node>
@@ -23143,7 +23152,7 @@
               <node concept="liA8E" id="1OpGjkrT8HP" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8HQ" role="37wK5m">
-                  <property role="Xl_RC" value="-q" />
+                  <property role="Xl_RC" value="-qv" />
                 </node>
               </node>
             </node>
@@ -23408,7 +23417,7 @@
               <node concept="liA8E" id="1OpGjkrT8Jy" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT8J$" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a supported option." />
+                  <property role="Xl_RC" value=" is not a supported option.ht" />
                 </node>
               </node>
             </node>
@@ -23982,7 +23991,7 @@
             <node concept="liA8E" id="1OpGjkrT99u" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT9cZ" role="37wK5m">
-                <property role="Xl_RC" value=" -h  &lt;envHomeDir&gt;" />
+                <property role="Xl_RC" value=" -h  &lt;envHomeDir&gt;k" />
               </node>
             </node>
           </node>
@@ -24078,7 +24087,7 @@
             <node concept="liA8E" id="1OpGjkrT9dU" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT9e3" role="37wK5m">
-                <property role="Xl_RC" value=" -tx &lt;targetted txn ids, comma separated&gt;" />
+                <property role="Xl_RC" value=" -tx &lt;targetted txn ids, comma separated&gt;dq" />
               </node>
             </node>
           </node>
@@ -24102,7 +24111,7 @@
             <node concept="liA8E" id="1OpGjkrT9eb" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT9ek" role="37wK5m">
-                <property role="Xl_RC" value=" -ty &lt;targetted entry types, comma separated&gt;" />
+                <property role="Xl_RC" value=" -ty &lt;targetted entry types, comma separated&gt;kgz" />
               </node>
             </node>
           </node>
@@ -24174,7 +24183,7 @@
             <node concept="liA8E" id="1OpGjkrT9eY" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT9f7" role="37wK5m">
-                <property role="Xl_RC" value="     Default is verbose version.)" />
+                <property role="Xl_RC" value="     Default is verbose version.)s" />
               </node>
             </node>
           </node>
@@ -24198,7 +24207,7 @@
             <node concept="liA8E" id="1OpGjkrT9ff" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT9fo" role="37wK5m">
-                <property role="Xl_RC" value="All arguments are optional" />
+                <property role="Xl_RC" value="All arguments are optionalqj" />
               </node>
             </node>
           </node>
@@ -24272,7 +24281,7 @@
         <node concept="3clFbF" id="1OpGjkrSIPA" role="3cqZAp">
           <node concept="37vLTI" id="1OpGjkrSIPB" role="3clFbG">
             <node concept="Xl_RD" id="1OpGjkrSIP$" role="37vLTx">
-              <property role="Xl_RC" value="    Cache Size      Btree Size  Description&#10;--------------  --------------  -----------" />
+              <property role="Xl_RC" value="    Cache Size      Btree Size  Description&#10;--------------  --------------  -----------bdt" />
             </node>
             <node concept="10M0yZ" id="1OpGjkrSIP_" role="37vLTJ">
               <ref role="1PxDUh" node="1OpGjkrRSe_" resolve="DbCacheSize" />
@@ -24336,6 +24345,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSIPX" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWWY" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="1OpGjkrRSeS" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -25442,7 +25452,7 @@
               <node concept="liA8E" id="1OpGjkrSIVq" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSIVr" role="37wK5m">
-                  <property role="Xl_RC" value="-records" />
+                  <property role="Xl_RC" value="-recordsn" />
                 </node>
               </node>
             </node>
@@ -25634,7 +25644,7 @@
               <node concept="liA8E" id="1OpGjkrSIX8" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSIXa" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a number" />
+                  <property role="Xl_RC" value=" is not a numberj" />
                 </node>
               </node>
             </node>
@@ -25865,7 +25875,7 @@
               <node concept="liA8E" id="1OpGjkrSIWd" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSIWe" role="37wK5m">
-                  <property role="Xl_RC" value="-key" />
+                  <property role="Xl_RC" value="-keyeos" />
                 </node>
               </node>
             </node>
@@ -25928,7 +25938,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSIY_" role="37wK5m">
-              <property role="Xl_RC" value="No value after -key" />
+              <property role="Xl_RC" value="No value after -keyw" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJfz" role="lGtFl">
@@ -26057,7 +26067,7 @@
               <node concept="liA8E" id="1OpGjkrSIZ5" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSIZ7" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a number" />
+                  <property role="Xl_RC" value=" is not a numberh" />
                 </node>
               </node>
             </node>
@@ -26267,7 +26277,7 @@
               <node concept="liA8E" id="1OpGjkrSIYa" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSIYb" role="37wK5m">
-                  <property role="Xl_RC" value="-data" />
+                  <property role="Xl_RC" value="-dataz" />
                 </node>
               </node>
             </node>
@@ -26330,7 +26340,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSJ0l" role="37wK5m">
-              <property role="Xl_RC" value="No value after -data" />
+              <property role="Xl_RC" value="No value after -datat" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJgc" role="lGtFl">
@@ -26459,7 +26469,7 @@
               <node concept="liA8E" id="1OpGjkrSJ0P" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJ0R" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a number" />
+                  <property role="Xl_RC" value=" is not a numbery" />
                 </node>
               </node>
             </node>
@@ -26861,7 +26871,7 @@
               <node concept="liA8E" id="1OpGjkrSJ2_" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJ2B" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a number" />
+                  <property role="Xl_RC" value=" is not a numbern" />
                 </node>
               </node>
             </node>
@@ -27071,7 +27081,7 @@
               <node concept="liA8E" id="1OpGjkrSJ1E" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSJ1F" role="37wK5m">
-                  <property role="Xl_RC" value="-density" />
+                  <property role="Xl_RC" value="-densityz" />
                 </node>
               </node>
             </node>
@@ -27134,7 +27144,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSJ3P" role="37wK5m">
-              <property role="Xl_RC" value="No value after -density" />
+              <property role="Xl_RC" value="No value after -densitytbp" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJhu" role="lGtFl">
@@ -27263,7 +27273,7 @@
               <node concept="liA8E" id="1OpGjkrSJ4r" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJ4t" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a number" />
+                  <property role="Xl_RC" value=" is not a numberg" />
                 </node>
               </node>
             </node>
@@ -27428,7 +27438,7 @@
               <node concept="liA8E" id="1OpGjkrSJ4Z" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJ51" role="37wK5m">
-                  <property role="Xl_RC" value=" is not betwen 1 and 100" />
+                  <property role="Xl_RC" value=" is not betwen 1 and 100r" />
                 </node>
               </node>
             </node>
@@ -27497,7 +27507,7 @@
               <node concept="liA8E" id="1OpGjkrSJ3q" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSJ3r" role="37wK5m">
-                  <property role="Xl_RC" value="-overhead" />
+                  <property role="Xl_RC" value="-overheadw" />
                 </node>
               </node>
             </node>
@@ -27560,7 +27570,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSJ5G" role="37wK5m">
-              <property role="Xl_RC" value="No value after -overhead" />
+              <property role="Xl_RC" value="No value after -overheade" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJi9" role="lGtFl">
@@ -27689,7 +27699,7 @@
               <node concept="liA8E" id="1OpGjkrSJ6c" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJ6e" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a number" />
+                  <property role="Xl_RC" value=" is not a numbern" />
                 </node>
               </node>
             </node>
@@ -27851,7 +27861,7 @@
               <node concept="liA8E" id="1OpGjkrSJad" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJaY" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a non-negative integer" />
+                  <property role="Xl_RC" value=" is not a non-negative integers" />
                 </node>
               </node>
             </node>
@@ -27920,7 +27930,7 @@
               <node concept="liA8E" id="1OpGjkrSJ5h" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSJ5i" role="37wK5m">
-                  <property role="Xl_RC" value="-measure" />
+                  <property role="Xl_RC" value="-measurewe" />
                 </node>
               </node>
             </node>
@@ -27983,7 +27993,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSJbD" role="37wK5m">
-              <property role="Xl_RC" value="No value after -measure" />
+              <property role="Xl_RC" value="No value after -measurexo" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJiO" role="lGtFl">
@@ -28067,7 +28077,7 @@
               <node concept="liA8E" id="1OpGjkrSJbe" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSJbf" role="37wK5m">
-                  <property role="Xl_RC" value="-measurerandom" />
+                  <property role="Xl_RC" value="-measurerandomc" />
                 </node>
               </node>
             </node>
@@ -28160,7 +28170,7 @@
             <node concept="2LgOp9" id="1OpGjkrSJc9" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSJca" role="37wK5m">
-                <property role="Xl_RC" value="Unknown arg: " />
+                <property role="Xl_RC" value="Unknown arg: ua" />
               </node>
             </node>
           </node>
@@ -28345,7 +28355,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSJcZ" role="37wK5m">
-              <property role="Xl_RC" value="-records not specified" />
+              <property role="Xl_RC" value="-records not specifiedee" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJjq" role="lGtFl">
@@ -28384,7 +28394,7 @@
             <ref role="1Pybhc" node="1OpGjkrRSe_" resolve="DbCacheSize" />
             <ref role="37wK5l" node="1OpGjkrRSeY" resolve="usage" />
             <node concept="Xl_RD" id="1OpGjkrSJd2" role="37wK5m">
-              <property role="Xl_RC" value="-key not specified" />
+              <property role="Xl_RC" value="-key not specifiedk" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSJju" role="lGtFl">
@@ -28883,7 +28893,7 @@
             <node concept="2LgOp9" id="1OpGjkrSJDN" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSJDO" role="37wK5m">
-                <property role="Xl_RC" value="usage:&#10;java " />
+                <property role="Xl_RC" value="usage:&#10;java vp" />
               </node>
             </node>
           </node>
@@ -28929,7 +28939,7 @@
               <node concept="liA8E" id="1OpGjkrSJE6" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJE8" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;   -records &lt;count&gt;" />
+                  <property role="Xl_RC" value="&#10;   -records &lt;count&gt;tw" />
                 </node>
               </node>
             </node>
@@ -28947,7 +28957,7 @@
               <node concept="liA8E" id="1OpGjkrSJEe" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJEg" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # Total records (key/data pairs); required" />
+                  <property role="Xl_RC" value="&#10;      # Total records (key/data pairs); requiredy" />
                 </node>
               </node>
             </node>
@@ -29001,7 +29011,7 @@
               <node concept="liA8E" id="1OpGjkrSJEA" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJEC" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;  [-data &lt;bytes&gt;]" />
+                  <property role="Xl_RC" value="&#10;  [-data &lt;bytes&gt;]n" />
                 </node>
               </node>
             </node>
@@ -29019,7 +29029,7 @@
               <node concept="liA8E" id="1OpGjkrSJEI" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJEK" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # Average data bytes per record; if omitted no leaf" />
+                  <property role="Xl_RC" value="&#10;      # Average data bytes per record; if omitted no leaflo" />
                 </node>
               </node>
             </node>
@@ -29037,7 +29047,7 @@
               <node concept="liA8E" id="1OpGjkrSJEQ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJES" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # node sizes are included in the output" />
+                  <property role="Xl_RC" value="&#10;      # node sizes are included in the outputp" />
                 </node>
               </node>
             </node>
@@ -29055,7 +29065,7 @@
               <node concept="liA8E" id="1OpGjkrSJEY" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJF0" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;  [-nodemax &lt;entries&gt;]" />
+                  <property role="Xl_RC" value="&#10;  [-nodemax &lt;entries&gt;]uy" />
                 </node>
               </node>
             </node>
@@ -29073,7 +29083,7 @@
               <node concept="liA8E" id="1OpGjkrSJF6" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJF8" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # Number of entries per Btree node; default: 128" />
+                  <property role="Xl_RC" value="&#10;      # Number of entries per Btree node; default: 128hy" />
                 </node>
               </node>
             </node>
@@ -29091,7 +29101,7 @@
               <node concept="liA8E" id="1OpGjkrSJFe" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJFg" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;  [-density &lt;percentage&gt;]" />
+                  <property role="Xl_RC" value="&#10;  [-density &lt;percentage&gt;]ux" />
                 </node>
               </node>
             </node>
@@ -29109,7 +29119,7 @@
               <node concept="liA8E" id="1OpGjkrSJFm" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJFo" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # Percentage of node entries occupied; default: 80" />
+                  <property role="Xl_RC" value="&#10;      # Percentage of node entries occupied; default: 80gmn" />
                 </node>
               </node>
             </node>
@@ -29127,7 +29137,7 @@
               <node concept="liA8E" id="1OpGjkrSJFu" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJFw" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;  [-overhead &lt;bytes&gt;]" />
+                  <property role="Xl_RC" value="&#10;  [-overhead &lt;bytes&gt;]v" />
                 </node>
               </node>
             </node>
@@ -29145,7 +29155,7 @@
               <node concept="liA8E" id="1OpGjkrSJFA" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJFC" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # Overhead of non-Btree objects (log buffers, locks," />
+                  <property role="Xl_RC" value="&#10;      # Overhead of non-Btree objects (log buffers, locks,umv" />
                 </node>
               </node>
             </node>
@@ -29163,7 +29173,7 @@
               <node concept="liA8E" id="1OpGjkrSJFI" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJFK" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # etc); default: 10% of total cache size" />
+                  <property role="Xl_RC" value="&#10;      # etc); default: 10% of total cache sizey" />
                 </node>
               </node>
             </node>
@@ -29181,7 +29191,7 @@
               <node concept="liA8E" id="1OpGjkrSJFQ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJFS" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;  [-measure &lt;environmentHomeDirectory&gt;]" />
+                  <property role="Xl_RC" value="&#10;  [-measure &lt;environmentHomeDirectory&gt;]qw" />
                 </node>
               </node>
             </node>
@@ -29199,7 +29209,7 @@
               <node concept="liA8E" id="1OpGjkrSJFY" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJG0" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # An empty directory used to write a database to find" />
+                  <property role="Xl_RC" value="&#10;      # An empty directory used to write a database to findssa" />
                 </node>
               </node>
             </node>
@@ -29217,7 +29227,7 @@
               <node concept="liA8E" id="1OpGjkrSJG6" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJG8" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # the actual cache size; default: do not measure" />
+                  <property role="Xl_RC" value="&#10;      # the actual cache size; default: do not measurei" />
                 </node>
               </node>
             </node>
@@ -29235,7 +29245,7 @@
               <node concept="liA8E" id="1OpGjkrSJGe" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJGg" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;  [-measurerandom" />
+                  <property role="Xl_RC" value="&#10;  [-measurerandomw" />
                 </node>
               </node>
             </node>
@@ -29253,7 +29263,7 @@
               <node concept="liA8E" id="1OpGjkrSJGm" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJGo" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # With -measure insert randomly generated keys;" />
+                  <property role="Xl_RC" value="&#10;      # With -measure insert randomly generated keys;x" />
                 </node>
               </node>
             </node>
@@ -29271,7 +29281,7 @@
               <node concept="liA8E" id="1OpGjkrSJGu" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJGw" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;      # default: insert sequential keys" />
+                  <property role="Xl_RC" value="&#10;      # default: insert sequential keysi" />
                 </node>
               </node>
             </node>
@@ -29881,7 +29891,7 @@
               <node concept="liA8E" id="1OpGjkrSJKs" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJKu" role="37wK5m">
-                  <property role="Xl_RC" value=" keySize=" />
+                  <property role="Xl_RC" value=" keySize=a" />
                 </node>
               </node>
             </node>
@@ -30138,7 +30148,7 @@
               <node concept="liA8E" id="1OpGjkrSJMf" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSJMh" role="37wK5m">
-                  <property role="Xl_RC" value="%" />
+                  <property role="Xl_RC" value="%h" />
                 </node>
               </node>
             </node>
@@ -30649,7 +30659,7 @@
             <node concept="liA8E" id="1OpGjkrSJPB" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSJPK" role="37wK5m">
-                <property role="Xl_RC" value="    Cache Size      Btree Size  Description&#10;--------------  --------------  -----------" />
+                <property role="Xl_RC" value="    Cache Size      Btree Size  Description&#10;--------------  --------------  -----------abe" />
               </node>
             </node>
           </node>
@@ -30666,7 +30676,7 @@
                 <ref role="3cqZAo" node="1OpGjkrSJHh" resolve="l5" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrSJPR" role="37wK5m">
-                <property role="Xl_RC" value="Minimum, internal nodes only" />
+                <property role="Xl_RC" value="Minimum, internal nodes onlyn" />
               </node>
             </node>
             <node concept="37vLTw" id="1OpGjkrSJPS" role="37vLTJ">
@@ -30762,7 +30772,7 @@
                 <ref role="3cqZAo" node="1OpGjkrSJHh" resolve="l5" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrSJQT" role="37wK5m">
-                <property role="Xl_RC" value="Minimum, internal nodes and leaf nodes" />
+                <property role="Xl_RC" value="Minimum, internal nodes and leaf nodesza" />
               </node>
             </node>
             <node concept="37vLTw" id="1OpGjkrSJQU" role="37vLTJ">
@@ -30810,7 +30820,7 @@
                 <ref role="3cqZAo" node="1OpGjkrSJHh" resolve="l5" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrSJRj" role="37wK5m">
-                <property role="Xl_RC" value="Maximum, internal nodes and leaf nodes" />
+                <property role="Xl_RC" value="Maximum, internal nodes and leaf nodesy" />
               </node>
             </node>
             <node concept="37vLTw" id="1OpGjkrSJRk" role="37vLTJ">
@@ -30842,7 +30852,7 @@
             <node concept="liA8E" id="1OpGjkrSJQs" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSJQ_" role="37wK5m">
-                <property role="Xl_RC" value="&#10;To get leaf node sizing specify -data" />
+                <property role="Xl_RC" value="&#10;To get leaf node sizing specify -dataqu" />
               </node>
             </node>
           </node>
@@ -30873,7 +30883,7 @@
             <node concept="2LgOp9" id="1OpGjkrSJRH" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSJRI" role="37wK5m">
-                <property role="Xl_RC" value="&#10;Btree levels: " />
+                <property role="Xl_RC" value="&#10;Btree levels: m" />
               </node>
             </node>
           </node>
@@ -32706,7 +32716,7 @@
             <node concept="2LgOp9" id="1OpGjkrSK2Q" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSK2R" role="37wK5m">
-                <property role="Xl_RC" value="Directory is not empty: " />
+                <property role="Xl_RC" value="Directory is not empty: q" />
               </node>
             </node>
           </node>
@@ -32819,7 +32829,7 @@
             <node concept="2LgOp9" id="1OpGjkrSK3q" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSK3r" role="37wK5m">
-                <property role="Xl_RC" value="&#10;Measuring with cache size: " />
+                <property role="Xl_RC" value="&#10;Measuring with cache size: ck" />
               </node>
             </node>
           </node>
@@ -33021,7 +33031,7 @@
               <ref role="3cqZAo" node="1OpGjkrSK0Z" resolve="r16" />
             </node>
             <node concept="Xl_RD" id="1OpGjkrSK4u" role="37wK5m">
-              <property role="Xl_RC" value="Stats for internal and leaf nodes (after insert)" />
+              <property role="Xl_RC" value="Stats for internal and leaf nodes (after insert)p" />
             </node>
           </node>
           <node concept="186w3j" id="1OpGjkrSK8h" role="lGtFl">
@@ -33138,7 +33148,7 @@
             <node concept="2LgOp9" id="1OpGjkrSK4W" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSK4X" role="37wK5m">
-                <property role="Xl_RC" value="&#10;Preloading with cache size: " />
+                <property role="Xl_RC" value="&#10;Preloading with cache size: pnk" />
               </node>
             </node>
           </node>
@@ -33441,7 +33451,7 @@
             <node concept="2LgOp9" id="1OpGjkrSK6A" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSK6B" role="37wK5m">
-                <property role="Xl_RC" value="During close: " />
+                <property role="Xl_RC" value="During close: w" />
               </node>
             </node>
           </node>
@@ -33579,7 +33589,7 @@
             <node concept="2LgOp9" id="1OpGjkrSK7s" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSK7t" role="37wK5m">
-                <property role="Xl_RC" value="During close: " />
+                <property role="Xl_RC" value="During close: qi" />
               </node>
             </node>
           </node>
@@ -33985,7 +33995,7 @@
                 <ref role="37wK5l" to="nlce:1OpGjkrROEn" resolve="openDatabase" />
                 <node concept="10Nm6u" id="1OpGjkrSKaK" role="37wK5m" />
                 <node concept="Xl_RD" id="1OpGjkrSKaL" role="37wK5m">
-                  <property role="Xl_RC" value="foo" />
+                  <property role="Xl_RC" value="foox" />
                 </node>
                 <node concept="37vLTw" id="1OpGjkrSKaM" role="37wK5m">
                   <ref role="3cqZAo" node="1OpGjkrSKa4" resolve="r1" />
@@ -34946,7 +34956,7 @@
               <node concept="liA8E" id="1OpGjkrSKko" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSKl9" role="37wK5m">
-                  <property role="Xl_RC" value=" byte length=" />
+                  <property role="Xl_RC" value=" byte length=m" />
                 </node>
               </node>
             </node>
@@ -35120,7 +35130,7 @@
             <node concept="liA8E" id="1OpGjkrSKEu" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSKEB" role="37wK5m">
-                <property role="Xl_RC" value="Random key already exists -- retrying" />
+                <property role="Xl_RC" value="Random key already exists -- retryingax" />
               </node>
             </node>
           </node>
@@ -35343,7 +35353,7 @@
             <node concept="2LgOp9" id="1OpGjkrSKGs" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSKGt" role="37wK5m">
-                <property role="Xl_RC" value="*** Ran out of cache memory at record " />
+                <property role="Xl_RC" value="*** Ran out of cache memory at record fmeb" />
               </node>
             </node>
           </node>
@@ -35375,7 +35385,7 @@
               <node concept="liA8E" id="1OpGjkrSKGD" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSKGF" role="37wK5m">
-                  <property role="Xl_RC" value=" -- try increasing the Java heap size ***" />
+                  <property role="Xl_RC" value=" -- try increasing the Java heap size ***iqsdyg" />
                 </node>
               </node>
             </node>
@@ -35421,7 +35431,7 @@
             <node concept="liA8E" id="1OpGjkrSKG1" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String):void" resolve="print" />
               <node concept="Xl_RD" id="1OpGjkrSKGa" role="37wK5m">
-                <property role="Xl_RC" value="." />
+                <property role="Xl_RC" value=".f" />
               </node>
             </node>
           </node>
@@ -36153,7 +36163,7 @@
               <node concept="liA8E" id="1OpGjkrSKLg" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSKLi" role="37wK5m">
-                  <property role="Xl_RC" value=" BtreeSize=" />
+                  <property role="Xl_RC" value=" BtreeSize=yy" />
                 </node>
               </node>
             </node>
@@ -36305,7 +36315,7 @@
             <node concept="liA8E" id="1OpGjkrSKMp" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSKMy" role="37wK5m">
-                <property role="Xl_RC" value="*** All records did not fit in the cache ***" />
+                <property role="Xl_RC" value="*** All records did not fit in the cache ***sb" />
               </node>
             </node>
           </node>
@@ -36809,7 +36819,7 @@
             <node concept="2LgOp9" id="1OpGjkrSLzb" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSLzc" role="37wK5m">
-                <property role="Xl_RC" value="usage: " />
+                <property role="Xl_RC" value="usage: l" />
               </node>
             </node>
           </node>
@@ -36929,6 +36939,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSL$0" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWYj" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRSk7" role="jymVt">
       <node concept="3Tm1VV" id="1OpGjkrRSk8" role="1B3o_S" />
@@ -37132,7 +37143,7 @@
               <node concept="liA8E" id="1OpGjkrSL_a" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSL_c" role="37wK5m">
-                  <property role="Xl_RC" value="&#10;" />
+                  <property role="Xl_RC" value="&#10;u" />
                 </node>
               </node>
             </node>
@@ -37150,7 +37161,7 @@
               <node concept="liA8E" id="1OpGjkrSL_i" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSL_k" role="37wK5m">
-                  <property role="Xl_RC" value="               [-V] -s database -h dbEnvHome [-v progressInterval]&#10;" />
+                  <property role="Xl_RC" value="               [-V] -s database -h dbEnvHome [-v progressInterval]&#10;i" />
                 </node>
               </node>
             </node>
@@ -37206,6 +37217,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSL_G" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWUG" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRSkd" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -37710,7 +37722,7 @@
               <node concept="liA8E" id="1OpGjkrSLCE" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSLCF" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-had" />
                 </node>
               </node>
             </node>
@@ -37843,7 +37855,7 @@
             <node concept="liA8E" id="1OpGjkrSLDw" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSkd" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSLDx" role="37wK5m">
-                <property role="Xl_RC" value="-h requires an argument" />
+                <property role="Xl_RC" value="-h requires an argumentt" />
               </node>
             </node>
           </node>
@@ -37863,7 +37875,7 @@
               <node concept="liA8E" id="1OpGjkrSLDi" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSLDj" role="37wK5m">
-                  <property role="Xl_RC" value="-s" />
+                  <property role="Xl_RC" value="-stm" />
                 </node>
               </node>
             </node>
@@ -37991,7 +38003,7 @@
               <node concept="liA8E" id="1OpGjkrSLEf" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSLEg" role="37wK5m">
-                  <property role="Xl_RC" value="-v" />
+                  <property role="Xl_RC" value="-vbx" />
                 </node>
               </node>
             </node>
@@ -38156,7 +38168,7 @@
             <node concept="liA8E" id="1OpGjkrSLF7" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSkd" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSLF8" role="37wK5m">
-                <property role="Xl_RC" value="-v requires an argument" />
+                <property role="Xl_RC" value="-v requires an argumentk" />
               </node>
             </node>
           </node>
@@ -38218,7 +38230,7 @@
             <node concept="liA8E" id="1OpGjkrSLGj" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSkd" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSLGk" role="37wK5m">
-                <property role="Xl_RC" value="-h is a required argument" />
+                <property role="Xl_RC" value="-h is a required argumenth" />
               </node>
             </node>
           </node>
@@ -38262,7 +38274,7 @@
             <node concept="liA8E" id="1OpGjkrSLGw" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSkd" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrSLGx" role="37wK5m">
-                <property role="Xl_RC" value="-s is a required argument" />
+                <property role="Xl_RC" value="-s is a required argumentdig" />
               </node>
             </node>
           </node>
@@ -38703,7 +38715,7 @@
               <node concept="liA8E" id="1OpGjkrSLIM" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSLIO" role="37wK5m">
-                  <property role="Xl_RC" value=" starting" />
+                  <property role="Xl_RC" value=" startingq" />
                 </node>
               </node>
             </node>
@@ -39233,7 +39245,7 @@
             <node concept="2LgOp9" id="1OpGjkrSLLe" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSLLf" role="37wK5m">
-                <property role="Xl_RC" value="DbStat.stats of " />
+                <property role="Xl_RC" value="DbStat.stats of h" />
               </node>
             </node>
           </node>
@@ -39298,7 +39310,7 @@
               <node concept="liA8E" id="1OpGjkrSLLx" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrSLLz" role="37wK5m">
-                  <property role="Xl_RC" value=" ending" />
+                  <property role="Xl_RC" value=" endinggyi" />
                 </node>
               </node>
             </node>
@@ -39452,6 +39464,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrRUIx" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWW5" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="1OpGjkrRRd3" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -40874,7 +40887,7 @@
               <node concept="liA8E" id="1OpGjkrRUQ1" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrRUQ2" role="37wK5m">
-                  <property role="Xl_RC" value="-a" />
+                  <property role="Xl_RC" value="-am" />
                 </node>
               </node>
             </node>
@@ -41068,7 +41081,7 @@
               <node concept="liA8E" id="1OpGjkrRUR4" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                 <node concept="Xl_RD" id="1OpGjkrRUR5" role="37wK5m">
-                  <property role="Xl_RC" value="compress" />
+                  <property role="Xl_RC" value="compressj" />
                 </node>
               </node>
             </node>
@@ -41157,7 +41170,7 @@
               <node concept="liA8E" id="1OpGjkrRURn" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                 <node concept="Xl_RD" id="1OpGjkrRURo" role="37wK5m">
-                  <property role="Xl_RC" value="checkpoint" />
+                  <property role="Xl_RC" value="checkpointmb" />
                 </node>
               </node>
             </node>
@@ -41246,7 +41259,7 @@
               <node concept="liA8E" id="1OpGjkrRURE" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                 <node concept="Xl_RD" id="1OpGjkrRURF" role="37wK5m">
-                  <property role="Xl_RC" value="evict" />
+                  <property role="Xl_RC" value="evicty" />
                 </node>
               </node>
             </node>
@@ -41424,7 +41437,7 @@
               <node concept="liA8E" id="1OpGjkrRUSg" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                 <node concept="Xl_RD" id="1OpGjkrRUSh" role="37wK5m">
-                  <property role="Xl_RC" value="dbstats" />
+                  <property role="Xl_RC" value="dbstatsaqr" />
                 </node>
               </node>
             </node>
@@ -41653,7 +41666,7 @@
               <node concept="liA8E" id="1OpGjkrRUSP" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrRUSQ" role="37wK5m">
-                  <property role="Xl_RC" value="-s" />
+                  <property role="Xl_RC" value="-sg" />
                 </node>
               </node>
             </node>
@@ -41866,7 +41879,7 @@
               <node concept="liA8E" id="1OpGjkrRUTN" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRUTP" role="37wK5m">
-                  <property role="Xl_RC" value=" is not a supported option." />
+                  <property role="Xl_RC" value=" is not a supported option.lk" />
                 </node>
               </node>
             </node>
@@ -42146,7 +42159,7 @@
                 <ref role="3cqZAo" node="1OpGjkrRUJE" resolve="$r12" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrRUUD" role="37wK5m">
-                <property role="Xl_RC" value="true" />
+                <property role="Xl_RC" value="truebw" />
               </node>
             </node>
           </node>
@@ -42243,7 +42256,7 @@
                 <ref role="3cqZAo" node="1OpGjkrRULg" resolve="$r44" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrRUVb" role="37wK5m">
-                <property role="Xl_RC" value="false" />
+                <property role="Xl_RC" value="falseez" />
               </node>
             </node>
           </node>
@@ -42366,7 +42379,7 @@
                 <ref role="3cqZAo" node="1OpGjkrRUL4" resolve="$r40" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrRUVw" role="37wK5m">
-                <property role="Xl_RC" value="false" />
+                <property role="Xl_RC" value="falsef" />
               </node>
             </node>
           </node>
@@ -42438,7 +42451,7 @@
                 <ref role="3cqZAo" node="1OpGjkrRULa" resolve="$r42" />
               </node>
               <node concept="Xl_RD" id="1OpGjkrRUVK" role="37wK5m">
-                <property role="Xl_RC" value="1000" />
+                <property role="Xl_RC" value="1000ij" />
               </node>
             </node>
           </node>
@@ -43814,7 +43827,7 @@
             <node concept="2LgOp9" id="1OpGjkrRVP3" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRVP4" role="37wK5m">
-                <property role="Xl_RC" value="&#10;recovery time = " />
+                <property role="Xl_RC" value="&#10;recovery time = ji" />
               </node>
             </node>
           </node>
@@ -43864,7 +43877,7 @@
               <node concept="liA8E" id="1OpGjkrRVQ7" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVQ9" role="37wK5m">
-                  <property role="Xl_RC" value=" millis " />
+                  <property role="Xl_RC" value=" millis u" />
                 </node>
               </node>
             </node>
@@ -43933,7 +43946,7 @@
               <node concept="liA8E" id="1OpGjkrRVQ_" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVQB" role="37wK5m">
-                  <property role="Xl_RC" value=" minutes" />
+                  <property role="Xl_RC" value=" minutesee" />
                 </node>
               </node>
             </node>
@@ -44016,7 +44029,7 @@
             <node concept="2LgOp9" id="1OpGjkrRVRh" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRVRi" role="37wK5m">
-                <property role="Xl_RC" value="action time = " />
+                <property role="Xl_RC" value="action time = m" />
               </node>
             </node>
           </node>
@@ -44135,7 +44148,7 @@
               <node concept="liA8E" id="1OpGjkrRVS4" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVS6" role="37wK5m">
-                  <property role="Xl_RC" value=" minutes" />
+                  <property role="Xl_RC" value=" minuteslps" />
                 </node>
               </node>
             </node>
@@ -44287,7 +44300,7 @@
             <node concept="2LgOp9" id="1OpGjkrRVTd" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRVTe" role="37wK5m">
-                <property role="Xl_RC" value="&#10;recovery time = " />
+                <property role="Xl_RC" value="&#10;recovery time = sy" />
               </node>
             </node>
           </node>
@@ -44337,7 +44350,7 @@
               <node concept="liA8E" id="1OpGjkrRVTy" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVT$" role="37wK5m">
-                  <property role="Xl_RC" value=" millis " />
+                  <property role="Xl_RC" value=" millis eh" />
                 </node>
               </node>
             </node>
@@ -44406,7 +44419,7 @@
               <node concept="liA8E" id="1OpGjkrRVU0" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVU2" role="37wK5m">
-                  <property role="Xl_RC" value=" minutes" />
+                  <property role="Xl_RC" value=" minutesbt" />
                 </node>
               </node>
             </node>
@@ -44489,7 +44502,7 @@
             <node concept="2LgOp9" id="1OpGjkrRVUG" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRVUH" role="37wK5m">
-                <property role="Xl_RC" value="action time = " />
+                <property role="Xl_RC" value="action time = g" />
               </node>
             </node>
           </node>
@@ -44539,7 +44552,7 @@
               <node concept="liA8E" id="1OpGjkrRVV1" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVV3" role="37wK5m">
-                  <property role="Xl_RC" value=" millis " />
+                  <property role="Xl_RC" value=" millis q" />
                 </node>
               </node>
             </node>
@@ -44744,7 +44757,7 @@
             <node concept="2LgOp9" id="1OpGjkrRVWq" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRVWr" role="37wK5m">
-                <property role="Xl_RC" value="&#10;recovery time = " />
+                <property role="Xl_RC" value="&#10;recovery time = ar" />
               </node>
             </node>
           </node>
@@ -44863,7 +44876,7 @@
               <node concept="liA8E" id="1OpGjkrRVXd" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVXf" role="37wK5m">
-                  <property role="Xl_RC" value=" minutes" />
+                  <property role="Xl_RC" value=" minutesb" />
                 </node>
               </node>
             </node>
@@ -44946,7 +44959,7 @@
             <node concept="2LgOp9" id="1OpGjkrRVXT" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRVXU" role="37wK5m">
-                <property role="Xl_RC" value="action time = " />
+                <property role="Xl_RC" value="action time = h" />
               </node>
             </node>
           </node>
@@ -45065,7 +45078,7 @@
               <node concept="liA8E" id="1OpGjkrRVYG" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRVYI" role="37wK5m">
-                  <property role="Xl_RC" value=" minutes" />
+                  <property role="Xl_RC" value=" minutesk" />
                 </node>
               </node>
             </node>
@@ -45725,7 +45738,7 @@
             <node concept="2LgOp9" id="1OpGjkrRW9y" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRW9z" role="37wK5m">
-                <property role="Xl_RC" value="cleanedCount=" />
+                <property role="Xl_RC" value="cleanedCount=qe" />
               </node>
             </node>
           </node>
@@ -45880,7 +45893,7 @@
             <node concept="2LgOp9" id="1OpGjkrRWfB" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrRWfC" role="37wK5m">
-                <property role="Xl_RC" value="Remove of " />
+                <property role="Xl_RC" value="Remove of d" />
               </node>
             </node>
           </node>
@@ -45912,7 +45925,7 @@
               <node concept="liA8E" id="1OpGjkrRWfO" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRWfQ" role="37wK5m">
-                  <property role="Xl_RC" value=" remove: " />
+                  <property role="Xl_RC" value=" remove: iy" />
                 </node>
               </node>
             </node>
@@ -45965,7 +45978,7 @@
               <node concept="liA8E" id="1OpGjkrRWga" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRWgc" role="37wK5m">
-                  <property role="Xl_RC" value=" commit: " />
+                  <property role="Xl_RC" value=" commit: wy" />
                 </node>
               </node>
             </node>
@@ -46018,7 +46031,7 @@
               <node concept="liA8E" id="1OpGjkrRWgw" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRWgy" role="37wK5m">
-                  <property role="Xl_RC" value=" clean: " />
+                  <property role="Xl_RC" value=" clean: jg" />
                 </node>
               </node>
             </node>
@@ -46320,7 +46333,7 @@
               <node concept="liA8E" id="1OpGjkrRWnr" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRWnt" role="37wK5m">
-                  <property role="Xl_RC" value=" secs" />
+                  <property role="Xl_RC" value=" secsf" />
                 </node>
               </node>
             </node>
@@ -46619,7 +46632,7 @@
             <node concept="liA8E" id="1OpGjkrRWp6" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrRWpf" role="37wK5m">
-                <property role="Xl_RC" value="Preload starting" />
+                <property role="Xl_RC" value="Preload startingtk" />
               </node>
             </node>
           </node>
@@ -46935,7 +46948,7 @@
               <node concept="liA8E" id="1OpGjkrRWua" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrRWuV" role="37wK5m">
-                  <property role="Xl_RC" value="..." />
+                  <property role="Xl_RC" value="...snv" />
                 </node>
               </node>
             </node>
@@ -47496,7 +47509,7 @@
             <node concept="liA8E" id="1OpGjkrRWRm" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrRWRv" role="37wK5m">
-                <property role="Xl_RC" value="  -h &lt;environment home&gt; " />
+                <property role="Xl_RC" value="  -h &lt;environment home&gt; ec" />
               </node>
             </node>
           </node>
@@ -47520,7 +47533,7 @@
             <node concept="liA8E" id="1OpGjkrRWRB" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrRWRK" role="37wK5m">
-                <property role="Xl_RC" value="  -a &lt;clean|compress|evict|checkpoint|removedb&gt;" />
+                <property role="Xl_RC" value="  -a &lt;clean|compress|evict|checkpoint|removedb&gt;oxlm" />
               </node>
             </node>
           </node>
@@ -47544,7 +47557,7 @@
             <node concept="liA8E" id="1OpGjkrRWRS" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrRWS1" role="37wK5m">
-                <property role="Xl_RC" value="  -ro (read-only - defaults to read-write)" />
+                <property role="Xl_RC" value="  -ro (read-only - defaults to read-write)kh" />
               </node>
             </node>
           </node>
@@ -47685,6 +47698,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrSPYU" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWYF" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="1OpGjkrRSmE" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -48102,7 +48116,7 @@
               <node concept="liA8E" id="1OpGjkrSQ19" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrSQ1a" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-hg" />
                 </node>
               </node>
             </node>
@@ -49109,7 +49123,7 @@
             <node concept="2LgOp9" id="1OpGjkrSQrF" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrSQrG" role="37wK5m">
-                <property role="Xl_RC" value="Usage: " />
+                <property role="Xl_RC" value="Usage: hb" />
               </node>
             </node>
           </node>
@@ -49193,7 +49207,7 @@
             <node concept="liA8E" id="1OpGjkrSQsl" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSQsu" role="37wK5m">
-                <property role="Xl_RC" value="                 -h &lt;environment home&gt;" />
+                <property role="Xl_RC" value="                 -h &lt;environment home&gt;p" />
               </node>
             </node>
           </node>
@@ -49217,7 +49231,7 @@
             <node concept="liA8E" id="1OpGjkrSQsA" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSQsJ" role="37wK5m">
-                <property role="Xl_RC" value="(optional)" />
+                <property role="Xl_RC" value="(optional)z" />
               </node>
             </node>
           </node>
@@ -49241,7 +49255,7 @@
             <node concept="liA8E" id="1OpGjkrSQsR" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSQt0" role="37wK5m">
-                <property role="Xl_RC" value="                 -f &lt;file number, in hex&gt;" />
+                <property role="Xl_RC" value="                 -f &lt;file number, in hex&gt;wb" />
               </node>
             </node>
           </node>
@@ -49289,7 +49303,7 @@
             <node concept="liA8E" id="1OpGjkrSQtp" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrSQty" role="37wK5m">
-                <property role="Xl_RC" value="Log file is truncated at position starting at and inclusive of the offset. Beware, not  for general purpose use yet!" />
+                <property role="Xl_RC" value="Log file is truncated at position starting at and inclusive of the offset. Beware, not  for general purpose use yet!w" />
               </node>
             </node>
           </node>
@@ -49513,7 +49527,7 @@
               <node concept="liA8E" id="1OpGjkrT7JB" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT7JD" role="37wK5m">
-                  <property role="Xl_RC" value="       -h &lt;dir&gt;             # environment home directory&#10;" />
+                  <property role="Xl_RC" value="       -h &lt;dir&gt;             # environment home directory&#10;ux" />
                 </node>
               </node>
             </node>
@@ -49531,7 +49545,7 @@
               <node concept="liA8E" id="1OpGjkrT7JJ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT7JL" role="37wK5m">
-                  <property role="Xl_RC" value="       [-q ]                # quiet, exit with success or failure&#10;" />
+                  <property role="Xl_RC" value="       [-q ]                # quiet, exit with success or failure&#10;c" />
                 </node>
               </node>
             </node>
@@ -49585,7 +49599,7 @@
               <node concept="liA8E" id="1OpGjkrT7K7" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT7K9" role="37wK5m">
-                  <property role="Xl_RC" value="       [-V]                 # print JE version number" />
+                  <property role="Xl_RC" value="       [-V]                 # print JE version numberhg" />
                 </node>
               </node>
             </node>
@@ -50455,7 +50469,7 @@
             <node concept="2LgOp9" id="1OpGjkrT8ay" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT8az" role="37wK5m">
-                <property role="Xl_RC" value="Exit status = " />
+                <property role="Xl_RC" value="Exit status = y" />
               </node>
             </node>
           </node>
@@ -50674,7 +50688,7 @@
             <node concept="2LgOp9" id="1OpGjkrT8bX" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT8bY" role="37wK5m">
-                <property role="Xl_RC" value="Exit status = " />
+                <property role="Xl_RC" value="Exit status = w" />
               </node>
             </node>
           </node>
@@ -50890,6 +50904,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrT8dA" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWY6" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRSjk" role="jymVt">
       <node concept="3Tm1VV" id="1OpGjkrRSjl" role="1B3o_S" />
@@ -51109,6 +51124,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrT8eS" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWX_" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRSjs" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -51541,7 +51557,7 @@
               <node concept="liA8E" id="1OpGjkrT8hN" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8hO" role="37wK5m">
-                  <property role="Xl_RC" value="-q" />
+                  <property role="Xl_RC" value="-qrln" />
                 </node>
               </node>
             </node>
@@ -51592,7 +51608,7 @@
               <node concept="liA8E" id="1OpGjkrT8hU" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8hV" role="37wK5m">
-                  <property role="Xl_RC" value="-V" />
+                  <property role="Xl_RC" value="-Vn" />
                 </node>
               </node>
             </node>
@@ -51675,7 +51691,7 @@
               <node concept="liA8E" id="1OpGjkrT8if" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8ig" role="37wK5m">
-                  <property role="Xl_RC" value="-h" />
+                  <property role="Xl_RC" value="-hky" />
                 </node>
               </node>
             </node>
@@ -51808,7 +51824,7 @@
             <node concept="liA8E" id="1OpGjkrT8j5" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSjs" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrT8j6" role="37wK5m">
-                <property role="Xl_RC" value="-h requires an argument" />
+                <property role="Xl_RC" value="-h requires an argumenty" />
               </node>
             </node>
           </node>
@@ -51828,7 +51844,7 @@
               <node concept="liA8E" id="1OpGjkrT8iR" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8iS" role="37wK5m">
-                  <property role="Xl_RC" value="-s" />
+                  <property role="Xl_RC" value="-sqq" />
                 </node>
               </node>
             </node>
@@ -51936,7 +51952,7 @@
             <node concept="liA8E" id="1OpGjkrT8k2" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSjs" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrT8k3" role="37wK5m">
-                <property role="Xl_RC" value="-s requires an argument" />
+                <property role="Xl_RC" value="-s requires an argumenttu" />
               </node>
             </node>
           </node>
@@ -52121,7 +52137,7 @@
             <node concept="liA8E" id="1OpGjkrT8kO" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSjs" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrT8kP" role="37wK5m">
-                <property role="Xl_RC" value="-v requires an argument" />
+                <property role="Xl_RC" value="-v requires an argumentr" />
               </node>
             </node>
           </node>
@@ -52141,7 +52157,7 @@
               <node concept="liA8E" id="1OpGjkrT8kA" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="Xl_RD" id="1OpGjkrT8kB" role="37wK5m">
-                  <property role="Xl_RC" value="-c" />
+                  <property role="Xl_RC" value="-cydq" />
                 </node>
               </node>
             </node>
@@ -52237,7 +52253,7 @@
             <node concept="liA8E" id="1OpGjkrT8md" role="2OqNvi">
               <ref role="37wK5l" node="1OpGjkrRSjs" resolve="printUsage" />
               <node concept="Xl_RD" id="1OpGjkrT8me" role="37wK5m">
-                <property role="Xl_RC" value="-h is a required argument" />
+                <property role="Xl_RC" value="-h is a required argumenth" />
               </node>
             </node>
           </node>
@@ -53446,7 +53462,7 @@
             <node concept="2LgOp9" id="1OpGjkrT8sG" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT8sH" role="37wK5m">
-                <property role="Xl_RC" value="DbVerify.verify of " />
+                <property role="Xl_RC" value="DbVerify.verify of cy" />
               </node>
             </node>
           </node>
@@ -53511,7 +53527,7 @@
               <node concept="liA8E" id="1OpGjkrT8sZ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT8t1" role="37wK5m">
-                  <property role="Xl_RC" value=" starting" />
+                  <property role="Xl_RC" value=" startingp" />
                 </node>
               </node>
             </node>
@@ -53823,7 +53839,7 @@
             <node concept="liA8E" id="1OpGjkrT8uo" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="1OpGjkrT8ux" role="37wK5m">
-                <property role="Xl_RC" value="Checking obsolete offsets ..." />
+                <property role="Xl_RC" value="Checking obsolete offsets ...i" />
               </node>
             </node>
           </node>
@@ -54153,7 +54169,7 @@
             <node concept="2LgOp9" id="1OpGjkrT8vW" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT8vX" role="37wK5m">
-                <property role="Xl_RC" value="DbVerify.verify of " />
+                <property role="Xl_RC" value="DbVerify.verify of qd" />
               </node>
             </node>
           </node>
@@ -54218,7 +54234,7 @@
               <node concept="liA8E" id="1OpGjkrT8wf" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrT8wh" role="37wK5m">
-                  <property role="Xl_RC" value=" ending" />
+                  <property role="Xl_RC" value=" endingc" />
                 </node>
               </node>
             </node>
@@ -54370,7 +54386,7 @@
             <node concept="2LgOp9" id="1OpGjkrT8wJ" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrT8wK" role="37wK5m">
-                <property role="Xl_RC" value="DbVerify.verify of " />
+                <property role="Xl_RC" value="DbVerify.verify of w" />
               </node>
             </node>
           </node>

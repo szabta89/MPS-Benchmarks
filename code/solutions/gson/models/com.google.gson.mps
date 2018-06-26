@@ -2,7 +2,7 @@
 <model ref="r:386fb0f2-83ab-4f64-a73c-b38869900094(com.google.gson)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -6331,7 +6331,7 @@
               <node concept="3clFbF" id="4HRYg9YRb_u" role="3cqZAp">
                 <node concept="2YIFZM" id="4HRYg9YRbCX" role="3clFbG">
                   <ref role="37wK5l" to="j581:5pMxsXwwX0i" resolve="checkArgument" />
-                  <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="$Gson$Preconditions" />
+                  <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="GsonPreconditions" />
                   <node concept="22lmx$" id="4HRYg9YRbDt" role="37wK5m">
                     <node concept="2ZW3vV" id="4HRYg9YRbDu" role="3uHU7B">
                       <node concept="37vLTw" id="4HRYg9YRbDv" role="2ZW6bz">
@@ -10228,7 +10228,7 @@
         <node concept="3clFbF" id="4HRYg9YODiN" role="3cqZAp">
           <node concept="2YIFZM" id="4HRYg9YOEuj" role="3clFbG">
             <ref role="37wK5l" to="j581:5pMxsXwwX0i" resolve="checkArgument" />
-            <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="$Gson$Preconditions" />
+            <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="GsonPreconditions" />
             <node concept="22lmx$" id="4HRYg9YOEDl" role="37wK5m">
               <node concept="22lmx$" id="4HRYg9YOEDm" role="3uHU7B">
                 <node concept="22lmx$" id="4HRYg9YOEDn" role="3uHU7B">
@@ -10594,7 +10594,7 @@
         <node concept="3clFbF" id="4HRYg9YO_zK" role="3cqZAp">
           <node concept="2YIFZM" id="4HRYg9YOAGO" role="3clFbG">
             <ref role="37wK5l" to="j581:5pMxsXwwX0i" resolve="checkArgument" />
-            <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="$Gson$Preconditions" />
+            <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="GsonPreconditions" />
             <node concept="22lmx$" id="4HRYg9YOAOO" role="37wK5m">
               <node concept="22lmx$" id="4HRYg9YOAOP" role="3uHU7B">
                 <node concept="2ZW3vV" id="4HRYg9YOAOQ" role="3uHU7B">
@@ -12257,7 +12257,7 @@
         <node concept="3clFbF" id="1B3uywo94v8" role="3cqZAp">
           <node concept="2YIFZM" id="1B3uywo94yV" role="3clFbG">
             <ref role="37wK5l" to="j581:5pMxsXwwX01" resolve="checkNotNull" />
-            <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="$Gson$Preconditions" />
+            <ref role="1Pybhc" to="j581:5pMxsXwwWZT" resolve="GsonPreconditions" />
             <node concept="37vLTw" id="1B3uywo94zp" role="37wK5m">
               <ref role="3cqZAo" node="5pMxsXwwSKZ" resolve="f" />
             </node>

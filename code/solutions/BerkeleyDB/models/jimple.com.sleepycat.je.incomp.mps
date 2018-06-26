@@ -2,7 +2,7 @@
 <model ref="r:11047797-4cc2-4658-9099-ab8037013ea0(jimple.com.sleepycat.je.incomp)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot" version="0" />
   </languages>
@@ -234,6 +234,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrS6fv" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWTG" role="3clF45" />
     </node>
     <node concept="3clFbW" id="1OpGjkrRQIh" role="jymVt">
       <node concept="37vLTG" id="1OpGjkrRQIj" role="3clF46">
@@ -290,6 +291,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrS6fN" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWUv" role="3clF45" />
     </node>
   </node>
   <node concept="312cEu" id="1OpGjkrRQE2">
@@ -1049,6 +1051,7 @@
         </node>
         <node concept="3cpWs6" id="1OpGjkrTm8d" role="3cqZAp" />
       </node>
+      <node concept="3cqZAl" id="5qzh91HmWV_" role="3clF45" />
     </node>
     <node concept="3clFb_" id="1OpGjkrRQFt" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -1165,7 +1168,7 @@
               <node concept="liA8E" id="1OpGjkrTm8P" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
                 <node concept="Xl_RD" id="1OpGjkrTm8R" role="37wK5m">
-                  <property role="Xl_RC" value="&lt;INCompressor name=&quot;" />
+                  <property role="Xl_RC" value="&lt;INCompressor name=&quot;kv" />
                 </node>
               </node>
             </node>
@@ -1215,7 +1218,7 @@
             <node concept="liA8E" id="1OpGjkrTm9b" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
               <node concept="Xl_RD" id="1OpGjkrTm9d" role="37wK5m">
-                <property role="Xl_RC" value="&quot;/&gt;" />
+                <property role="Xl_RC" value="&quot;/&gt;tf" />
               </node>
             </node>
           </node>
@@ -6074,7 +6077,7 @@
             <node concept="2LgOp9" id="1OpGjkrTmB7" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;(java.lang.String)" resolve="StringBuilder" />
               <node concept="Xl_RD" id="1OpGjkrTmB8" role="37wK5m">
-                <property role="Xl_RC" value="InCompress.doCompress called, queue size: " />
+                <property role="Xl_RC" value="InCompress.doCompress called, queue size: qip" />
               </node>
             </node>
           </node>
@@ -10456,7 +10459,7 @@
             <node concept="2LgOp9" id="1OpGjkrTn0I" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~NullPointerException.&lt;init&gt;(java.lang.String)" resolve="NullPointerException" />
               <node concept="Xl_RD" id="1OpGjkrTn0J" role="37wK5m">
-                <property role="Xl_RC" value="This statement would have triggered an Exception: virtualinvoke duplicateBin#2.&lt;com.sleepycat.je.tree.DBIN: void releaseLatchIfOwner()&gt;()" />
+                <property role="Xl_RC" value="This statement would have triggered an Exception: virtualinvoke duplicateBin#2.&lt;com.sleepycat.je.tree.DBIN: void releaseLatchIfOwner()&gt;()w" />
               </node>
             </node>
           </node>
