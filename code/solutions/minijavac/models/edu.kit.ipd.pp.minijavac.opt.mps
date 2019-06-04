@@ -2,7 +2,7 @@
 <model ref="r:de931164-999f-4bd0-8352-2d1a818a1a6f(edu.kit.ipd.pp.minijavac.opt)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -1450,7 +1450,6 @@
       <property role="TrG5h" value="ValueTy" />
     </node>
     <node concept="3clFb_" id="60KF3ba2jP9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSuccessors" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1471,7 +1470,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2jPg" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getBottom" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1482,7 +1480,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2jPk" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="transfer" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1538,7 +1535,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="60KF3ba2gsw" role="1B3o_S" />
     <node concept="3clFb_" id="60KF3ba2gsx" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="apply" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1567,7 +1563,6 @@
   <node concept="3HP615" id="222B0EUKj4h">
     <property role="TrG5h" value="ValueMap" />
     <node concept="3clFb_" id="222B0EUKjyo" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="get" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

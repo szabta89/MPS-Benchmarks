@@ -2,7 +2,7 @@
 <model ref="r:33cf8c9f-361a-4703-beba-e8987aaca7df(edu.kit.ipd.pp.minijavac.lexer)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -2676,7 +2676,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="60KF3ba2hfX" role="1B3o_S" />
     <node concept="3clFb_" id="60KF3ba2hfY" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="nextToken" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2690,7 +2689,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2hg3" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getColumn" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2699,7 +2697,6 @@
       <node concept="10Oyi0" id="60KF3ba2hg6" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2hg7" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getLine" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

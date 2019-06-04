@@ -2,7 +2,7 @@
 <model ref="r:290ccb03-ba63-4141-a70d-ea8943e5820a(org.postgresql.core.v3)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -6148,7 +6148,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3KIzNoUN3gG" role="1B3o_S" />
     <node concept="3clFb_" id="3KIzNoUN3gH" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="useBinaryForSend" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6179,7 +6178,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN3gO" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="useBinaryForReceive" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -13742,7 +13740,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNejF" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="checkAllParametersSet" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -13776,7 +13773,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNejL" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="convertFunctionOutParameters" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -13797,7 +13793,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNejQ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSubparams" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -13842,7 +13837,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNejW" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getParamTypes" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -13865,7 +13859,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNek2" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getFlags" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -13888,7 +13881,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNek8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getEncoding" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

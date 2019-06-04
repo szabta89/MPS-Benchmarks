@@ -2,7 +2,7 @@
 <model ref="r:83262497-a31e-410e-9351-71cd067762dc(org.postgresql.replication.fluent.physical)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -82,9 +82,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -363,7 +361,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNojf" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="start" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -404,7 +401,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3KIzNoUNfUZ" role="1B3o_S" />
     <node concept="3clFb_" id="3KIzNoUNfV0" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="start" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

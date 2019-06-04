@@ -2,7 +2,7 @@
 <model ref="r:e13b9ec8-c779-44e9-9b89-61359b3915c2(org.postgresql.sspi)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -28,9 +28,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
@@ -94,7 +92,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="6fD3aXSl6b4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isSSPISupported" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -103,7 +100,6 @@
       <node concept="10P_77" id="6fD3aXSl6b7" role="3clF45" />
     </node>
     <node concept="3clFb_" id="6fD3aXSl6b8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="startSSPI" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -118,7 +114,6 @@
       <node concept="3cqZAl" id="6fD3aXSl6bd" role="3clF45" />
     </node>
     <node concept="3clFb_" id="6fD3aXSl6be" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="continueSSPI" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -138,7 +133,6 @@
       <node concept="3cqZAl" id="6fD3aXSl6bl" role="3clF45" />
     </node>
     <node concept="3clFb_" id="6fD3aXSl6bm" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="dispose" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

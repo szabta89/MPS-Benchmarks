@@ -2,7 +2,7 @@
 <model ref="r:6c2738d6-99fe-4e14-94ec-a2e848f708a0(edu.kit.ipd.pp.minijavac.ast.operations)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="6w4z" ref="r:ea9a9746-4004-48f9-a020-fe0cedda1380(edu.kit.ipd.pp.minijavac.ast)" />
@@ -222,7 +222,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="60KF3ba2gWD" role="1B3o_S" />
     <node concept="3clFb_" id="60KF3ba2gWE" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitProgram" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -238,7 +237,6 @@
       <node concept="3cqZAl" id="60KF3ba2gWJ" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gWK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitClass" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -254,7 +252,6 @@
       <node concept="3cqZAl" id="60KF3ba2gWP" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gWQ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitField" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -270,7 +267,6 @@
       <node concept="3cqZAl" id="60KF3ba2gWV" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gWW" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitMethod" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -286,7 +282,6 @@
       <node concept="3cqZAl" id="60KF3ba2gX1" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gX2" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitMainMethod" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -302,7 +297,6 @@
       <node concept="3cqZAl" id="60KF3ba2gX7" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gX8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitBlock" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -318,7 +312,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXd" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXe" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitEmptyStatement" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -334,7 +327,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXj" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXk" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitIf" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -350,7 +342,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXp" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXq" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitLocalDecl" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -366,7 +357,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXv" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXw" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitParam" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -382,7 +372,6 @@
       <node concept="3cqZAl" id="60KF3ba2gX_" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXA" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitReturn" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -398,7 +387,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXF" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXG" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitWhile" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -414,7 +402,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXL" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXM" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitExpressionStatement" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -430,7 +417,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXR" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXS" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitBoolLiteral" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -446,7 +432,6 @@
       <node concept="3cqZAl" id="60KF3ba2gXX" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gXY" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitThis" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -462,7 +447,6 @@
       <node concept="3cqZAl" id="60KF3ba2gY3" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gY4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitNull" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -478,7 +462,6 @@
       <node concept="3cqZAl" id="60KF3ba2gY9" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYa" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitNewArray" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -494,7 +477,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYf" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYg" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitNewObject" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -510,7 +492,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYl" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYm" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitCall" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -526,7 +507,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYr" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYs" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitUnary" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -542,7 +522,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYx" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitMemberAccess" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -558,7 +537,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYB" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYC" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitArrayAccess" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -574,7 +552,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYH" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYI" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitBinaryExpression" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -590,7 +567,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYN" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYO" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitRef" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -606,7 +582,6 @@
       <node concept="3cqZAl" id="60KF3ba2gYT" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gYU" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="visitInt" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2688,7 +2663,6 @@
       <property role="2bfB8j" value="true" />
       <node concept="3Tm6S6" id="60KF3ba2mSo" role="1B3o_S" />
       <node concept="3clFb_" id="60KF3ba2mSp" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="append" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
@@ -2704,7 +2678,6 @@
         </node>
       </node>
       <node concept="3clFb_" id="60KF3ba2mSv" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="append" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />

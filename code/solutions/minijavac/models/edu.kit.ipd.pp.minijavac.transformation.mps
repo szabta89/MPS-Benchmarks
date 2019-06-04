@@ -2,7 +2,7 @@
 <model ref="r:526f970d-d0b8-4200-b15e-0fa12c92c652(edu.kit.ipd.pp.minijavac.transformation)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="52fe" ref="r:6c2738d6-99fe-4e14-94ec-a2e848f708a0(edu.kit.ipd.pp.minijavac.ast.operations)" />
@@ -274,7 +274,6 @@
       <property role="2bfB8j" value="true" />
       <node concept="3Tm1VV" id="60KF3ba2lRp" role="1B3o_S" />
       <node concept="3clFb_" id="60KF3ba2lRq" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="codegen" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
@@ -9398,7 +9397,6 @@
       <property role="TrG5h" value="createEntryPoint" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3Tm1VV" id="60KF3ba2mzJ" role="1B3o_S" />
       <node concept="3clFbS" id="60KF3ba2mzK" role="3clF47" />
       <node concept="3cqZAl" id="60KF3ba2m_q" role="3clF45" />
@@ -9407,7 +9405,6 @@
       <property role="TrG5h" value="getFnByName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3Tm1VV" id="60KF3ba2m_A" role="1B3o_S" />
       <node concept="37vLTG" id="60KF3ba2m_B" role="3clF46">
         <property role="TrG5h" value="ident" />
@@ -9422,7 +9419,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2mBJ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCalloc" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -9433,7 +9429,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2mBN" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getExit" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -9444,7 +9439,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2mBR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getPrintLn" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -9455,7 +9449,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2mBV" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getRead" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -9466,7 +9459,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2mBZ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getWrite" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -9477,7 +9469,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2mC3" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getFlush" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

@@ -2,7 +2,7 @@
 <model ref="r:74a0f63e-7509-49ca-8580-7ae460215697(org.postgresql)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -153,9 +153,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -5283,7 +5281,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN9yB" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5316,7 +5313,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN9yG" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getPID" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5347,7 +5343,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN9yL" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getParameter" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5447,7 +5442,6 @@
       <node concept="3Tm1VV" id="7CiCd3JQc85" role="1B3o_S" />
     </node>
     <node concept="3clFb_" id="3KIzNoUNe4I" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getLastOID" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5486,7 +5480,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe4O" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setUseServerPrepare" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5545,7 +5538,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe4W" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isUseServerPrepare" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5581,7 +5573,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe51" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setPrepareThreshold" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5665,7 +5656,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe59" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getPrepareThreshold" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5718,7 +5708,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfB1" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getNotifications" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5766,7 +5755,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfB8" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getNotifications" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5839,7 +5827,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBh" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCopyAPI" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5880,7 +5867,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBn" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getLargeObjectAPI" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5921,7 +5907,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBt" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getFastpathAPI" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5962,7 +5947,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBz" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="addDataType" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6032,7 +6016,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBG" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="addDataType" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6200,7 +6183,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBS" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setPrepareThreshold" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6241,7 +6223,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfBZ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getPrepareThreshold" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6277,7 +6258,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfC4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setDefaultFetchSize" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6321,7 +6301,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getDefaultFetchSize" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6357,7 +6336,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCh" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getBackendPID" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6383,7 +6361,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCm" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="escapeIdentifier" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6441,7 +6418,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCu" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="escapeLiteral" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6499,7 +6475,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCA" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getPreferQueryMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6542,7 +6517,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCF" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getAutosave" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6575,7 +6549,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setAutosave" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6608,7 +6581,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNfCR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getReplicationAPI" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6631,7 +6603,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3KIzNoUNe6v" role="1B3o_S" />
     <node concept="3clFb_" id="3KIzNoUNe6w" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getBaseColumnName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6682,7 +6653,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe6C" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getBaseTableName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6733,7 +6703,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe6K" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getBaseSchemaName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6784,7 +6753,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNe6S" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getFormat" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -8982,7 +8950,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNbHt" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getRefCursor" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

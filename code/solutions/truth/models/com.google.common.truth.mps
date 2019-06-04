@@ -2,7 +2,7 @@
 <model ref="r:49c2cd74-f9b4-4cdb-b285-6e535986f5c3(com.google.common.truth)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -8273,7 +8273,6 @@
         </node>
       </node>
       <node concept="3clFb_" id="5JQC2dmPvVn" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="invokeAssertion" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
@@ -8346,7 +8345,6 @@
         </node>
       </node>
       <node concept="3clFb_" id="5JQC2dmPvV_" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="invokeAssertion" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
@@ -14735,7 +14733,6 @@
       <property role="2bfB8j" value="true" />
       <node concept="3Tm6S6" id="5JQC2dmPy4d" role="1B3o_S" />
       <node concept="3clFb_" id="5JQC2dmPy4e" role="jymVt">
-        <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="check" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
@@ -34838,7 +34835,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="5JQC2dmPzCd" role="1B3o_S" />
     <node concept="3clFb_" id="5JQC2dmPzCe" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="inOrder" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -44050,7 +44046,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="5JQC2dmPy30" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createVerb" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

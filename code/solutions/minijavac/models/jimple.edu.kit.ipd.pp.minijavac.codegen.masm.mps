@@ -2,8 +2,8 @@
 <model ref="r:f63c0870-e293-48b0-b383-8656b669b933(jimple.edu.kit.ipd.pp.minijavac.codegen.masm)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="org.inca.integration.soot" version="0" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -11,6 +11,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="fwum" ref="r:b9d24a57-d878-4617-bf11-692c1247f362(jimple.edu.kit.ipd.pp.minijavac.codegen.triplecode.instructions)" />
     <import index="cv1z" ref="r:c551d9a6-83b6-443b-a643-9757267b07fd(jimple.edu.kit.ipd.pp.minijavac.transformation)" />
+    <import index="phxa" ref="r:526f970d-d0b8-4200-b15e-0fa12c92c652(edu.kit.ipd.pp.minijavac.transformation)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -29,6 +30,10 @@
       </concept>
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
@@ -166,14 +171,14 @@
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
     </language>
-    <language id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot">
-      <concept id="5814725530266716200" name="com.mbeddr.mpsutil.soot.structure.ClassifierCreator" flags="ng" index="2LgOoB">
+    <language id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="org.inca.integration.soot">
+      <concept id="5814725530266716200" name="org.inca.integration.soot.structure.ClassifierCreator" flags="ng" index="2LgOoB">
         <reference id="5814725530266716201" name="classifier" index="2LgOoA" />
       </concept>
-      <concept id="5814725530266716230" name="com.mbeddr.mpsutil.soot.structure.InitMethodCallOperation" flags="ng" index="2LgOp9" />
-      <concept id="8246305753104216362" name="com.mbeddr.mpsutil.soot.structure.GoToLabel" flags="ng" index="Lur9e" />
-      <concept id="8246305753104216343" name="com.mbeddr.mpsutil.soot.structure.GoToStatement" flags="ng" index="Lur9N" />
-      <concept id="143531194022621278" name="com.mbeddr.mpsutil.soot.structure.IGoToLabelRef" flags="ng" index="186xM2">
+      <concept id="5814725530266716230" name="org.inca.integration.soot.structure.InitMethodCallOperation" flags="ng" index="2LgOp9" />
+      <concept id="8246305753104216362" name="org.inca.integration.soot.structure.GoToLabel" flags="ng" index="Lur9e" />
+      <concept id="8246305753104216343" name="org.inca.integration.soot.structure.GoToStatement" flags="ng" index="Lur9N" />
+      <concept id="143531194022621278" name="org.inca.integration.soot.structure.IGoToLabelRef" flags="ng" index="186xM2">
         <reference id="8246305753104219683" name="label" index="LurP7" />
       </concept>
     </language>
@@ -7061,6 +7066,7 @@
         </node>
       </node>
     </node>
+    <node concept="3Tm1VV" id="79LBXjJf9_e" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="MeIVZLde1k">
     <property role="TrG5h" value="AssemblyStatement" />
@@ -7514,16 +7520,16 @@
         <node concept="3cpWs8" id="MeIVZLdvJE" role="3cqZAp">
           <node concept="3cpWsn" id="MeIVZLdvJD" role="3cpWs9">
             <property role="TrG5h" value="$r1" />
-            <node concept="3uibUv" id="MeIVZLdvJC" role="1tU5fm">
-              <ref role="3uigEE" to="cv1z:MeIVZLdftm" resolve="Utils$OS" />
+            <node concept="3uibUv" id="79LBXjJfnxD" role="1tU5fm">
+              <ref role="3uigEE" to="phxa:60KF3ba2g3F" resolve="Utils.OS" />
             </node>
           </node>
         </node>
         <node concept="3cpWs8" id="MeIVZLdvJH" role="3cqZAp">
           <node concept="3cpWsn" id="MeIVZLdvJG" role="3cpWs9">
             <property role="TrG5h" value="$r2" />
-            <node concept="3uibUv" id="MeIVZLdvJF" role="1tU5fm">
-              <ref role="3uigEE" to="cv1z:MeIVZLdftm" resolve="Utils$OS" />
+            <node concept="3uibUv" id="79LBXjJfnzB" role="1tU5fm">
+              <ref role="3uigEE" to="phxa:60KF3ba2g3F" resolve="Utils.OS" />
             </node>
           </node>
         </node>
@@ -7611,9 +7617,9 @@
         </node>
         <node concept="3clFbF" id="MeIVZLdvKg" role="3cqZAp">
           <node concept="37vLTI" id="MeIVZLdvKh" role="3clFbG">
-            <node concept="2YIFZM" id="MeIVZLdvKe" role="37vLTx">
-              <ref role="1Pybhc" to="cv1z:MeIVZLdft2" resolve="Utils" />
-              <ref role="37wK5l" to="cv1z:MeIVZLdftk" resolve="getOS" />
+            <node concept="2YIFZM" id="79LBXjJfnE4" role="37vLTx">
+              <ref role="37wK5l" to="phxa:60KF3ba2g4V" resolve="getOS" />
+              <ref role="1Pybhc" to="phxa:60KF3ba2g1u" resolve="Utils" />
             </node>
             <node concept="37vLTw" id="MeIVZLdvKf" role="37vLTJ">
               <ref role="3cqZAo" node="MeIVZLdvJD" resolve="$r1" />
@@ -7622,12 +7628,12 @@
         </node>
         <node concept="3clFbF" id="MeIVZLdvKk" role="3cqZAp">
           <node concept="37vLTI" id="MeIVZLdvKl" role="3clFbG">
-            <node concept="10M0yZ" id="MeIVZLdvKi" role="37vLTx">
-              <ref role="1PxDUh" to="cv1z:MeIVZLdftm" resolve="Utils$OS" />
-              <ref role="3cqZAo" to="cv1z:MeIVZLdftw" resolve="Mac" />
-            </node>
             <node concept="37vLTw" id="MeIVZLdvKj" role="37vLTJ">
               <ref role="3cqZAo" node="MeIVZLdvJG" resolve="$r2" />
+            </node>
+            <node concept="Rm8GO" id="79LBXjJfo11" role="37vLTx">
+              <ref role="Rm8GQ" to="phxa:60KF3ba2g3M" resolve="Mac" />
+              <ref role="1Px2BO" to="phxa:60KF3ba2g3F" resolve="Utils.OS" />
             </node>
           </node>
         </node>

@@ -2,7 +2,7 @@
 <model ref="r:3b9966b1-5af8-4562-84cc-0d168503932f(org.postgresql.replication.fluent)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -177,7 +177,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN7mU" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="logical" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -340,7 +339,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN7mZ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="physical" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -742,7 +740,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN8o5" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="withSlotName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -792,7 +789,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN8oc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="make" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -828,7 +824,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNlJB" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSlotName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -866,7 +861,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNlJG" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getStartLSNPosition" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -884,7 +878,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNlJL" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getStatusInterval" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1354,7 +1347,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNn8x" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="withSlotName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1399,7 +1391,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNn8C" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="withStatusInterval" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1469,7 +1460,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUNn8L" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="withStartPosition" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1536,7 +1526,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN9J1" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="logical" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -1689,7 +1678,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUN9J6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="physical" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

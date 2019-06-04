@@ -2,7 +2,7 @@
 <model ref="r:95f91abf-1054-4a45-8996-f6cc18779550(edu.kit.ipd.pp.minijavac.codegen.triplecode.instructions)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="1zcb" ref="r:8e40a0aa-9ed6-4611-a471-c7adb08e343d(edu.kit.ipd.pp.minijavac.codegen.triplecode)" />

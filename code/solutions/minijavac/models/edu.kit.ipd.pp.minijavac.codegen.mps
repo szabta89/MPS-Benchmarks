@@ -2,7 +2,7 @@
 <model ref="r:7ff6390f-b237-4f7a-a775-75a5d873556f(edu.kit.ipd.pp.minijavac.codegen)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="1zcb" ref="r:8e40a0aa-9ed6-4611-a471-c7adb08e343d(edu.kit.ipd.pp.minijavac.codegen.triplecode)" />
@@ -12749,7 +12749,7 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="3fMBtzHrMvK" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                   <node concept="2OqwBi" id="3fMBtzHrMvL" role="37wK5m">
                     <node concept="37vLTw" id="3fMBtzHrMvM" role="2Oq$k0">
                       <ref role="3cqZAo" node="60KF3ba2jS5" resolve="i" />

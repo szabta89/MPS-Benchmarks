@@ -2,8 +2,8 @@
 <model ref="r:01b79933-9516-4383-95fc-3fca7cb7be50(jimple.edu.kit.ipd.pp.minijavac.codegen.triplecode)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="org.inca.integration.soot" version="0" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -14,6 +14,7 @@
     <import index="vdby" ref="86073668-71f8-4c8a-8cbf-6239bb692dd7/java:firm(minijavac/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="4e3b" ref="r:8178eabf-e048-4e4f-a3e9-ce374b1e0990(jimple.edu.kit.ipd.pp.minijavac.codegen)" />
+    <import index="phxa" ref="r:526f970d-d0b8-4200-b15e-0fa12c92c652(edu.kit.ipd.pp.minijavac.transformation)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -81,9 +82,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -145,14 +144,14 @@
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
     </language>
-    <language id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot">
-      <concept id="5814725530266716200" name="com.mbeddr.mpsutil.soot.structure.ClassifierCreator" flags="ng" index="2LgOoB">
+    <language id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="org.inca.integration.soot">
+      <concept id="5814725530266716200" name="org.inca.integration.soot.structure.ClassifierCreator" flags="ng" index="2LgOoB">
         <reference id="5814725530266716201" name="classifier" index="2LgOoA" />
       </concept>
-      <concept id="5814725530266716230" name="com.mbeddr.mpsutil.soot.structure.InitMethodCallOperation" flags="ng" index="2LgOp9" />
-      <concept id="8246305753104216362" name="com.mbeddr.mpsutil.soot.structure.GoToLabel" flags="ng" index="Lur9e" />
-      <concept id="8246305753104216343" name="com.mbeddr.mpsutil.soot.structure.GoToStatement" flags="ng" index="Lur9N" />
-      <concept id="143531194022621278" name="com.mbeddr.mpsutil.soot.structure.IGoToLabelRef" flags="ng" index="186xM2">
+      <concept id="5814725530266716230" name="org.inca.integration.soot.structure.InitMethodCallOperation" flags="ng" index="2LgOp9" />
+      <concept id="8246305753104216362" name="org.inca.integration.soot.structure.GoToLabel" flags="ng" index="Lur9e" />
+      <concept id="8246305753104216343" name="org.inca.integration.soot.structure.GoToStatement" flags="ng" index="Lur9N" />
+      <concept id="143531194022621278" name="org.inca.integration.soot.structure.IGoToLabelRef" flags="ng" index="186xM2">
         <reference id="8246305753104219683" name="label" index="LurP7" />
       </concept>
     </language>
@@ -5832,7 +5831,6 @@
     <property role="TrG5h" value="InstructionVisitor" />
     <node concept="3Tm1VV" id="MeIVZLde2j" role="1B3o_S" />
     <node concept="3clFb_" id="MeIVZLde2k" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5849,7 +5847,6 @@
       <node concept="3clFbS" id="MeIVZLdv2r" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde4Q" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5866,7 +5863,6 @@
       <node concept="3clFbS" id="MeIVZLdv2s" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde5m" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5883,7 +5879,6 @@
       <node concept="3clFbS" id="MeIVZLdv2t" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde5Z" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5900,7 +5895,6 @@
       <node concept="3clFbS" id="MeIVZLdv2u" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde6C" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5917,7 +5911,6 @@
       <node concept="3clFbS" id="MeIVZLdv2v" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde7h" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5934,7 +5927,6 @@
       <node concept="3clFbS" id="MeIVZLdv2w" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde7Y" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5951,7 +5943,6 @@
       <node concept="3clFbS" id="MeIVZLdv2x" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde8F" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5968,7 +5959,6 @@
       <node concept="3clFbS" id="MeIVZLdv2y" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde9h" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -5985,7 +5975,6 @@
       <node concept="3clFbS" id="MeIVZLdv2z" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLde9U" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6002,7 +5991,6 @@
       <node concept="3clFbS" id="MeIVZLdv2$" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdeaz" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6019,7 +6007,6 @@
       <node concept="3clFbS" id="MeIVZLdv2_" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdeba" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6036,7 +6023,6 @@
       <node concept="3clFbS" id="MeIVZLdv2A" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdebO" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6053,7 +6039,6 @@
       <node concept="3clFbS" id="MeIVZLdv2B" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdecN" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6070,7 +6055,6 @@
       <node concept="3clFbS" id="MeIVZLdv2C" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdedC" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6087,7 +6071,6 @@
       <node concept="3clFbS" id="MeIVZLdv2D" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdef3" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6104,7 +6087,6 @@
       <node concept="3clFbS" id="MeIVZLdv2E" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdefK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6121,7 +6103,6 @@
       <node concept="3clFbS" id="MeIVZLdv2F" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdegl" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6138,7 +6119,6 @@
       <node concept="3clFbS" id="MeIVZLdv2G" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdegX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6155,7 +6135,6 @@
       <node concept="3clFbS" id="MeIVZLdv2H" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdeh_" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6172,7 +6151,6 @@
       <node concept="3clFbS" id="MeIVZLdv2I" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdei7" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6189,7 +6167,6 @@
       <node concept="3clFbS" id="MeIVZLdv2J" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdeiF" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6206,7 +6183,6 @@
       <node concept="3clFbS" id="MeIVZLdv2K" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdejf" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6223,7 +6199,6 @@
       <node concept="3clFbS" id="MeIVZLdv2L" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdejN" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6240,7 +6215,6 @@
       <node concept="3clFbS" id="MeIVZLdv2M" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdekn" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -6257,7 +6231,6 @@
       <node concept="3clFbS" id="MeIVZLdv2N" role="3clF47" />
     </node>
     <node concept="3clFb_" id="MeIVZLdekT" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="visit" />
@@ -9940,7 +9913,6 @@
     <property role="TrG5h" value="Optimizer" />
     <node concept="3Tm1VV" id="MeIVZLde28" role="1B3o_S" />
     <node concept="3clFb_" id="MeIVZLde29" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="optimize" />
@@ -12335,8 +12307,8 @@
     <node concept="312cEg" id="MeIVZLdez8" role="jymVt">
       <property role="TrG5h" value="stdlib" />
       <node concept="3Tm6S6" id="MeIVZLdeza" role="1B3o_S" />
-      <node concept="3uibUv" id="MeIVZLdezb" role="1tU5fm">
-        <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+      <node concept="3uibUv" id="79LBXjJfpI1" role="1tU5fm">
+        <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
       </node>
     </node>
     <node concept="3clFbW" id="MeIVZLdezc" role="jymVt">
@@ -12345,7 +12317,7 @@
         <property role="TrG5h" value="p0" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="MeIVZLdeze" role="1tU5fm">
-          <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+          <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
         </node>
       </node>
       <node concept="3clFbS" id="MeIVZLdAuS" role="3clF47">
@@ -12361,7 +12333,7 @@
           <node concept="3cpWsn" id="MeIVZLdAuX" role="3cpWs9">
             <property role="TrG5h" value="r1" />
             <node concept="3uibUv" id="MeIVZLdAuW" role="1tU5fm">
-              <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+              <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
             </node>
           </node>
         </node>
@@ -13373,7 +13345,7 @@
           <node concept="3cpWsn" id="MeIVZLdA_s" role="3cpWs9">
             <property role="TrG5h" value="$r2" />
             <node concept="3uibUv" id="MeIVZLdA_r" role="1tU5fm">
-              <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+              <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
             </node>
           </node>
         </node>
@@ -13473,7 +13445,7 @@
                 <ref role="3cqZAo" node="MeIVZLdA_s" resolve="$r2" />
               </node>
               <node concept="liA8E" id="MeIVZLdAA4" role="2OqNvi">
-                <ref role="37wK5l" to="cv1z:MeIVZLdeuN" resolve="isLibraryFunction" />
+                <ref role="37wK5l" to="phxa:60KF3ba2lVz" resolve="isLibraryFunction" />
                 <node concept="37vLTw" id="MeIVZLdAA5" role="37wK5m">
                   <ref role="3cqZAo" node="MeIVZLdA_p" resolve="r1" />
                 </node>
@@ -13750,7 +13722,7 @@
       <property role="TrG5h" value="access$1" />
       <property role="2aFKle" value="false" />
       <node concept="3uibUv" id="MeIVZLdezy" role="3clF45">
-        <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+        <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
       </node>
       <node concept="37vLTG" id="MeIVZLdez$" role="3clF46">
         <property role="TrG5h" value="p0" />
@@ -13772,7 +13744,7 @@
           <node concept="3cpWsn" id="MeIVZLdABS" role="3cpWs9">
             <property role="TrG5h" value="$r1" />
             <node concept="3uibUv" id="MeIVZLdABR" role="1tU5fm">
-              <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+              <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
             </node>
           </node>
         </node>
@@ -14169,7 +14141,7 @@
           <node concept="3cpWsn" id="MeIVZLdiZq" role="3cpWs9">
             <property role="TrG5h" value="$r3" />
             <node concept="3uibUv" id="MeIVZLdiZp" role="1tU5fm">
-              <ref role="3uigEE" to="cv1z:MeIVZLdesU" resolve="AssemblyStdlib" />
+              <ref role="3uigEE" to="phxa:60KF3ba2lRm" resolve="AssemblyStdlib" />
             </node>
           </node>
         </node>
@@ -14241,7 +14213,7 @@
                 <ref role="3cqZAo" node="MeIVZLdiZq" resolve="$r3" />
               </node>
               <node concept="liA8E" id="MeIVZLdiZP" role="2OqNvi">
-                <ref role="37wK5l" to="cv1z:MeIVZLdeuN" resolve="isLibraryFunction" />
+                <ref role="37wK5l" to="phxa:60KF3ba2lVz" resolve="isLibraryFunction" />
                 <node concept="37vLTw" id="MeIVZLdiZQ" role="37wK5m">
                   <ref role="3cqZAo" node="MeIVZLdiZk" resolve="r1" />
                 </node>

@@ -2,7 +2,7 @@
 <model ref="r:99514143-0e08-4a06-b66e-7b01d3dc6221(org.postgresql.hostchooser)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -1935,7 +1935,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KIzNoUMX0h" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="iterator" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

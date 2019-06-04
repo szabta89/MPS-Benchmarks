@@ -2,7 +2,7 @@
 <model ref="r:ea9a9746-4004-48f9-a020-fe0cedda1380(edu.kit.ipd.pp.minijavac.ast)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="52fe" ref="r:6c2738d6-99fe-4e14-94ec-a2e848f708a0(edu.kit.ipd.pp.minijavac.ast.operations)" />
@@ -701,7 +701,6 @@
       <property role="TrG5h" value="getType" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3Tm1VV" id="60KF3ba2jjl" role="1B3o_S" />
       <node concept="3clFbS" id="60KF3ba2jjm" role="3clF47" />
       <node concept="3uibUv" id="60KF3ba2jjp" role="3clF45">
@@ -712,7 +711,6 @@
       <property role="TrG5h" value="getInitExpression" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3Tm1VV" id="60KF3ba2jjr" role="1B3o_S" />
       <node concept="3clFbS" id="60KF3ba2jjs" role="3clF47" />
       <node concept="3uibUv" id="60KF3ba2jjv" role="3clF45">
@@ -720,7 +718,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2jjw" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getColumn" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -729,7 +726,6 @@
       <node concept="10Oyi0" id="60KF3ba2jjz" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2jj$" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getRow" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

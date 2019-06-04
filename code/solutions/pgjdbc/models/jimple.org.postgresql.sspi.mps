@@ -2,9 +2,9 @@
 <model ref="r:fc18c431-618c-48e6-a8cf-b9729e245d29(jimple.org.postgresql.sspi)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="com.mbeddr.mpsutil.soot" version="0" />
+    <use id="4f0197ca-971d-45b6-82d7-0a2bf8511267" name="org.inca.integration.soot" version="0" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -29,9 +29,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
@@ -59,7 +57,6 @@
     <property role="TrG5h" value="ISSPIClient" />
     <node concept="3Tm1VV" id="1rL2BCre$f0" role="1B3o_S" />
     <node concept="3clFb_" id="1rL2BCre$f1" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="isSSPISupported" />
@@ -69,7 +66,6 @@
       <node concept="3clFbS" id="1rL2BCrf4TR" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1rL2BCre$f4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="startSSPI" />
@@ -85,7 +81,6 @@
       <node concept="3clFbS" id="1rL2BCrf4TS" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1rL2BCre$f9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="continueSSPI" />
@@ -106,7 +101,6 @@
       <node concept="3clFbS" id="1rL2BCrf4TT" role="3clF47" />
     </node>
     <node concept="3clFb_" id="1rL2BCre$fg" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="dispose" />

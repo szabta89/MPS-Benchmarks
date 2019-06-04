@@ -2,7 +2,7 @@
 <model ref="r:27d37f20-c1cd-4c19-b6c6-4d1d37ff89c0(edu.kit.ipd.pp.minijavac)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -133,9 +133,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -2486,7 +2484,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="60KF3ba2lWb" role="1B3o_S" />
     <node concept="3clFb_" id="60KF3ba2lWc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isEchoMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2504,7 +2501,6 @@
       <node concept="10P_77" id="60KF3ba2lWi" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isLextestMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2522,7 +2518,6 @@
       <node concept="10P_77" id="60KF3ba2lWp" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWq" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isParsetestMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2540,7 +2535,6 @@
       <node concept="10P_77" id="60KF3ba2lWw" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWx" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isAstPrintMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2558,7 +2552,6 @@
       <node concept="10P_77" id="60KF3ba2lWB" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWC" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isSemanticCheckMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2576,7 +2569,6 @@
       <node concept="10P_77" id="60KF3ba2lWI" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWJ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isFirmVersionMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2594,7 +2586,6 @@
       <node concept="10P_77" id="60KF3ba2lWP" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWQ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isFirmGraphDumpMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2612,7 +2603,6 @@
       <node concept="10P_77" id="60KF3ba2lWW" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lWX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isFirmCompileMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2630,7 +2620,6 @@
       <node concept="10P_77" id="60KF3ba2lX3" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lX4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isAssemblyMode" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2648,7 +2637,6 @@
       <node concept="10P_77" id="60KF3ba2lXa" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2lXb" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getOutputFile" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2674,7 +2662,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2lXk" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getFile" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -2694,7 +2681,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="60KF3ba2lXr" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getHelp" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

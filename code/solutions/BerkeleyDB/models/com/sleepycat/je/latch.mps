@@ -2,7 +2,7 @@
 <model ref="r:ea55a1ef-c8c4-411b-9c9e-5e0843a3cf09(com.sleepycat.je.latch)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -115,9 +115,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -3664,7 +3662,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wXD" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -3690,7 +3687,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wXK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setNoteLatch" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -3716,7 +3712,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wXR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="acquireExclusive" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -3785,7 +3780,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wXX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="acquireExclusiveNoWait" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -3834,7 +3828,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wY3" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="acquireShared" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -3873,7 +3866,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wY9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="release" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -3897,7 +3889,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8wYf" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isWriteLockedByCurrentThread" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5823,7 +5814,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="3ME3zLf8qi3" role="1B3o_S" />
     <node concept="3clFb_" id="3ME3zLf8qi4" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setName" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5849,7 +5839,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qib" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="acquire" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5923,7 +5912,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qih" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="acquireNoWait" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5972,7 +5960,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qin" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="releaseIfOwner" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -5998,7 +5985,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qis" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="release" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6032,7 +6018,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qiy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isOwner" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6058,7 +6043,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qiB" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="owner" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6086,7 +6070,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qiG" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="nWaiters" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6112,7 +6095,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qiL" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getLatchStats" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -6130,7 +6112,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="3ME3zLf8qiQ" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="toString" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />

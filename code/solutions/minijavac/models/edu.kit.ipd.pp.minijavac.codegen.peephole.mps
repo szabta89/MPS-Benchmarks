@@ -2,7 +2,7 @@
 <model ref="r:0f462951-8ef4-46dc-91a2-8b96811c893d(edu.kit.ipd.pp.minijavac.codegen.peephole)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -106,9 +106,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -491,7 +489,6 @@
     <property role="2bfB8j" value="true" />
     <node concept="3Tm1VV" id="60KF3ba2gs5" role="1B3o_S" />
     <node concept="3clFb_" id="60KF3ba2gs6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getWindowSize" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -500,7 +497,6 @@
       <node concept="10Oyi0" id="60KF3ba2gs9" role="3clF45" />
     </node>
     <node concept="3clFb_" id="60KF3ba2gsa" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="process" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
