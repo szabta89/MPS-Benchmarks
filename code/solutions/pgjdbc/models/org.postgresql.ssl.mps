@@ -2,7 +2,7 @@
 <model ref="r:5b97176d-0983-4ee7-b47d-1f93de92773e(org.postgresql.ssl)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -197,11 +197,8 @@
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -230,6 +227,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -335,13 +340,53 @@
           </node>
         </node>
         <node concept="3SKdUt" id="3KIzNoUNi46" role="3cqZAp">
-          <node concept="3SKdUq" id="3KIzNoUNi45" role="3SKWNk">
-            <property role="3SKdUp" value="Use the default factory if no specific factory is requested" />
+          <node concept="1PaTwC" id="1fGNp1n8SCy" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8SCz" role="1PaTwD">
+              <property role="3oM_SC" value="Use" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SC$" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SC_" role="1PaTwD">
+              <property role="3oM_SC" value="default" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCA" role="1PaTwD">
+              <property role="3oM_SC" value="factory" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCB" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCC" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCD" role="1PaTwD">
+              <property role="3oM_SC" value="specific" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCE" role="1PaTwD">
+              <property role="3oM_SC" value="factory" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCF" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCG" role="1PaTwD">
+              <property role="3oM_SC" value="requested" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="3KIzNoUNi48" role="3cqZAp">
-          <node concept="3SKdUq" id="3KIzNoUNi47" role="3SKWNk">
-            <property role="3SKdUp" value="unless sslmode is set" />
+          <node concept="1PaTwC" id="1fGNp1n8SCH" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8SCI" role="1PaTwD">
+              <property role="3oM_SC" value="unless" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCJ" role="1PaTwD">
+              <property role="3oM_SC" value="sslmode" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCK" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SCL" role="1PaTwD">
+              <property role="3oM_SC" value="set" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="3KIzNoUNi0C" role="3cqZAp">
@@ -454,8 +499,34 @@
           </node>
           <node concept="3clFbS" id="3KIzNoUNi0L" role="3clFbx">
             <node concept="3SKdUt" id="3KIzNoUNi4a" role="3cqZAp">
-              <node concept="3SKdUq" id="3KIzNoUNi49" role="3SKWNk">
-                <property role="3SKdUp" value="If sslmode is set, use the libp compatible factory" />
+              <node concept="1PaTwC" id="1fGNp1n8SCM" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8SCN" role="1PaTwD">
+                  <property role="3oM_SC" value="If" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCO" role="1PaTwD">
+                  <property role="3oM_SC" value="sslmode" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCP" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCQ" role="1PaTwD">
+                  <property role="3oM_SC" value="set," />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCR" role="1PaTwD">
+                  <property role="3oM_SC" value="use" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCS" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCT" role="1PaTwD">
+                  <property role="3oM_SC" value="libp" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCU" role="1PaTwD">
+                  <property role="3oM_SC" value="compatible" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SCV" role="1PaTwD">
+                  <property role="3oM_SC" value="factory" />
+                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="3KIzNoUNi0M" role="3cqZAp">
@@ -528,8 +599,19 @@
                 </node>
                 <node concept="3clFbS" id="3KIzNoUNi21" role="3clFbx">
                   <node concept="3SKdUt" id="3KIzNoUNi4e" role="3cqZAp">
-                    <node concept="3SKdUq" id="3KIzNoUNi4d" role="3SKWNk">
-                      <property role="3SKdUp" value="throw any KeyManager exception" />
+                    <node concept="1PaTwC" id="1fGNp1n8SCW" role="3ndbpf">
+                      <node concept="3oM_SD" id="1fGNp1n8SCX" role="1PaTwD">
+                        <property role="3oM_SC" value="throw" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8SCY" role="1PaTwD">
+                        <property role="3oM_SC" value="any" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8SCZ" role="1PaTwD">
+                        <property role="3oM_SC" value="KeyManager" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8SD0" role="1PaTwD">
+                        <property role="3oM_SC" value="exception" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbF" id="3KIzNoUNi22" role="3cqZAp">
@@ -648,8 +730,34 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3KIzNoUNi4c" role="3cqZAp">
-              <node concept="3SKdUq" id="3KIzNoUNi4b" role="3SKWNk">
-                <property role="3SKdUp" value="We must invoke manually, otherwise the exceptions are hidden" />
+              <node concept="1PaTwC" id="1fGNp1n8SD1" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8SD2" role="1PaTwD">
+                  <property role="3oM_SC" value="We" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD3" role="1PaTwD">
+                  <property role="3oM_SC" value="must" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD4" role="1PaTwD">
+                  <property role="3oM_SC" value="invoke" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD5" role="1PaTwD">
+                  <property role="3oM_SC" value="manually," />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD6" role="1PaTwD">
+                  <property role="3oM_SC" value="otherwise" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD7" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD8" role="1PaTwD">
+                  <property role="3oM_SC" value="exceptions" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SD9" role="1PaTwD">
+                  <property role="3oM_SC" value="are" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8SDa" role="1PaTwD">
+                  <property role="3oM_SC" value="hidden" />
+                </node>
               </node>
             </node>
             <node concept="3clFbF" id="3KIzNoUNi1P" role="3cqZAp">
@@ -1018,8 +1126,16 @@
           </node>
         </node>
         <node concept="3SKdUt" id="3KIzNoUN7ZS" role="3cqZAp">
-          <node concept="3SKdUq" id="3KIzNoUN7ZR" role="3SKWNk">
-            <property role="3SKdUp" value="or &quot;SSL&quot; ?" />
+          <node concept="1PaTwC" id="1fGNp1n8SDb" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8SDc" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SDd" role="1PaTwD">
+              <property role="3oM_SC" value="&quot;SSL&quot;" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8SDe" role="1PaTwD">
+              <property role="3oM_SC" value="?" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3KIzNoUN7Zf" role="3cqZAp">
@@ -2736,8 +2852,10 @@
                   <node concept="TDmWw" id="3KIzNoUNg0b" role="TEbGg">
                     <node concept="3clFbS" id="3KIzNoUNg09" role="TDEfX">
                       <node concept="3SKdUt" id="3KIzNoUNg4V" role="3cqZAp">
-                        <node concept="3SKdUq" id="3KIzNoUNg4U" role="3SKWNk">
-                          <property role="3SKdUp" value="ignore" />
+                        <node concept="1PaTwC" id="1fGNp1n8SDf" role="3ndbpf">
+                          <node concept="3oM_SD" id="1fGNp1n8SDg" role="1PaTwD">
+                            <property role="3oM_SC" value="ignore" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -3309,8 +3427,49 @@
             </node>
           </node>
           <node concept="3SKdUt" id="3KIzNoUNg4X" role="3cqZAp">
-            <node concept="3SKdUq" id="3KIzNoUNg4W" role="3SKWNk">
-              <property role="3SKdUp" value="Note: KeyStore requires it be loaded even if you don't load anything into it:" />
+            <node concept="1PaTwC" id="1fGNp1n8SDh" role="3ndbpf">
+              <node concept="3oM_SD" id="1fGNp1n8SDi" role="1PaTwD">
+                <property role="3oM_SC" value="Note:" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDj" role="1PaTwD">
+                <property role="3oM_SC" value="KeyStore" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDk" role="1PaTwD">
+                <property role="3oM_SC" value="requires" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDl" role="1PaTwD">
+                <property role="3oM_SC" value="it" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDm" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDn" role="1PaTwD">
+                <property role="3oM_SC" value="loaded" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDo" role="1PaTwD">
+                <property role="3oM_SC" value="even" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDp" role="1PaTwD">
+                <property role="3oM_SC" value="if" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDq" role="1PaTwD">
+                <property role="3oM_SC" value="you" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDr" role="1PaTwD">
+                <property role="3oM_SC" value="don't" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDs" role="1PaTwD">
+                <property role="3oM_SC" value="load" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDt" role="1PaTwD">
+                <property role="3oM_SC" value="anything" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDu" role="1PaTwD">
+                <property role="3oM_SC" value="into" />
+              </node>
+              <node concept="3oM_SD" id="1fGNp1n8SDv" role="1PaTwD">
+                <property role="3oM_SC" value="it:" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="3KIzNoUNfVy" role="3cqZAp">

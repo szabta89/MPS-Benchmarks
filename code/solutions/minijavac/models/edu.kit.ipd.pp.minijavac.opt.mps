@@ -2,7 +2,7 @@
 <model ref="r:de931164-999f-4bd0-8352-2d1a818a1a6f(edu.kit.ipd.pp.minijavac.opt)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -159,11 +159,8 @@
       <concept id="1221737317277" name="jetbrains.mps.baseLanguage.structure.StaticInitializer" flags="lg" index="1Pe0a1">
         <child id="1221737317278" name="statementList" index="1Pe0a2" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -192,6 +189,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -348,8 +353,43 @@
               </node>
             </node>
             <node concept="3SKdUt" id="60KF3ba2jo$" role="3cqZAp">
-              <node concept="3SKdUq" id="60KF3ba2joz" role="3SKWNk">
-                <property role="3SKdUp" value="Graphs might change from run to run, so caching would be dangerous!" />
+              <node concept="1PaTwC" id="1fGNp1n8OOU" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8OOV" role="1PaTwD">
+                  <property role="3oM_SC" value="Graphs" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OOW" role="1PaTwD">
+                  <property role="3oM_SC" value="might" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OOX" role="1PaTwD">
+                  <property role="3oM_SC" value="change" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OOY" role="1PaTwD">
+                  <property role="3oM_SC" value="from" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OOZ" role="1PaTwD">
+                  <property role="3oM_SC" value="run" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP0" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP1" role="1PaTwD">
+                  <property role="3oM_SC" value="run," />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP2" role="1PaTwD">
+                  <property role="3oM_SC" value="so" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP3" role="1PaTwD">
+                  <property role="3oM_SC" value="caching" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP4" role="1PaTwD">
+                  <property role="3oM_SC" value="would" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP5" role="1PaTwD">
+                  <property role="3oM_SC" value="be" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8OP6" role="1PaTwD">
+                  <property role="3oM_SC" value="dangerous!" />
+                </node>
               </node>
             </node>
             <node concept="3clFbF" id="60KF3ba2jog" role="3cqZAp">

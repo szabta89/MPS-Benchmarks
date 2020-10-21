@@ -2,7 +2,7 @@
 <model ref="r:0f462951-8ef4-46dc-91a2-8b96811c893d(edu.kit.ipd.pp.minijavac.codegen.peephole)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -180,11 +180,8 @@
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -212,6 +209,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -461,8 +466,43 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="60KF3ba2jCk" role="3cqZAp">
-                  <node concept="3SKdUq" id="60KF3ba2jCj" role="3SKWNk">
-                    <property role="3SKdUp" value="Return a new list just containing the label, the jmp got dropped" />
+                  <node concept="1PaTwC" id="1fGNp1n8OHa" role="3ndbpf">
+                    <node concept="3oM_SD" id="1fGNp1n8OHb" role="1PaTwD">
+                      <property role="3oM_SC" value="Return" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHc" role="1PaTwD">
+                      <property role="3oM_SC" value="a" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHd" role="1PaTwD">
+                      <property role="3oM_SC" value="new" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHe" role="1PaTwD">
+                      <property role="3oM_SC" value="list" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHf" role="1PaTwD">
+                      <property role="3oM_SC" value="just" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHg" role="1PaTwD">
+                      <property role="3oM_SC" value="containing" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHh" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHi" role="1PaTwD">
+                      <property role="3oM_SC" value="label," />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHj" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHk" role="1PaTwD">
+                      <property role="3oM_SC" value="jmp" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHl" role="1PaTwD">
+                      <property role="3oM_SC" value="got" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHm" role="1PaTwD">
+                      <property role="3oM_SC" value="dropped" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1923,8 +1963,37 @@
               </node>
               <node concept="3clFbS" id="60KF3ba2dZT" role="2LFqv$">
                 <node concept="3SKdUt" id="60KF3ba2e0Z" role="3cqZAp">
-                  <node concept="3SKdUq" id="60KF3ba2e0Y" role="3SKWNk">
-                    <property role="3SKdUp" value="the last entry is taken care off after the loop" />
+                  <node concept="1PaTwC" id="1fGNp1n8OHn" role="3ndbpf">
+                    <node concept="3oM_SD" id="1fGNp1n8OHo" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHp" role="1PaTwD">
+                      <property role="3oM_SC" value="last" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHq" role="1PaTwD">
+                      <property role="3oM_SC" value="entry" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHr" role="1PaTwD">
+                      <property role="3oM_SC" value="is" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHs" role="1PaTwD">
+                      <property role="3oM_SC" value="taken" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHt" role="1PaTwD">
+                      <property role="3oM_SC" value="care" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHu" role="1PaTwD">
+                      <property role="3oM_SC" value="off" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHv" role="1PaTwD">
+                      <property role="3oM_SC" value="after" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHw" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHx" role="1PaTwD">
+                      <property role="3oM_SC" value="loop" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3cpWs8" id="60KF3ba2dZV" role="3cqZAp">
@@ -1958,8 +2027,46 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="60KF3ba2e11" role="3cqZAp">
-                  <node concept="3SKdUq" id="60KF3ba2e10" role="3SKWNk">
-                    <property role="3SKdUp" value="null has the semantic meaning of &quot;delete this instruction&quot; from the list (!!)" />
+                  <node concept="1PaTwC" id="1fGNp1n8OHy" role="3ndbpf">
+                    <node concept="3oM_SD" id="1fGNp1n8OHz" role="1PaTwD">
+                      <property role="3oM_SC" value="null" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OH$" role="1PaTwD">
+                      <property role="3oM_SC" value="has" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OH_" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHA" role="1PaTwD">
+                      <property role="3oM_SC" value="semantic" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHB" role="1PaTwD">
+                      <property role="3oM_SC" value="meaning" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHC" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHD" role="1PaTwD">
+                      <property role="3oM_SC" value="&quot;delete" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHE" role="1PaTwD">
+                      <property role="3oM_SC" value="this" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHF" role="1PaTwD">
+                      <property role="3oM_SC" value="instruction&quot;" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHG" role="1PaTwD">
+                      <property role="3oM_SC" value="from" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHH" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHI" role="1PaTwD">
+                      <property role="3oM_SC" value="list" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8OHJ" role="1PaTwD">
+                      <property role="3oM_SC" value="(!!)" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbJ" id="60KF3ba2e03" role="3cqZAp">

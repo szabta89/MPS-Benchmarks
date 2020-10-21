@@ -2,7 +2,7 @@
 <model ref="r:0c2001ca-a266-4bdb-89e0-65f880f722c3(org.postgresql.core.v3.replication)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -215,11 +215,8 @@
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -250,6 +247,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -824,8 +829,22 @@
           </node>
         </node>
         <node concept="3SKdUt" id="3KIzNoUNbh2" role="3cqZAp">
-          <node concept="3SKdUq" id="3KIzNoUNbh1" role="3SKWNk">
-            <property role="3SKdUp" value="todo replace on java 8" />
+          <node concept="1PaTwC" id="1fGNp1n8QFW" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8QFX" role="1PaTwD">
+              <property role="3oM_SC" value="todo" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QFY" role="1PaTwD">
+              <property role="3oM_SC" value="replace" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QFZ" role="1PaTwD">
+              <property role="3oM_SC" value="on" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QG0" role="1PaTwD">
+              <property role="3oM_SC" value="java" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QG1" role="1PaTwD">
+              <property role="3oM_SC" value="8" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3KIzNoUNbeO" role="3cqZAp">
@@ -1900,8 +1919,13 @@
                 </node>
                 <node concept="3clFbS" id="3KIzNoUNoaH" role="3Kbo56">
                   <node concept="3SKdUt" id="3KIzNoUNohs" role="3cqZAp">
-                    <node concept="3SKdUq" id="3KIzNoUNohr" role="3SKWNk">
-                      <property role="3SKdUp" value="KeepAlive message" />
+                    <node concept="1PaTwC" id="1fGNp1n8QG2" role="3ndbpf">
+                      <node concept="3oM_SD" id="1fGNp1n8QG3" role="1PaTwD">
+                        <property role="3oM_SC" value="KeepAlive" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8QG4" role="1PaTwD">
+                        <property role="3oM_SC" value="message" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbF" id="3KIzNoUNoaI" role="3cqZAp">
@@ -1941,8 +1965,10 @@
                 </node>
                 <node concept="3clFbS" id="3KIzNoUNoaW" role="3Kbo56">
                   <node concept="3SKdUt" id="3KIzNoUNohu" role="3cqZAp">
-                    <node concept="3SKdUq" id="3KIzNoUNoht" role="3SKWNk">
-                      <property role="3SKdUp" value="XLogData" />
+                    <node concept="1PaTwC" id="1fGNp1n8QG5" role="3ndbpf">
+                      <node concept="3oM_SD" id="1fGNp1n8QG6" role="1PaTwD">
+                        <property role="3oM_SC" value="XLogData" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3cpWs6" id="3KIzNoUNoaX" role="3cqZAp">
@@ -1984,8 +2010,25 @@
           <node concept="TDmWw" id="3KIzNoUNobQ" role="TEbGg">
             <node concept="3clFbS" id="3KIzNoUNobE" role="TDEfX">
               <node concept="3SKdUt" id="3KIzNoUNohw" role="3cqZAp">
-                <node concept="3SKdUq" id="3KIzNoUNohv" role="3SKWNk">
-                  <property role="3SKdUp" value="todo maybe replace on thread sleep?" />
+                <node concept="1PaTwC" id="1fGNp1n8QG7" role="3ndbpf">
+                  <node concept="3oM_SD" id="1fGNp1n8QG8" role="1PaTwD">
+                    <property role="3oM_SC" value="todo" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8QG9" role="1PaTwD">
+                    <property role="3oM_SC" value="maybe" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8QGa" role="1PaTwD">
+                    <property role="3oM_SC" value="replace" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8QGb" role="1PaTwD">
+                    <property role="3oM_SC" value="on" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8QGc" role="1PaTwD">
+                    <property role="3oM_SC" value="thread" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8QGd" role="1PaTwD">
+                    <property role="3oM_SC" value="sleep?" />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbJ" id="3KIzNoUNobF" role="3cqZAp">
@@ -2004,8 +2047,19 @@
                 </node>
                 <node concept="3clFbS" id="3KIzNoUNobK" role="3clFbx">
                   <node concept="3SKdUt" id="3KIzNoUNohy" role="3cqZAp">
-                    <node concept="3SKdUq" id="3KIzNoUNohx" role="3SKWNk">
-                      <property role="3SKdUp" value="signal for keep alive" />
+                    <node concept="1PaTwC" id="1fGNp1n8QGe" role="3ndbpf">
+                      <node concept="3oM_SD" id="1fGNp1n8QGf" role="1PaTwD">
+                        <property role="3oM_SC" value="signal" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8QGg" role="1PaTwD">
+                        <property role="3oM_SC" value="for" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8QGh" role="1PaTwD">
+                        <property role="3oM_SC" value="keep" />
+                      </node>
+                      <node concept="3oM_SD" id="1fGNp1n8QGi" role="1PaTwD">
+                        <property role="3oM_SC" value="alive" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3cpWs6" id="3KIzNoUNobL" role="3cqZAp">
@@ -2088,8 +2142,28 @@
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3KIzNoUNobU" role="3clF47">
         <node concept="3SKdUt" id="3KIzNoUNoh$" role="3cqZAp">
-          <node concept="3SKdUq" id="3KIzNoUNohz" role="3SKWNk">
-            <property role="3SKdUp" value="a value of 0 disables automatic updates " />
+          <node concept="1PaTwC" id="1fGNp1n8QGj" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8QGk" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QGl" role="1PaTwD">
+              <property role="3oM_SC" value="value" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QGm" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QGn" role="1PaTwD">
+              <property role="3oM_SC" value="0" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QGo" role="1PaTwD">
+              <property role="3oM_SC" value="disables" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QGp" role="1PaTwD">
+              <property role="3oM_SC" value="automatic" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8QGq" role="1PaTwD">
+              <property role="3oM_SC" value="updates" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="3KIzNoUNobV" role="3cqZAp">

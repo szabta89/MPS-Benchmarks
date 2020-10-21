@@ -2,7 +2,7 @@
 <model ref="r:ea55a1ef-c8c4-411b-9c9e-5e0843a3cf09(com.sleepycat.je.latch)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -200,11 +200,8 @@
       <concept id="1221737317277" name="jetbrains.mps.baseLanguage.structure.StaticInitializer" flags="lg" index="1Pe0a1">
         <child id="1221737317278" name="statementList" index="1Pe0a2" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -235,6 +232,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -890,8 +895,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8MHY" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8MHX" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect;" />
+              <node concept="1PaTwC" id="1fGNp1n8Iwz" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8Iw$" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iw_" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IwA" role="1PaTwD">
+                  <property role="3oM_SC" value="effect;" />
+                </node>
               </node>
             </node>
           </node>
@@ -1089,8 +1102,16 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="3ME3zLf8MIe" role="3cqZAp">
-                  <node concept="3SKdUq" id="3ME3zLf8MId" role="3SKWNk">
-                    <property role="3SKdUp" value="intentional side effect;" />
+                  <node concept="1PaTwC" id="1fGNp1n8IwB" role="3ndbpf">
+                    <node concept="3oM_SD" id="1fGNp1n8IwC" role="1PaTwD">
+                      <property role="3oM_SC" value="intentional" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8IwD" role="1PaTwD">
+                      <property role="3oM_SC" value="side" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8IwE" role="1PaTwD">
+                      <property role="3oM_SC" value="effect;" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3cpWs6" id="3ME3zLf8MDf" role="3cqZAp">
@@ -1395,8 +1416,16 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="3ME3zLf8MI$" role="3cqZAp">
-                  <node concept="3SKdUq" id="3ME3zLf8MIz" role="3SKWNk">
-                    <property role="3SKdUp" value="intentional side effect." />
+                  <node concept="1PaTwC" id="1fGNp1n8IwF" role="3ndbpf">
+                    <node concept="3oM_SD" id="1fGNp1n8IwG" role="1PaTwD">
+                      <property role="3oM_SC" value="intentional" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8IwH" role="1PaTwD">
+                      <property role="3oM_SC" value="side" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8IwI" role="1PaTwD">
+                      <property role="3oM_SC" value="effect." />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1609,8 +1638,16 @@
           <node concept="TDmWw" id="3ME3zLf8MG0" role="TEbGg">
             <node concept="3clFbS" id="3ME3zLf8MFY" role="TDEfX">
               <node concept="3SKdUt" id="3ME3zLf8MIU" role="3cqZAp">
-                <node concept="3SKdUq" id="3ME3zLf8MIT" role="3SKWNk">
-                  <property role="3SKdUp" value="Klockwork - ok " />
+                <node concept="1PaTwC" id="1fGNp1n8IwJ" role="3ndbpf">
+                  <node concept="3oM_SD" id="1fGNp1n8IwK" role="1PaTwD">
+                    <property role="3oM_SC" value="Klockwork" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8IwL" role="1PaTwD">
+                    <property role="3oM_SC" value="-" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8IwM" role="1PaTwD">
+                    <property role="3oM_SC" value="ok" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1774,8 +1811,43 @@
       </node>
       <node concept="3clFbS" id="3ME3zLf8MG_" role="3clF47">
         <node concept="3SKdUt" id="3ME3zLf8MJ4" role="3cqZAp">
-          <node concept="3SKdUq" id="3ME3zLf8MJ3" role="3SKWNk">
-            <property role="3SKdUp" value="Only return a false status if we are checking for latch ownership." />
+          <node concept="1PaTwC" id="1fGNp1n8IwN" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8IwO" role="1PaTwD">
+              <property role="3oM_SC" value="Only" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwP" role="1PaTwD">
+              <property role="3oM_SC" value="return" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwQ" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwR" role="1PaTwD">
+              <property role="3oM_SC" value="false" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwS" role="1PaTwD">
+              <property role="3oM_SC" value="status" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwT" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwU" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwV" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwW" role="1PaTwD">
+              <property role="3oM_SC" value="checking" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwX" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwY" role="1PaTwD">
+              <property role="3oM_SC" value="latch" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IwZ" role="1PaTwD">
+              <property role="3oM_SC" value="ownership." />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="3ME3zLf8MGA" role="3cqZAp">
@@ -2194,8 +2266,37 @@
                 </node>
               </node>
               <node concept="3SKdUt" id="3ME3zLf8s8m" role="3cqZAp">
-                <node concept="3SKdUq" id="3ME3zLf8s8l" role="3SKWNk">
-                  <property role="3SKdUp" value="Something bad happened.  Revert back to our 1.4 latches. " />
+                <node concept="1PaTwC" id="1fGNp1n8Ix0" role="3ndbpf">
+                  <node concept="3oM_SD" id="1fGNp1n8Ix1" role="1PaTwD">
+                    <property role="3oM_SC" value="Something" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix2" role="1PaTwD">
+                    <property role="3oM_SC" value="bad" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix3" role="1PaTwD">
+                    <property role="3oM_SC" value="happened." />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix4" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix5" role="1PaTwD">
+                    <property role="3oM_SC" value="Revert" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix6" role="1PaTwD">
+                    <property role="3oM_SC" value="back" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix7" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix8" role="1PaTwD">
+                    <property role="3oM_SC" value="our" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ix9" role="1PaTwD">
+                    <property role="3oM_SC" value="1.4" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixa" role="1PaTwD">
+                    <property role="3oM_SC" value="latches." />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="3ME3zLf8s66" role="3cqZAp">
@@ -2304,8 +2405,37 @@
                 </node>
               </node>
               <node concept="3SKdUt" id="3ME3zLf8s8o" role="3cqZAp">
-                <node concept="3SKdUq" id="3ME3zLf8s8n" role="3SKWNk">
-                  <property role="3SKdUp" value="Something bad happened.  Revert back to our 1.4 latches. " />
+                <node concept="1PaTwC" id="1fGNp1n8Ixb" role="3ndbpf">
+                  <node concept="3oM_SD" id="1fGNp1n8Ixc" role="1PaTwD">
+                    <property role="3oM_SC" value="Something" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixd" role="1PaTwD">
+                    <property role="3oM_SC" value="bad" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixe" role="1PaTwD">
+                    <property role="3oM_SC" value="happened." />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixf" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixg" role="1PaTwD">
+                    <property role="3oM_SC" value="Revert" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixh" role="1PaTwD">
+                    <property role="3oM_SC" value="back" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixi" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixj" role="1PaTwD">
+                    <property role="3oM_SC" value="our" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixk" role="1PaTwD">
+                    <property role="3oM_SC" value="1.4" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixl" role="1PaTwD">
+                    <property role="3oM_SC" value="latches." />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="3ME3zLf8s6M" role="3cqZAp">
@@ -2438,8 +2568,37 @@
                 </node>
               </node>
               <node concept="3SKdUt" id="3ME3zLf8s8q" role="3cqZAp">
-                <node concept="3SKdUq" id="3ME3zLf8s8p" role="3SKWNk">
-                  <property role="3SKdUp" value="Something bad happened.  Revert back to our 1.4 latches. " />
+                <node concept="1PaTwC" id="1fGNp1n8Ixm" role="3ndbpf">
+                  <node concept="3oM_SD" id="1fGNp1n8Ixn" role="1PaTwD">
+                    <property role="3oM_SC" value="Something" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixo" role="1PaTwD">
+                    <property role="3oM_SC" value="bad" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixp" role="1PaTwD">
+                    <property role="3oM_SC" value="happened." />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixq" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixr" role="1PaTwD">
+                    <property role="3oM_SC" value="Revert" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixs" role="1PaTwD">
+                    <property role="3oM_SC" value="back" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixt" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixu" role="1PaTwD">
+                    <property role="3oM_SC" value="our" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixv" role="1PaTwD">
+                    <property role="3oM_SC" value="1.4" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8Ixw" role="1PaTwD">
+                    <property role="3oM_SC" value="latches." />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="3ME3zLf8s7B" role="3cqZAp">
@@ -2892,8 +3051,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8A2d" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8A2c" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect;" />
+              <node concept="1PaTwC" id="1fGNp1n8Ixx" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8Ixy" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Ixz" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Ix$" role="1PaTwD">
+                  <property role="3oM_SC" value="effect;" />
+                </node>
               </node>
             </node>
           </node>
@@ -3280,8 +3447,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8A2L" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8A2K" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect." />
+              <node concept="1PaTwC" id="1fGNp1n8Ix_" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8IxA" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IxB" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IxC" role="1PaTwD">
+                  <property role="3oM_SC" value="effect." />
+                </node>
               </node>
             </node>
           </node>
@@ -3441,8 +3616,16 @@
           <node concept="TDmWw" id="3ME3zLf8A0N" role="TEbGg">
             <node concept="3clFbS" id="3ME3zLf8A0L" role="TDEfX">
               <node concept="3SKdUt" id="3ME3zLf8A37" role="3cqZAp">
-                <node concept="3SKdUq" id="3ME3zLf8A36" role="3SKWNk">
-                  <property role="3SKdUp" value="Klockwork - ok " />
+                <node concept="1PaTwC" id="1fGNp1n8IxD" role="3ndbpf">
+                  <node concept="3oM_SD" id="1fGNp1n8IxE" role="1PaTwD">
+                    <property role="3oM_SC" value="Klockwork" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8IxF" role="1PaTwD">
+                    <property role="3oM_SC" value="-" />
+                  </node>
+                  <node concept="3oM_SD" id="1fGNp1n8IxG" role="1PaTwD">
+                    <property role="3oM_SC" value="ok" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3563,8 +3746,43 @@
       </node>
       <node concept="3clFbS" id="3ME3zLf8A1c" role="3clF47">
         <node concept="3SKdUt" id="3ME3zLf8A3f" role="3cqZAp">
-          <node concept="3SKdUq" id="3ME3zLf8A3e" role="3SKWNk">
-            <property role="3SKdUp" value="Only return a false status if we are checking for latch ownership." />
+          <node concept="1PaTwC" id="1fGNp1n8IxH" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8IxI" role="1PaTwD">
+              <property role="3oM_SC" value="Only" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxJ" role="1PaTwD">
+              <property role="3oM_SC" value="return" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxK" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxL" role="1PaTwD">
+              <property role="3oM_SC" value="false" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxM" role="1PaTwD">
+              <property role="3oM_SC" value="status" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxN" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxO" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxP" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxQ" role="1PaTwD">
+              <property role="3oM_SC" value="checking" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxR" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxS" role="1PaTwD">
+              <property role="3oM_SC" value="latch" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8IxT" role="1PaTwD">
+              <property role="3oM_SC" value="ownership." />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="3ME3zLf8A1d" role="3cqZAp">
@@ -4119,8 +4337,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8z4Y" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8z4X" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect;" />
+              <node concept="1PaTwC" id="1fGNp1n8IxU" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8IxV" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IxW" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IxX" role="1PaTwD">
+                  <property role="3oM_SC" value="effect;" />
+                </node>
               </node>
             </node>
           </node>
@@ -4247,8 +4473,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8z50" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8z4Z" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect;" />
+              <node concept="1PaTwC" id="1fGNp1n8IxY" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8IxZ" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iy0" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iy1" role="1PaTwD">
+                  <property role="3oM_SC" value="effect;" />
+                </node>
               </node>
             </node>
             <node concept="3cpWs6" id="3ME3zLf8z2S" role="3cqZAp">
@@ -4306,8 +4540,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8z54" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8z53" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect" />
+              <node concept="1PaTwC" id="1fGNp1n8Iy2" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8Iy3" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iy4" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iy5" role="1PaTwD">
+                  <property role="3oM_SC" value="effect" />
+                </node>
               </node>
             </node>
           </node>
@@ -4346,8 +4588,16 @@
           </node>
           <node concept="3clFbS" id="3ME3zLf8z3F" role="2GVbov">
             <node concept="3SKdUt" id="3ME3zLf8z5e" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8z5d" role="3SKWNk">
-                <property role="3SKdUp" value="Intentional side effect. " />
+              <node concept="1PaTwC" id="1fGNp1n8Iy6" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8Iy7" role="1PaTwD">
+                  <property role="3oM_SC" value="Intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iy8" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iy9" role="1PaTwD">
+                  <property role="3oM_SC" value="effect." />
+                </node>
               </node>
             </node>
             <node concept="1gVbGN" id="3ME3zLf8z3L" role="3cqZAp">
@@ -4386,13 +4636,68 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8z5a" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8z59" role="3SKWNk">
-                <property role="3SKdUp" value="There's no way to tell if a readlock is held by the current" />
+              <node concept="1PaTwC" id="1fGNp1n8Iya" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8Iyb" role="1PaTwD">
+                  <property role="3oM_SC" value="There's" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyc" role="1PaTwD">
+                  <property role="3oM_SC" value="no" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyd" role="1PaTwD">
+                  <property role="3oM_SC" value="way" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iye" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyf" role="1PaTwD">
+                  <property role="3oM_SC" value="tell" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyg" role="1PaTwD">
+                  <property role="3oM_SC" value="if" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyh" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyi" role="1PaTwD">
+                  <property role="3oM_SC" value="readlock" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyj" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyk" role="1PaTwD">
+                  <property role="3oM_SC" value="held" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyl" role="1PaTwD">
+                  <property role="3oM_SC" value="by" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iym" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyn" role="1PaTwD">
+                  <property role="3oM_SC" value="current" />
+                </node>
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8z5c" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8z5b" role="3SKWNk">
-                <property role="3SKdUp" value="thread so just try unlocking it." />
+              <node concept="1PaTwC" id="1fGNp1n8Iyo" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8Iyp" role="1PaTwD">
+                  <property role="3oM_SC" value="thread" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyq" role="1PaTwD">
+                  <property role="3oM_SC" value="so" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyr" role="1PaTwD">
+                  <property role="3oM_SC" value="just" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iys" role="1PaTwD">
+                  <property role="3oM_SC" value="try" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyt" role="1PaTwD">
+                  <property role="3oM_SC" value="unlocking" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8Iyu" role="1PaTwD">
+                  <property role="3oM_SC" value="it." />
+                </node>
               </node>
             </node>
             <node concept="3clFbF" id="3ME3zLf8z3A" role="3cqZAp">
@@ -5566,8 +5871,22 @@
       </node>
       <node concept="3clFbS" id="3ME3zLf8IHm" role="3clF47">
         <node concept="3SKdUt" id="3ME3zLf8IIU" role="3cqZAp">
-          <node concept="3SKdUq" id="3ME3zLf8IIT" role="3SKWNk">
-            <property role="3SKdUp" value="Assume the caller does synchronization.  " />
+          <node concept="1PaTwC" id="1fGNp1n8Iyv" role="3ndbpf">
+            <node concept="3oM_SD" id="1fGNp1n8Iyw" role="1PaTwD">
+              <property role="3oM_SC" value="Assume" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8Iyx" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8Iyy" role="1PaTwD">
+              <property role="3oM_SC" value="caller" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8Iyz" role="1PaTwD">
+              <property role="3oM_SC" value="does" />
+            </node>
+            <node concept="3oM_SD" id="1fGNp1n8Iy$" role="1PaTwD">
+              <property role="3oM_SC" value="synchronization." />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="3ME3zLf8IHo" role="3cqZAp">
@@ -6633,8 +6952,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8x9b" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8x9a" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect" />
+              <node concept="1PaTwC" id="1fGNp1n8Iy_" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8IyA" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IyB" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IyC" role="1PaTwD">
+                  <property role="3oM_SC" value="effect" />
+                </node>
               </node>
             </node>
           </node>
@@ -6874,8 +7201,16 @@
                       </node>
                     </node>
                     <node concept="3SKdUt" id="3ME3zLf8x9d" role="3cqZAp">
-                      <node concept="3SKdUq" id="3ME3zLf8x9c" role="3SKWNk">
-                        <property role="3SKdUp" value="Intentional side effect. " />
+                      <node concept="1PaTwC" id="1fGNp1n8IyD" role="3ndbpf">
+                        <node concept="3oM_SD" id="1fGNp1n8IyE" role="1PaTwD">
+                          <property role="3oM_SC" value="Intentional" />
+                        </node>
+                        <node concept="3oM_SD" id="1fGNp1n8IyF" role="1PaTwD">
+                          <property role="3oM_SC" value="side" />
+                        </node>
+                        <node concept="3oM_SD" id="1fGNp1n8IyG" role="1PaTwD">
+                          <property role="3oM_SC" value="effect." />
+                        </node>
                       </node>
                     </node>
                     <node concept="1gVbGN" id="3ME3zLf8x3m" role="3cqZAp">
@@ -7119,8 +7454,16 @@
               </node>
             </node>
             <node concept="3SKdUt" id="3ME3zLf8x9p" role="3cqZAp">
-              <node concept="3SKdUq" id="3ME3zLf8x9o" role="3SKWNk">
-                <property role="3SKdUp" value="intentional side effect" />
+              <node concept="1PaTwC" id="1fGNp1n8IyH" role="3ndbpf">
+                <node concept="3oM_SD" id="1fGNp1n8IyI" role="1PaTwD">
+                  <property role="3oM_SC" value="intentional" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IyJ" role="1PaTwD">
+                  <property role="3oM_SC" value="side" />
+                </node>
+                <node concept="3oM_SD" id="1fGNp1n8IyK" role="1PaTwD">
+                  <property role="3oM_SC" value="effect" />
+                </node>
               </node>
             </node>
           </node>
@@ -7292,8 +7635,16 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="3ME3zLf8x9v" role="3cqZAp">
-                  <node concept="3SKdUq" id="3ME3zLf8x9u" role="3SKWNk">
-                    <property role="3SKdUp" value="Intentional side effect. " />
+                  <node concept="1PaTwC" id="1fGNp1n8IyL" role="3ndbpf">
+                    <node concept="3oM_SD" id="1fGNp1n8IyM" role="1PaTwD">
+                      <property role="3oM_SC" value="Intentional" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8IyN" role="1PaTwD">
+                      <property role="3oM_SC" value="side" />
+                    </node>
+                    <node concept="3oM_SD" id="1fGNp1n8IyO" role="1PaTwD">
+                      <property role="3oM_SC" value="effect." />
+                    </node>
                   </node>
                 </node>
                 <node concept="1gVbGN" id="3ME3zLf8x5I" role="3cqZAp">
